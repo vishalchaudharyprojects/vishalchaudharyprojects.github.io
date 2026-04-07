@@ -3,86 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vishal Chaudhary | Master's Portfolio</title>
+    <title>Vishal Chaudhary | Power Systems & Digital Twins</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .hero { background: #003366; color: white; padding: 60px 0; }
-        .project-card { transition: transform 0.2s; }
-        .project-card:hover { transform: translateY(-5px); }
+        :root { --primary-blue: #003366; --accent-gold: #FFD700; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6; }
+        .hero { background: linear-gradient(135deg, #002147 0%, #003366 100%); color: white; padding: 100px 0 60px; }
+        .section-title { border-left: 5px solid var(--primary-blue); padding-left: 15px; margin-bottom: 30px; font-weight: bold; }
+        .card { border: none; border-radius: 12px; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; }
+        .badge-tech { background-color: #e9ecef; color: #495057; border: 1px solid #dee2e6; margin-right: 5px; }
+        .thesis-highlight { background: #f8f9fa; border-radius: 15px; padding: 30px; border: 1px solid #dee2e6; }
+        .result-box { background: white; padding: 15px; border-radius: 10px; text-align: center; border-bottom: 4px solid #198754; }
     </style>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">VC</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link text-white small" href="mailto:your-email@example.com"><i class="fas fa-envelope me-1"></i> Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <section class="hero text-center">
         <div class="container">
-            <h1 class="display-4 font-weight-bold">Vishal Chaudhary</h1>
-            <p class="lead">Master of Science Graduate | Portfolio of Academic & Research Projects</p>
-            <a href="YOUR_RESUME_LINK_HERE" class="btn btn-outline-light">Download Resume</a>
+            <h1 class="display-3 fw-bold">Vishal Chaudhary</h1>
+            <p class="lead mb-4">M.Sc. in Electrical Engineering | Digital Twin & Smart Grid Specialist</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="YOUR_RESUME_LINK_HERE" class="btn btn-warning px-4 fw-bold text-dark">Download Resume</a>
+                <a href="https://github.com/vishalchaudharyprojects" class="btn btn-outline-light px-4">GitHub Profile</a>
+            </div>
         </div>
     </section>
 
+    <div class="container mt-5">
+        <div class="row text-center g-4">
+            <div class="col-md-3">
+                <div class="p-3 shadow-sm rounded bg-white">
+                    <i class="fas fa-network-wired fa-2x mb-2 text-primary"></i>
+                    <h6>IEC 61850 / 61970 (CIM)</h6>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 shadow-sm rounded bg-white">
+                    <i class="fas fa-microchip fa-2x mb-2 text-primary"></i>
+                    <h6>Asset Admin Shell (AAS)</h6>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 shadow-sm rounded bg-white">
+                    <i class="fas fa-code fa-2x mb-2 text-primary"></i>
+                    <h6>Python / DSSE / WLS</h6>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 shadow-sm rounded bg-white">
+                    <i class="fas fa-chart-line fa-2x mb-2 text-primary"></i>
+                    <h6>Digital Twin Architect</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container my-5">
-            <h2 class="pb-2 border-bottom">Major Projects</h2>
-            <div class="row g-4 py-3">
-            
-                <div class="col-md-12 mb-4">
-                    <div class="card shadow border-0 overflow-hidden">
-                        <div class="row g-0">
-                            <div class="col-lg-4 bg-dark d-flex align-items-center justify-content-center text-white p-4">
-                                <div class="text-center">
-                                    <h2 class="display-6 fw-bold">99.9%</h2>
-                                    <p class="small text-uppercase">Estimation Accuracy (MAPE < 0.1%)</p>
-                                    <hr class="my-3">
-                                    <div class="d-flex flex-wrap justify-content-center gap-2">
-                                        <span class="badge bg-light text-dark border">IEC 63278 (AAS)</span>
-                                        <span class="badge bg-light text-dark border">IEC 61970 (CIM)</span>
-                                        <span class="badge bg-light text-dark border">Python</span>
-                                        <span class="badge bg-light text-dark border">Digital Twin</span>
-                                    </div>
-                                </div>
+        
+        <h2 class="section-title">Master's Thesis Showcase</h2>
+        <div class="thesis-highlight shadow-sm">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h3 class="text-primary fw-bold">AAS-based Digital Twin for LV Distribution Grids</h3>
+                    <p class="text-muted"><em>TU Dortmund University | Grade: [Insert Grade]</em></p>
+                    
+                    <p>My research addresses the critical interoperability gap in Low-Voltage grids by proposing a <strong>Digital Twin framework</strong> based on the <strong>Asset Administration Shell (AAS)</strong>.</p>
+                    
+                    <div class="row my-4">
+                        <div class="col-6 col-md-4">
+                            <div class="result-box shadow-sm">
+                                <h4 class="fw-bold text-success">99.9%</h4>
+                                <small class="text-muted">Estimation Accuracy</small>
                             </div>
-                            <div class="col-lg-8">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title fw-bold text-primary">Master's Thesis: AAS-based Digital Twin for LV Distribution Grids</h4>
-                                    <p class="card-text mt-3">
-                                        Developed a <strong>Digital Twin framework</strong> to solve data fragmentation in Low-Voltage grids. 
-                                        By implementing the <strong>Asset Administration Shell (AAS)</strong> as a Single Source of Truth (SSOT), 
-                                        I enabled seamless interoperability between planning (GIS/CIM) and real-time operational data.
-                                    </p>
-                                    <ul class="small text-muted">
-                                        <li><strong>Semantic Mapping:</strong> Translated CIM power system standards into the AAS metamodel.</li>
-                                        <li><strong>Grid Observability:</strong> Validated via a 15-bus Distribution System State Estimation (DSSE) use case.</li>
-                                        <li><strong>Impact:</strong> Achieved high-fidelity visibility at unmetered nodes with a Mean Absolute Percentage Error (MAPE) below 0.1%.</li>
-                                    </ul>
-                                    <div class="mt-4">
-                                        <a href="#" class="btn btn-primary btn-sm">Read Abstract</a>
-                                        <a href="https://github.com/vishalchaudharyprojects/thesis-repo" class="btn btn-outline-dark btn-sm">View Code/Architecture</a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="result-box shadow-sm">
+                                <h4 class="fw-bold text-success">< 0.1%</h4>
+                                <small class="text-muted">MAPE Error</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="result-box shadow-sm mt-3 mt-md-0">
+                                <h4 class="fw-bold text-success">611ms</h4>
+                                <small class="text-muted">Execution Time</small>
                             </div>
                         </div>
                     </div>
-                </div>
-            
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">Machine Learning Model for [X]</h5>
-                            <p class="card-text text-muted">A brief description of the GitLab project and what you achieved.</p>
-                            <a href="https://gitlab.com/..." class="btn btn-sm btn-outline-primary">View on GitLab</a>
-                        </div>
+
+                    <h5>Key Contributions:</h5>
+                    <ul class="mb-4">
+                        <li><strong>Single Source of Truth:</strong> Established AAS as a hierarchical SSOT for static planning (CIM) and real-time operational data.</li>
+                        <li><strong>Semantic Mapping:</strong> Developed automated mapping logic from <strong>IEC 61970 (CIM)</strong> to AAS submodels.</li>
+                        <li><strong>Operational Validation:</strong> Implemented a 15-bus <strong>Distribution System State Estimation (DSSE)</strong> to provide visibility at unmetered nodes.</li>
+                    </ul>
+
+                    <div class="mb-4">
+                        <h6>Technology Stack:</h6>
+                        <span class="badge badge-tech">Python</span>
+                        <span class="badge badge-tech">AAS Web UI</span>
+                        <span class="badge badge-tech">CIM/CGMES</span>
+                        <span class="badge badge-tech">REST API</span>
+                        <span class="badge badge-tech">Pandapower</span>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <a href="https://github.com/vishalchaudharyprojects/thesis-repo" class="btn btn-primary"><i class="fab fa-github me-1"></i> View Implementation</a>
+                        <a href="#" class="btn btn-outline-dark">Read Executive Summary</a>
                     </div>
                 </div>
-            
-                <div class="col-md-6">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title">Automation Script</h5>
-                            <p class="card-text text-muted">A tool I built to solve [Problem].</p>
-                            <a href="https://github.com/..." class="btn btn-sm btn-outline-primary">View on GitHub</a>
+
+                <div class="col-lg-5 mt-4 mt-lg-0">
+                    <div class="card bg-white shadow-sm mb-3">
+                        <div class="card-body p-2">
+                            <img src="images/architecture.png" class="img-fluid rounded" alt="System Architecture">
+                            <p class="text-center small text-muted mt-2 mb-0">System Architecture: CIM to AAS Pipeline</p>
+                        </div>
+                    </div>
+                    <div class="card bg-white shadow-sm">
+                        <div class="card-body p-2">
+                            <img src="images/result.png" class="img-fluid rounded" alt="State Estimation Results">
+                            <p class="text-center small text-muted mt-2 mb-0">Validation: Estimated vs. Measured Voltages</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <h2 class="section-title mt-5">Technical Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Machine Learning for Grid Stability</h5>
+                        <p class="card-text text-muted">Applied Random Forest and Neural Networks to predict voltage violations in decentralized grids.</p>
+                        <div class="mb-3">
+                            <span class="badge badge-tech">Scikit-learn</span>
+                            <span class="badge badge-tech">TensorFlow</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Project Documentation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Automated CIM Profiling Tool</h5>
+                        <p class="card-text text-muted">A Python tool to parse CIM/XML files and generate AAS submodels automatically for DSOs.</p>
+                        <div class="mb-3">
+                            <span class="badge badge-tech">XML Parsing</span>
+                            <span class="badge badge-tech">IEC 61970</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Vishal Chaudhary | Built with GitHub Pages & Bootstrap</p>
+        </div>
+    </footer>
+
 </body>
 </html>
