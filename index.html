@@ -16,6 +16,7 @@
         .badge-tech { background-color: #e9ecef; color: #495057; border: 1px solid #dee2e6; margin-right: 5px; }
         .thesis-highlight { background: #f8f9fa; border-radius: 15px; padding: 30px; border: 1px solid #dee2e6; }
         .result-box { background: white; padding: 15px; border-radius: 10px; text-align: center; border-bottom: 4px solid #198754; }
+        .navbar { box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
     </style>
 </head>
 <body>
@@ -34,7 +35,7 @@
             <h1 class="display-3 fw-bold">Vishal Chaudhary</h1>
             <p class="lead mb-4">M.Sc. in Electrical Engineering | Digital Twin & Smart Grid Specialist</p>
             <div class="d-flex justify-content-center gap-3">
-                <a href="YOUR_RESUME_LINK_HERE" class="btn btn-warning px-4 fw-bold text-dark">Download Resume</a>
+                <a href="Resume_Vishal_Chaudhary.pdf" class="btn btn-warning px-4 fw-bold text-dark">Download Resume</a>
                 <a href="https://github.com/vishalchaudharyprojects" class="btn btn-outline-light px-4">GitHub Profile</a>
             </div>
         </div>
@@ -76,7 +77,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <h3 class="text-primary fw-bold">AAS-based Digital Twin for LV Distribution Grids</h3>
-                    <p class="text-muted"><em>TU Dortmund University | Grade: [Insert Grade]</em></p>
+                    <p class="text-muted"><em>TU Dortmund University | Institute for Energy Systems</em></p>
                     
                     <p>My research addresses the critical interoperability gap in Low-Voltage grids by proposing a <strong>Digital Twin framework</strong> based on the <strong>Asset Administration Shell (AAS)</strong>.</p>
                     
@@ -103,9 +104,9 @@
 
                     <h5>Key Contributions:</h5>
                     <ul class="mb-4">
-                        <li><strong>Single Source of Truth:</strong> Established AAS as a hierarchical SSOT for static planning (CIM) and real-time operational data.</li>
-                        <li><strong>Semantic Mapping:</strong> Developed automated mapping logic from <strong>IEC 61970 (CIM)</strong> to AAS submodels.</li>
-                        <li><strong>Operational Validation:</strong> Implemented a 15-bus <strong>Distribution System State Estimation (DSSE)</strong> to provide visibility at unmetered nodes.</li>
+                        <li><strong>Single Source of Truth:</strong> Established AAS as a hierarchical SSOT for grid asset data.</li>
+                        <li><strong>Semantic Mapping:</strong> Developed automated logic from <strong>IEC 61970 (CIM)</strong> to AAS submodels.</li>
+                        <li><strong>Operational Validation:</strong> Implemented a 15-bus <strong>State Estimation (DSSE)</strong> to enhance observability.</li>
                     </ul>
 
                     <div class="mb-4">
@@ -119,21 +120,23 @@
 
                     <div class="d-flex gap-2">
                         <a href="https://github.com/vishalchaudharyprojects/thesis-repo" class="btn btn-primary"><i class="fab fa-github me-1"></i> View Implementation</a>
-                        <a href="#" class="btn btn-outline-dark">Read Executive Summary</a>
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#summaryModal">
+                            Read Executive Summary
+                        </button>
                     </div>
                 </div>
 
                 <div class="col-lg-5 mt-4 mt-lg-0">
                     <div class="card bg-white shadow-sm mb-3">
-                        <div class="card-body p-2">
+                        <div class="card-body p-2 text-center">
                             <img src="images/architecture.png" class="img-fluid rounded" alt="System Architecture">
-                            <p class="text-center small text-muted mt-2 mb-0">System Architecture: CIM to AAS Pipeline</p>
+                            <p class="small text-muted mt-2 mb-0">System Architecture: CIM to AAS Pipeline</p>
                         </div>
                     </div>
                     <div class="card bg-white shadow-sm">
-                        <div class="card-body p-2">
+                        <div class="card-body p-2 text-center">
                             <img src="images/result.png" class="img-fluid rounded" alt="State Estimation Results">
-                            <p class="text-center small text-muted mt-2 mb-0">Validation: Estimated vs. Measured Voltages</p>
+                            <p class="small text-muted mt-2 mb-0">Validation: Estimated vs. Measured Voltages</p>
                         </div>
                     </div>
                 </div>
@@ -169,7 +172,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <footer class="bg-dark text-white py-4 mt-5">
@@ -177,6 +179,40 @@
             <p class="mb-0">© 2024 Vishal Chaudhary | Built with GitHub Pages & Bootstrap</p>
         </div>
     </footer>
+
+    <div class="modal fade" id="summaryModal" tabindex="-1" aria-labelledby="summaryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title" id="summaryModalLabel">Executive Summary: AAS-based Digital Twin</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <h5>Research Context</h5>
+            <p>The energy transition is fundamentally transforming low-voltage (LV) distribution grids. With the rise of distributed energy resources (DERs) like solar PV and electric vehicles, Distribution System Operators (DSOs) face severe challenges in grid observability due to data fragmentation across siloed information systems.</p>
+            
+            <h5>Methodology & Innovation</h5>
+            <p>This thesis addresses the interoperability gap by proposing a <strong>Digital Twin framework</strong> centered on the <strong>Asset Administration Shell (AAS)</strong>, as specified by the <strong>IEC 63278</strong> standard. The primary innovation is the implementation of the AAS as a <strong>Single Source of Truth (SSOT)</strong>, consolidating static planning data, manufacturer information, and real-time operational measurements.</p>
+            <p>The research established semantic mappings from the <strong>Common Information Model (CIM)</strong> to the AAS metamodel, ensuring that grid data remains standards-compliant and discoverable.</p>
+            
+            <h5>Results & Validation</h5>
+            <ul>
+                <li><strong>Structural Integrity:</strong> Successfully instantiated a hierarchical Digital Twin, mapping everything from system-wide topology to specific transformer oil volumes.</li>
+                <li><strong>Numerical Accuracy:</strong> A 15-bus Distribution System State Estimation (DSSE) use case confirmed a <strong>Mean Absolute Percentage Error (MAPE) below 0.1%</strong>.</li>
+                <li><strong>Enhanced Observability:</strong> The system successfully calculated voltages at unmetered nodes, providing visibility into previously "dark" parts of the network.</li>
+            </ul>
+            
+            <p class="text-muted small mt-4 border-top pt-2"><em>Thesis title: Definition and Development of a Low-Voltage Grid Digital Twin using the Asset Administration Shell as a Single-Source-of-Truth for Power System Data and Services.</em></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="Resume_Vishal_Chaudhary.pdf" class="btn btn-primary">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
