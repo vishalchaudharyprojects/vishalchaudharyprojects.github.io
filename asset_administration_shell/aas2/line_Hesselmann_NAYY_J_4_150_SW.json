@@ -1,0 +1,250 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_line_Hesselmann_NAYY_J_4_150_SW",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_line_Hesselmann_NAYY_J_4_150_SW",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "59556b21-5ea6-4e75-8bb3-96877c1e3628"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_line_Hesselmann_NAYY_J_4_150_SW"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "Properties_line_Hesselmann_NAYY_J_4_150_SW",
+            "modelType": "Submodel",
+            "id": "Submodel_line_Hesselmann_NAYY_J_4_150_SW",
+            "submodelElements": [
+                {
+                    "idShort": "Leiter_Material",
+                    "modelType": "Property",
+                    "value": "Aluminium",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Leiter-Material (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Aderisolation_",
+                    "modelType": "Property",
+                    "value": "PVC DIV 4",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Aderisolation: (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Mantelmaterial",
+                    "modelType": "Property",
+                    "value": "PVC DMV 5",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Mantelmaterial (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Mantelfarbe",
+                    "modelType": "Property",
+                    "value": "schwarz",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Mantelfarbe (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Maximale_Leitertemperatur",
+                    "modelType": "Property",
+                    "value": 70.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Maximale Leitertemperatur (°C)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Maximale_Kabenau_entemperatur",
+                    "modelType": "Property",
+                    "value": 70.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Maximale Kabenaußentemperatur (°C)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Nennspannung_Leiter_Erd",
+                    "modelType": "Property",
+                    "value": 600.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Nennspannung Leiter-Erd (V)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Nennspannung_Leiter_Leiter",
+                    "modelType": "Property",
+                    "value": 1000.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Nennspannung Leiter-Leiter (V)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Aderkennzeichnung",
+                    "modelType": "Property",
+                    "value": "VDE 0293",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Aderkennzeichnung (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Kabeltyp",
+                    "modelType": "Property",
+                    "value": "NAYY-J 4x150 SW",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Kabeltyp (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "R_l",
+                    "modelType": "Property",
+                    "value": 0.206,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "R_l (Ohm/km)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "L_b",
+                    "modelType": "Property",
+                    "value": 0.256,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "L_b (mH/km)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Au_endurchmesser",
+                    "modelType": "Property",
+                    "value": 46.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Außendurchmesser (mm)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Kurzschlussstrom",
+                    "modelType": "Property",
+                    "value": 11.4,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Kurzschlussstrom (kA)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "I_n",
+                    "modelType": "Property",
+                    "value": 275.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "I_n (A)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Kabelgewicht",
+                    "modelType": "Property",
+                    "value": 3030.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Kabelgewicht (kg/km)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Leitergewicht",
+                    "modelType": "Property",
+                    "value": 1740.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Leitergewicht (kg/km)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "F_zv",
+                    "modelType": "Property",
+                    "value": 18000.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "F_zv (N)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

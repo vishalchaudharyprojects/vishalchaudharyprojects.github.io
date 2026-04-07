@@ -1,0 +1,224 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Transformer_Ormazabal_velatia_OLTC_misc",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_Transformer_Ormazabal_velatia_OLTC_misc",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "a0f7b679-e500-422e-87b6-fddf34f6ad2f"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_Transformer_Ormazabal_velatia_OLTC_misc"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "70c4661f-5e45-4ca3-be01-834be79c816f"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "Properties_Transformer_Ormazabal_velatia_OLTC_misc",
+            "modelType": "Submodel",
+            "id": "Submodel_Transformer_Ormazabal_velatia_OLTC_misc",
+            "submodelElements": [
+                {
+                    "idShort": "Max_Schallleistungspegel_Lwa",
+                    "modelType": "Property",
+                    "value": 52.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Max. Schallleistungspegel Lwa (dB)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Bemessungs_Stehwechselspannung_50_Hz_1_min",
+                    "modelType": "Property",
+                    "value": 28.1,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Bemessungs_Stehwechselspannung 50 Hz 1 min (kV)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Bemessungs_Sto_spannung_50_Hz_1_min",
+                    "modelType": "Property",
+                    "value": 60.2,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Bemessungs_Stoßspannung_50_Hz, 1 min (kV)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Windungspruefung_10_Hz",
+                    "modelType": "Property",
+                    "value": 0.8,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Windungspruefung 10 Hz (kV)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Wicklungstemperatur_bei_Nennleistung",
+                    "modelType": "Property",
+                    "value": 65.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Wicklungstemperatur bei Nennleistung (K)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Maximale_Oeltemperatur",
+                    "modelType": "Property",
+                    "value": 60.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Maximale Oeltemperatur (K)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Wicklungsmaterial",
+                    "modelType": "Property",
+                    "value": "Aluminium",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Wicklungsmaterial (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Art_des_Tanks",
+                    "modelType": "Property",
+                    "value": "Transformator Hermetisch",
+                    "valueType": "xs:string",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Art des Tanks (NAN)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Laenge",
+                    "modelType": "Property",
+                    "value": 1310.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Laenge (mm)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Breite",
+                    "modelType": "Property",
+                    "value": 960.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Breite (mm)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Hoehe_auf_Raedern",
+                    "modelType": "Property",
+                    "value": 1780.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Hoehe auf Raedern (mm)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Oelvolumen",
+                    "modelType": "Property",
+                    "value": 607.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Oelvolumen (l)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Gewicht",
+                    "modelType": "Property",
+                    "value": 2038.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Gewicht (kg)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "CimProperties",
+            "modelType": "Submodel",
+            "id": "70c4661f-5e45-4ca3-be01-834be79c816f",
+            "submodelElements": [
+                {
+                    "idShort": "GridName",
+                    "modelType": "Property",
+                    "value": "1-LV-rural1--2-no_sw_EV_HP",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "MRID",
+                    "modelType": "Property",
+                    "value": "69f8abcc-65ab-4630-b60c-676749f25152",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "CIMName",
+                    "modelType": "Property",
+                    "value": "MV1.101-LV1.101-Trafo 1",
+                    "valueType": "xs:string"
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

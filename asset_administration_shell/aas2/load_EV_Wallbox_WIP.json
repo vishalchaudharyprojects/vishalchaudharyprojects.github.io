@@ -1,0 +1,698 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_load_EV_Wallbox_WIP",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_load_EV_Wallbox_WIP",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "f55965c6-859c-449b-b0de-1d817841d22d"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ModbusMapping_load_EV_Wallbox_WIP"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_load_EV_Wallbox_WIP"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "Properties_load_EV_Wallbox_WIP",
+            "modelType": "Submodel",
+            "id": "Submodel_load_EV_Wallbox_WIP",
+            "submodelElements": [
+                {
+                    "idShort": "Voltage_single_phase_",
+                    "modelType": "Property",
+                    "value": 220.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Voltage (single phase) (V)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Current_single_phase_",
+                    "modelType": "Property",
+                    "value": 16.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Current (single phase) (A)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Power_single_phase_",
+                    "modelType": "Property",
+                    "value": 3.7,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Power (single phase) (kW)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Voltage_three_phase_",
+                    "modelType": "Property",
+                    "value": 380.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Voltage (three phase) (V)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Current_three_phase_",
+                    "modelType": "Property",
+                    "value": 16.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Current (three phase) (A)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Power_three_phase_",
+                    "modelType": "Property",
+                    "value": 11.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Power (three phase) (kW)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Cable_rated_current",
+                    "modelType": "Property",
+                    "value": 32.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Cable rated current (A)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "IED_ModbusMapping_load_EV_Wallbox_WIP",
+            "modelType": "Submodel",
+            "id": "Submodel_ModbusMapping_load_EV_Wallbox_WIP",
+            "submodelElements": [
+                {
+                    "idShort": "Vbatt",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "3",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "V",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Vbatt"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Batt_cap_nom_Ah",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "5",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "Ah",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Batt_cap_nom_Ah"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Pmeas_kW",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "7",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "kW",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Pmeas_kW"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Imax_cable",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "9",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "A",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Imax_cable"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Imax_car",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "11",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "A",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Imax_car"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "charging_state_iso_15118",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "13",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Regular",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for charging_state_iso_15118"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

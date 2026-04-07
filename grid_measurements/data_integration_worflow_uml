@@ -1,0 +1,88 @@
+@startuml Grid_Measurement_Workflow
+title Grid Measurement Data Integration Workflow
+
+actor User as User
+participant "grid_measurement\n:5004" as GridService
+participant "API Routes" as API
+participant "Config & SCD\nHandler" as ConfigHandler
+participant "MinIO S3" as MinIO
+participant "Data Integration\nEngine" as DataIntegration
+participant "Modbus Reader" as ModbusReader
+participant "Modbus TCP\nServers" as ModbusServers
+participant "DLMS Listener" as DLMSListener
+participant "DLMS/COSEM\nSmart Meters" as SmartMeters
+participant "InfluxDB\nWriter" as InfluxWriter
+participant "InfluxDB" as InfluxDB
+
+User -> GridService: POST /process\n{config_data}
+activate GridService
+
+GridService -> API: process_integration()
+activate API
+
+API -> ConfigHandler: parse_config(config_path)
+ConfigHandler --> API: config_data
+
+API -> ConfigHandler: load_scd_tree(config)
+activate ConfigHandler
+
+ConfigHandler -> ConfigHandler: Get SCD filename from config
+
+alt Input Source: S3
+    ConfigHandler -> MinIO: download_scd_file_from_s3()
+    MinIO --> ConfigHandler: SCD file
+end
+
+ConfigHandler -> ConfigHandler: Parse SCD for protocols
+ConfigHandler --> API: scd_tree_root, scd_file_name,\nscd_communication_df, scd_dlms_df
+deactivate ConfigHandler
+
+API -> DataIntegration: Start data integration\n(config, comm_df, dlms_df, scd_tree)
+activate DataIntegration
+
+DataIntegration -> InfluxWriter: init_influxdb_client()
+InfluxWriter --> DataIntegration: client, write_api
+
+alt DLMS Devices Found
+    DataIntegration -> DLMSListener: start_dlms_listener()
+    activate DLMSListener
+
+    DLMSListener -> SmartMeters: Listen for TLS connections
+    SmartMeters -> DLMSListener: HTTP POST with payload
+    DLMSListener -> DLMSListener: Parse TAF10 to IEC 61850
+    DLMSListener -> InfluxWriter: Write to InfluxDB
+    activate InfluxWriter
+    InfluxWriter -> InfluxDB: Store measurements
+    InfluxDB --> InfluxWriter
+    deactivate InfluxWriter
+end
+
+loop Continuous Modbus Polling
+    DataIntegration -> ModbusReader: read_modbus_data_from_ieds()
+    activate ModbusReader
+
+    ModbusReader -> ModbusServers: Connect & read registers
+    ModbusServers --> ModbusReader: Register values
+    ModbusReader -> ModbusReader: Convert to logical nodes
+    ModbusReader --> DataIntegration: logical_nodes, status
+    deactivate ModbusReader
+
+    DataIntegration -> InfluxWriter: write_ln_to_influx_db()
+    activate InfluxWriter
+    InfluxWriter -> InfluxDB: Store measurements
+    InfluxDB --> InfluxWriter
+    deactivate InfluxWriter
+
+    DataIntegration -> DataIntegration: Sleep interval
+end
+
+DataIntegration --> API: Integration running
+deactivate DataIntegration
+
+API --> GridService: 200 OK Success
+deactivate API
+
+GridService --> User: Response
+deactivate GridService
+
+@enduml

@@ -1,0 +1,13 @@
+Datapoint_named_in_Typhoon;Port;Register;Registertype;Unit;Datatype;Word-Order;Byte-Order
+Pmeas_kW;502;1;HoldingRegister;W;float;Big-Endian;Regular
+Pa_meas_kW;502;3;HoldingRegister;W;float;Big-Endian;Regular
+Pb_meas_kW;502;5;HoldingRegister;W;float;Big-Endian;Regular
+Pc_meas_kW;502;7;HoldingRegister;W;float;Big-Endian;Regular
+Fmeas_Hz;502;9;HoldingRegister;Hz;float;Big-Endian;Regular
+Qmeas_kVAr;502;11;HoldingRegister;Var;float;Big-Endian;Regular
+Qa_meas_kVAr;502;13;HoldingRegister;Var;float;Big-Endian;Regular
+Qb_meas_kVAr;502;15;HoldingRegister;Var;float;Big-Endian;Regular
+Qc_meas_kVAr;502;17;HoldingRegister;Var;float;Big-Endian;Regular
+Smeas_kVAr;502;19;HoldingRegister;VA;float;Big-Endian;Regular
+Available_Ppv_kW;502;21;HoldingRegister;W;float;Big-Endian;Regular
+PFmeas;502;23;HoldingRegister;;float;Big-Endian;Regular

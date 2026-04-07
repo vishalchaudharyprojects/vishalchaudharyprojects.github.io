@@ -1,0 +1,19 @@
+# Config for the data integration application
+DataIntegration:
+    bus:
+        information_source: config # aas, config
+        name: LV1101Bus7 # nur relevant wenn information_source "config" ist.
+    runtime_sec: 5 # Communication takes place every "runtime_sec" seconds
+    scd_file: autoconfigLV1101Bus7.scd
+    communication:
+        input:
+            protocol: modbus # modbus, Kafka, influxdb
+            source: scd #csv, scd, etc...
+        output:
+            sink: influxdb
+            source: "" # aas, "" for already given. Gives information from where is the information about the query for the asset database
+    grid:
+        name: 1-LV-rural1--2-sw_reduced #name of the grid in "Grids" folder
+        input_datasource: s3 #s3, local
+
+

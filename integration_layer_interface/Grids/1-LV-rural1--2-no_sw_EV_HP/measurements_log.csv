@@ -1,0 +1,90 @@
+timestamp_utc,grid_name,bus,ied_name,ln_name,do_name,field_name,value,quality,unit
+2025-10-21T10:00:34.499577,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q01 feeder connected to LV1101Bus2,Q01_MMXU,TotW,TotW_mag_f,2500,0,Watt
+2025-10-21T10:00:34.499581,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q01 feeder connected to LV1101Bus2,Q01_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.499582,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q01 feeder connected to LV1101Bus2,Q01_MMXU,PhV,PhV_phsA_mag_f,230,0,Volt
+2025-10-21T10:00:34.499583,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q01 feeder connected to LV1101Bus2,Q01_MMXU,PhV,PhV_phsB_mag_f,230,0,Volt
+2025-10-21T10:00:34.499584,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q01 feeder connected to LV1101Bus2,Q01_MMXU,PhV,PhV_phsC_mag_f,230,0,Volt
+2025-10-21T10:00:34.499614,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q02 feeder connected to LV1101Bus7,Q02_MMXU,TotW,TotW_mag_f,2500,0,Watt
+2025-10-21T10:00:34.499618,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q02 feeder connected to LV1101Bus7,Q02_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.499619,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q02 feeder connected to LV1101Bus7,Q02_MMXU,PhV,PhV_phsA_mag_f,230,0,Volt
+2025-10-21T10:00:34.499620,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q02 feeder connected to LV1101Bus7,Q02_MMXU,PhV,PhV_phsB_mag_f,230,0,Volt
+2025-10-21T10:00:34.499621,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q02 feeder connected to LV1101Bus7,Q02_MMXU,PhV,PhV_phsC_mag_f,230,0,Volt
+2025-10-21T10:00:34.499626,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q03 feeder connected to transformer,Q03_MMXU,TotW,TotW_mag_f,2500,0,Watt
+2025-10-21T10:00:34.499630,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q03 feeder connected to transformer,Q03_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.499631,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q03 feeder connected to transformer,Q03_MMXU,PhV,PhV_phsA_mag_f,230,0,Volt
+2025-10-21T10:00:34.499632,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q03 feeder connected to transformer,Q03_MMXU,PhV,PhV_phsB_mag_f,230,0,Volt
+2025-10-21T10:00:34.499633,1-LV-rural1--2-sw_reduced,LV1101Bus4,dLSS bay Q03 feeder connected to transformer,Q03_MMXU,PhV,PhV_phsC_mag_f,230,0,Volt
+2025-10-21T10:00:34.499586,1-LV-rural1--2-sw_reduced,LV1101Bus2,Imsys node LV1101Bus2,imsys_measurement_MMXU,TotW,TotW_mag_f,2500,0,Watt
+2025-10-21T10:00:34.499587,1-LV-rural1--2-sw_reduced,LV1101Bus2,Imsys node LV1101Bus2,imsys_measurement_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.499603,1-LV-rural1--2-sw_reduced,LV1101Bus2,Imsys node LV1101Bus2,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,231.0,0,Volt
+2025-10-21T10:00:34.499604,1-LV-rural1--2-sw_reduced,LV1101Bus2,Imsys node LV1101Bus2,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,230.5,0,Volt
+2025-10-21T10:00:34.499605,1-LV-rural1--2-sw_reduced,LV1101Bus2,Imsys node LV1101Bus2,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,229.9,0,Volt
+2025-10-21T10:00:34.499586,1-LV-rural1--2-sw_reduced,LV1101Bus2,EMS node LV1101Bus2,pv_ac_measurement_MMXU,TotW,TotW_mag_f,2500,0,Watt
+2025-10-21T10:00:34.499587,1-LV-rural1--2-sw_reduced,LV1101Bus2,EMS node LV1101Bus2,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.499588,1-LV-rural1--2-sw_reduced,LV1101Bus2,EMS node LV1101Bus2,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,230.0,0,Volt
+2025-10-21T10:00:34.499589,1-LV-rural1--2-sw_reduced,LV1101Bus2,EMS node LV1101Bus2,pv_ac_measurement_MMXU,PhV,PhV_phsB_mag_f,229.5,0,Volt
+2025-10-21T10:00:34.499590,1-LV-rural1--2-sw_reduced,LV1101Bus2,EMS node LV1101Bus2,pv_ac_measurement_MMXU,PhV,PhV_phsC_mag_f,230.2,0,Volt
+2025-10-21T10:00:34.499591,1-LV-rural1--2-sw_reduced,LV1101Bus7,Imsys node LV1101Bus7,imsys_measurement_MMXU,TotW,TotW_mag_f,3200,0,Watt
+2025-10-21T10:00:34.499592,1-LV-rural1--2-sw_reduced,LV1101Bus7,Imsys node LV1101Bus7,imsys_measurement_MMXU,TotVAr,TotVAr_mag_f,450,0,SI
+2025-10-21T10:00:34.499603,1-LV-rural1--2-sw_reduced,LV1101Bus7,Imsys node LV1101Bus7,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,231.0,0,Volt
+2025-10-21T10:00:34.499604,1-LV-rural1--2-sw_reduced,LV1101Bus7,Imsys node LV1101Bus7,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,230.5,0,Volt
+2025-10-21T10:00:34.499605,1-LV-rural1--2-sw_reduced,LV1101Bus7,Imsys node LV1101Bus7,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,229.9,0,Volt
+2025-10-21T10:00:34.499591,1-LV-rural1--2-sw_reduced,LV1101Bus7,EMS node LV1101Bus7,pv_ac_measurement_MMXU,TotW,TotW_mag_f,3200,0,Watt
+2025-10-21T10:00:34.499592,1-LV-rural1--2-sw_reduced,LV1101Bus7,EMS node LV1101Bus7,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,450,0,SI
+2025-10-21T10:00:34.499593,1-LV-rural1--2-sw_reduced,LV1101Bus7,EMS node LV1101Bus7,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,229.8,0,Volt
+2025-10-21T10:00:34.499589,1-LV-rural1--2-sw_reduced,LV1101Bus7,EMS node LV1101Bus7,pv_ac_measurement_MMXU,PhV,PhV_phsB_mag_f,229.5,0,Volt
+2025-10-21T10:00:34.499590,1-LV-rural1--2-sw_reduced,LV1101Bus7,EMS node LV1101Bus7,pv_ac_measurement_MMXU,PhV,PhV_phsC_mag_f,230.2,0,Volt
+2025-10-21T10:00:34.499594,1-LV-rural1--2-sw_reduced,LV1101Bus9,Imsys node LV1101Bus9,imsys_measurement_MMXU,TotW,TotW_mag_f,-1800,0,Watt
+2025-10-21T10:00:34.499595,1-LV-rural1--2-sw_reduced,LV1101Bus9,Imsys node LV1101Bus9,imsys_measurement_MMXU,TotVAr,TotVAr_mag_f,-200,0,SI
+2025-10-21T10:00:34.499603,1-LV-rural1--2-sw_reduced,LV1101Bus9,Imsys node LV1101Bus9,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,231.0,0,Volt
+2025-10-21T10:00:34.499604,1-LV-rural1--2-sw_reduced,LV1101Bus9,Imsys node LV1101Bus9,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,230.5,0,Volt
+2025-10-21T10:00:34.499605,1-LV-rural1--2-sw_reduced,LV1101Bus9,Imsys node LV1101Bus9,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,229.9,0,Volt
+2025-10-21T10:00:34.499594,1-LV-rural1--2-sw_reduced,LV1101Bus9,EMS node LV1101Bus9,bss_measurement_MMXU,TotW,TotW_mag_f,-1800,0,Watt
+2025-10-21T10:00:34.499595,1-LV-rural1--2-sw_reduced,LV1101Bus9,EMS node LV1101Bus9,bss_measurement_MMXU,TotVAr,TotVAr_mag_f,-200,0,SI
+2025-10-21T10:00:34.499596,1-LV-rural1--2-sw_reduced,LV1101Bus9,EMS node LV1101Bus9,bss_measurement_MMXU,PhV,PhV_phsA_mag_f,231.2,0,Volt
+2025-10-21T10:00:34.499589,1-LV-rural1--2-sw_reduced,LV1101Bus9,EMS node LV1101Bus9,bss_measurement_MMXU,PhV,PhV_phsB_mag_f,229.5,0,Volt
+2025-10-21T10:00:34.499590,1-LV-rural1--2-sw_reduced,LV1101Bus9,EMS node LV1101Bus9,bss_measurement_MMXU,PhV,PhV_phsC_mag_f,230.2,0,Volt
+2025-10-21T10:00:34.499597,1-LV-rural1--2-sw_reduced,LV1101Bus12,Imsys node LV1101Bus12,imsys_measurement_MMXU,TotW,TotW_mag_f,-2200,0,Watt
+2025-10-21T10:00:34.499598,1-LV-rural1--2-sw_reduced,LV1101Bus12,Imsys node LV1101Bus12,imsys_measurement_MMXU,TotVAr,TotVAr_mag_f,-250,0,SI
+2025-10-21T10:00:34.499603,1-LV-rural1--2-sw_reduced,LV1101Bus12,Imsys node LV1101Bus12,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,231.0,0,Volt
+2025-10-21T10:00:34.499604,1-LV-rural1--2-sw_reduced,LV1101Bus12,Imsys node LV1101Bus12,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,230.5,0,Volt
+2025-10-21T10:00:34.499605,1-LV-rural1--2-sw_reduced,LV1101Bus12,Imsys node LV1101Bus12,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,229.9,0,Volt
+2025-10-21T10:00:34.499597,1-LV-rural1--2-sw_reduced,LV1101Bus12,EMS node LV1101Bus12,bss_measurement_MMXU,TotW,TotW_mag_f,-2200,0,Watt
+2025-10-21T10:00:34.499598,1-LV-rural1--2-sw_reduced,LV1101Bus12,EMS node LV1101Bus12,bss_measurement_MMXU,TotVAr,TotVAr_mag_f,-250,0,SI
+2025-10-21T10:00:34.499599,1-LV-rural1--2-sw_reduced,LV1101Bus12,EMS node LV1101Bus12,bss_measurement_MMXU,PhV,PhV_phsA_mag_f,230.8,0,Volt
+2025-10-21T10:00:34.499589,1-LV-rural1--2-sw_reduced,LV1101Bus12,EMS node LV1101Bus12,bss_measurement_MMXU,PhV,PhV_phsB_mag_f,229.5,0,Volt
+2025-10-21T10:00:34.499590,1-LV-rural1--2-sw_reduced,LV1101Bus12,EMS node LV1101Bus12,bss_measurement_MMXU,PhV,PhV_phsC_mag_f,230.2,0,Volt
+2025-10-21T10:00:34.499600,1-LV-rural1--2-sw_reduced,LV1101Bus14,Imsys node LV1101Bus14,imsys_measurement_MMXU,TotW,TotW_mag_f,8500,0,Watt
+2025-10-21T10:00:34.499601,1-LV-rural1--2-sw_reduced,LV1101Bus14,Imsys node LV1101Bus14,imsys_measurement_MMXU,TotVAr,TotVAr_mag_f,1200,0,SI
+2025-10-21T10:00:34.499603,1-LV-rural1--2-sw_reduced,LV1101Bus14,Imsys node LV1101Bus14,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,231.0,0,Volt
+2025-10-21T10:00:34.499604,1-LV-rural1--2-sw_reduced,LV1101Bus14,Imsys node LV1101Bus14,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,230.5,0,Volt
+2025-10-21T10:00:34.499605,1-LV-rural1--2-sw_reduced,LV1101Bus14,Imsys node LV1101Bus14,imsys_measurement_MMXU,PhV,PhV_phsA_mag_f,229.9,0,Volt
+2025-10-21T10:00:34.499600,1-LV-rural1--2-sw_reduced,LV1101Bus14,EMS node LV1101Bus14,cs_measurement_MMXU,TotW,TotW_mag_f,8500,0,Watt
+2025-10-21T10:00:34.499601,1-LV-rural1--2-sw_reduced,LV1101Bus14,EMS node LV1101Bus14,cs_measurement_MMXU,TotVAr,TotVAr_mag_f,1200,0,SI
+2025-10-21T10:00:34.499602,1-LV-rural1--2-sw_reduced,LV1101Bus14,EMS node LV1101Bus14,cs_measurement_MMXU,PhV,PhV_phsA_mag_f,228.5,0,Volt
+2025-10-21T10:00:34.499589,1-LV-rural1--2-sw_reduced,LV1101Bus14,EMS node LV1101Bus14,cs_measurement_MMXU,PhV,PhV_phsB_mag_f,229.5,0,Volt
+2025-10-21T10:00:34.499590,1-LV-rural1--2-sw_reduced,LV1101Bus14,EMS node LV1101Bus14,cs_measurement_MMXU,PhV,PhV_phsC_mag_f,230.2,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus1,EMS node LV1101Bus1,pv_ac_measurement_MMXU,TotW,TotW_mag_f,1000,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus1,EMS node LV1101Bus1,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,50,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus1,EMS node LV1101Bus1,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,230.1,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus3,EMS node LV1101Bus3,pv_ac_measurement_MMXU,TotW,TotW_mag_f,2000,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus3,EMS node LV1101Bus3,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,100,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus3,EMS node LV1101Bus3,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,229.6,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus5,EMS node LV1101Bus5,pv_ac_measurement_MMXU,TotW,TotW_mag_f,1000,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus5,EMS node LV1101Bus5,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,50,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus5,EMS node LV1101Bus5,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,230.0,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus6,EMS node LV1101Bus6,pv_ac_measurement_MMXU,TotW,TotW_mag_f,3000,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus6,EMS node LV1101Bus6,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,200,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus6,EMS node LV1101Bus6,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,228.5,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus8,EMS node LV1101Bus8,pv_ac_measurement_MMXU,TotW,TotW_mag_f,4000,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus8,EMS node LV1101Bus8,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus8,EMS node LV1101Bus8,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,229.2,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus13,EMS node LV1101Bus13,pv_ac_measurement_MMXU,TotW,TotW_mag_f,3300,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus13,EMS node LV1101Bus13,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,200,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus13,EMS node LV1101Bus13,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,228.9,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus10,EMS node LV1101Bus10,pv_ac_measurement_MMXU,TotW,TotW_mag_f,4100,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus10,EMS node LV1101Bus10,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,300,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus10,EMS node LV1101Bus10,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,229.1,0,Volt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus11,EMS node LV1101Bus11,pv_ac_measurement_MMXU,TotW,TotW_mag_f,1200,0,Watt
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus11,EMS node LV1101Bus11,pv_ac_measurement_MMXU,TotVAr,TotVAr_mag_f,150,0,SI
+2025-10-21T10:00:34.505132,1-LV-rural1--2-sw_reduced,LV1101Bus11,EMS node LV1101Bus11,pv_ac_measurement_MMXU,PhV,PhV_phsA_mag_f,229.7,0,Volt

@@ -1,0 +1,70 @@
+@startuml Static_Only_Enhancement_Workflow
+title Static-Only Enhancement Workflow Sequence Diagram
+
+actor User as User
+participant "gen_aasx\n:5002" as AASService
+participant "aas_creator.py" as AASCreator
+participant "Existing AAS JSON" as ExistingAAS
+participant "Assets Directory\n/app/assets" as AssetsDir
+participant "Modbus Mapping\n/app/asset_modbus_mapping" as ModbusMapping
+participant "Enhanced AAS JSON" as EnhancedAAS
+participant "basyx-aas-env\n:8081" as AASEnv
+participant "basyx-aas-registry\n:8082" as AASRegistry
+
+User -> AASService: POST /api/enhance-existing-aas\n{target_aas_file: "...json",\nworkflow: "static_only"}
+activate AASService
+
+AASService -> AASCreator: enhance_all_equipment_with_static_data()\n(target_aas_file)
+activate AASCreator
+
+AASCreator -> ExistingAAS: Read existing AAS structure
+activate ExistingAAS
+ExistingAAS --> AASCreator: AAS JSON data
+deactivate ExistingAAS
+
+loop For each CSV in /app/assets
+    AASCreator -> AssetsDir: Find CSV files (*.csv)
+    activate AssetsDir
+    AssetsDir --> AASCreator: CSV file list
+    deactivate AssetsDir
+
+    AASCreator -> AssetsDir: Read CSV static data
+    activate AssetsDir
+    AssetsDir --> AASCreator: Equipment properties
+    deactivate AssetsDir
+
+    AASCreator -> AASCreator: Create Properties submodel\nfrom CSV data
+    AASCreator -> AASCreator: Create Modbus mapping submodel\n(if mapping files exist)
+
+    AASCreator -> AASCreator: Enhance existing AAS with new submodels\nusing direct JSON manipulation
+end
+
+AASCreator -> EnhancedAAS: Write enhanced AAS JSON\n(preserves original structure)
+activate EnhancedAAS
+EnhancedAAS --> AASCreator: File updated
+deactivate EnhancedAAS
+
+AASCreator --> AASService: Enhancement results\n{enhancement: [{equipment: "...", ...}]}
+deactivate AASCreator
+
+AASService -> AASService: Auto-register enhanced AAS with BaSyx
+
+AASService -> AASEnv: PUT /shells/{aas_id}\n(Update AAS with new submodels)
+activate AASEnv
+AASEnv --> AASService: 200 OK
+deactivate AASEnv
+
+AASService -> AASEnv: POST /submodels\n(Register new submodels)
+activate AASEnv
+AASEnv --> AASService: 201 Created
+deactivate AASEnv
+
+AASService -> AASRegistry: PUT /shell-descriptors/{aas_id}\n(Update AAS descriptor)
+activate AASRegistry
+AASRegistry --> AASService: 200 OK
+deactivate AASRegistry
+
+AASService --> User: 200 OK\n{success: true, workflow: "static_only",\ntarget_aas_file: "...json",\nresults: {enhancement: [...],\nbasyx_registration: {...}}}
+deactivate AASService
+
+@enduml

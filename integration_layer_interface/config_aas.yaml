@@ -1,0 +1,18 @@
+Aas_gen:
+  grid:
+    name: 1-LV-rural1--2-sw_EV_HP #LV_SIMBENCH_3_0 #name of the grid in "Grids" folder
+    input_datasource: s3 #s3,local
+    input_data_format: cim3
+    folder: "D:/AAS/generate_aasx_from_datasheets/Grids/1-LV-rural1--2-sw_EV_HP"
+  module:
+    type: # aasx for already developed aasx file or empty for new
+    parser: asset # asset, cim_gen, typhoon
+  application:
+    asset:
+      process_all: true # Set to true to process all files in assets folder
+      equipment: OLTC # Only used if process_all is false
+    grid_measurement:
+      bus:
+        name: LV1101Bus7
+      scd_file: autoconfigLV1101Bus7.scd
+    cim_gen:

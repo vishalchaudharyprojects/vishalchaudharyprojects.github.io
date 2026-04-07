@@ -1,0 +1,818 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_Battery_storage_intilion_wip",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_Battery_storage_intilion_wip",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "7ea67221-98f8-4e9c-912f-8be7347c9932"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ModbusMapping_Battery_storage_intilion_wip"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_Battery_storage_intilion_wip"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "Properties_Battery_storage_intilion_wip",
+            "modelType": "Submodel",
+            "id": "Submodel_Battery_storage_intilion_wip",
+            "submodelElements": [
+                {
+                    "idShort": "Nominal_energy",
+                    "modelType": "Property",
+                    "value": 72.8,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Nominal energy (kWh)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Usable_energy",
+                    "modelType": "Property",
+                    "value": 90.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Usable energy (%)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Voltage_nominal",
+                    "modelType": "Property",
+                    "value": 400.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Voltage nominal (V)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Frequency_nominal",
+                    "modelType": "Property",
+                    "value": 50.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Frequency nominal (Hz)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Power_nominal",
+                    "modelType": "Property",
+                    "value": 25.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Power nominal (kWh)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Current_nominal",
+                    "modelType": "Property",
+                    "value": 37.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Current nominal (A)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Max_SC_current",
+                    "modelType": "Property",
+                    "value": 111.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Max SC current (A)"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Battery_voltage_nominal",
+                    "modelType": "Property",
+                    "value": 729.0,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Battery voltage nominal (V)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "IED_ModbusMapping_Battery_storage_intilion_wip",
+            "modelType": "Submodel",
+            "id": "Submodel_ModbusMapping_Battery_storage_intilion_wip",
+            "submodelElements": [
+                {
+                    "idShort": "Ibatt_A",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "3",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "A",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Ibatt_A"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "SOC",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "5",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "%",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for SOC"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Batt_cap_nom_Ah",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "7",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "kWh",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Batt_cap_nom_Ah"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Pmeas_kW",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "9",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "kW",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Pmeas_kW"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Qmeas_kVAr",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "11",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "kVar",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Qmeas_kVAr"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Smeas_kVA",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "13",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "kVar",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Smeas_kVA"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "Fmeas_Hz",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Port",
+                            "modelType": "Property",
+                            "value": "502",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Port"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Register",
+                            "modelType": "Property",
+                            "value": "15",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Register"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Registertype",
+                            "modelType": "Property",
+                            "value": "HoldingRegister",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Registertype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Unit",
+                            "modelType": "Property",
+                            "value": "Hz",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Unit"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Datatype",
+                            "modelType": "Property",
+                            "value": "float",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Datatype"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Word_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Word-Order"
+                                }
+                            ]
+                        },
+                        {
+                            "idShort": "Byte_Order",
+                            "modelType": "Property",
+                            "value": "Big-Endian",
+                            "valueType": "xs:string",
+                            "description": [
+                                {
+                                    "language": "en",
+                                    "text": "Byte-Order"
+                                }
+                            ]
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Modbus mapping for Fmeas_Hz"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

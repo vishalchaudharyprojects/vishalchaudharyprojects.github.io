@@ -1,0 +1,6 @@
+﻿Datapoint;unit;value
+Maximum DC voltage;V;450
+Starting voltage;V;120
+MPPT operating voltage range;V;450
+Maximum operational PV input current;A;18
+Max. PV short-circuit current (Isc PV);A;30

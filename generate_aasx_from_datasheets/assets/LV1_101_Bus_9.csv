@@ -1,0 +1,19 @@
+﻿Datapoint;unit;value
+Leiter-Material;NAN;Aluminium
+Aderisolation: ;NAN;PVC DIV 4
+Mantelmaterial;NAN;PVC DMV 5
+Mantelfarbe;NAN;schwarz
+Maximale Leitertemperatur;°C;70
+Maximale Kabenaußentemperatur;°C;70
+Nennspannung Leiter-Erd;V;600
+Nennspannung Leiter-Leiter;V;1000
+Aderkennzeichnung;NAN;VDE 0293
+Kabeltyp;NAN;NAYY-J 4x150 SW
+R_l;Ohm/km;0.206
+L_b;mH/km;0.256
+Außendurchmesser;mm;46
+Kurzschlussstrom;kA;11.4
+I_n;A;275
+Kabelgewicht;kg/km;3030
+Leitergewicht ;kg/km;1740
+F_zv;N;18000

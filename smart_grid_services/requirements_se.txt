@@ -1,0 +1,11 @@
+flask
+pyyaml
+pandas
+pandapower
+basyx-python-sdk
+influxdb-client
+loguru
+cimpy
+minio
+python-dotenv
+requests

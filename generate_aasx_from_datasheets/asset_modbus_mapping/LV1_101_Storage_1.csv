@@ -1,0 +1,9 @@
+Datapoint_named_in_Typhoon;Port;Register;Registertype;Unit;Datatype;Word-Order;Byte-Order
+Vbatt_V;502;1;HoldingRegister;V;float;Big-Endian;Big-Endian
+Ibatt_A;502;3;HoldingRegister;A;float;Big-Endian;Big-Endian
+SOC;502;5;HoldingRegister;%;float;Big-Endian;Big-Endian
+Batt_cap_nom_Ah;502;7;HoldingRegister;kWh;float;Big-Endian;Big-Endian
+Pmeas_kW;502;9;HoldingRegister;kW;float;Big-Endian;Big-Endian
+Qmeas_kVAr;502;11;HoldingRegister;kVar;float;Big-Endian;Big-Endian
+Smeas_kVA;502;13;HoldingRegister;kVar;float;Big-Endian;Big-Endian
+Fmeas_Hz;502;15;HoldingRegister;Hz;float;Big-Endian;Big-Endian

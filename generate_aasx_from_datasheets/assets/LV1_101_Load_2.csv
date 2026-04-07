@@ -1,0 +1,8 @@
+﻿Datapoint;unit;value
+Voltage (single phase);V;220
+Current (single phase);A;16
+Power (single phase);kW;3.7
+Voltage (three phase);V;380
+Current (three phase);A;16
+Power (three phase);kW;11
+Cable rated current;A;32

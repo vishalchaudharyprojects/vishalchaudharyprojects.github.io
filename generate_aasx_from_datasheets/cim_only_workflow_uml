@@ -1,0 +1,54 @@
+@startuml CIM_Only_Workflow
+title CIM-Only Workflow Sequence Diagram
+
+actor User as User
+participant "gen_aasx\n:5002" as AASService
+participant "cim_to_aas_algorithm" as CIMConverter
+participant "CIM EQ XML" as CIM_EQ
+participant "CIM GL XML" as CIM_GL
+participant "AAS JSON File" as AASFile
+participant "basyx-aas-env\n:8081" as AASEnv
+participant "basyx-aas-registry\n:8082" as AASRegistry
+
+User -> AASService: POST /api/generate-cim-aas\n{workflow: "cim_only",\ncim_eq_path: "...EQ_.xml",\ncim_gl_path: "...GL_.xml"}
+activate AASService
+
+AASService -> CIMConverter: processing_gen_aasx()\n(cim_eq_path, cim_gl_path)
+activate CIMConverter
+
+CIMConverter -> CIM_EQ: Parse CIM EQ XML
+activate CIM_EQ
+CIM_EQ --> CIMConverter: EQ Data
+deactivate CIM_EQ
+
+CIMConverter -> CIM_GL: Parse CIM GL XML\n(Location data)
+activate CIM_GL
+CIM_GL --> CIMConverter: GL Data
+deactivate CIM_GL
+
+CIMConverter -> CIMConverter: Build hierarchical AAS structure\n- Create AAS for each asset type\n- Create Netzlokation/Messlokation\n- Build BoM hierarchies\n- Add bidirectional CIM references
+
+CIMConverter -> AASFile: Write enhanced AAS JSON\ncim_eq_gl_aasx_hierarchical_*.json
+activate AASFile
+AASFile --> CIMConverter: File written
+deactivate AASFile
+
+CIMConverter --> AASService: Conversion result\n{output_file: "...json", aas_count: X, submodel_count: Y}
+deactivate CIMConverter
+
+AASService -> AASService: Auto-register with BaSyx
+
+AASService -> AASEnv: POST /shells\n(AAS registration)
+activate AASEnv
+AASEnv --> AASService: 201 Created / 200 OK
+deactivate AASEnv
+
+AASService -> AASRegistry: PUT /shell-descriptors\n(AAS descriptor registration)
+activate AASRegistry
+AASRegistry --> AASService: 200 OK
+deactivate AASRegistry
+
+AASService --> User: 200 OK\n{success: true, workflow: "cim_only",\nresults: {cim_conversion: {...},\nbasyx_registration: {...}}}
+deactivate AASService
+
+@enduml

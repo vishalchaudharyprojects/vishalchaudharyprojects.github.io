@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with PowerFactory 2024 SP1 (x64) (digcimdb.dll ServicePack 0) -->
+<rdf:RDF xmlns:cim="http://cim.ucaiug.io/ns#" xmlns:eu="http://iec.ch/TC57/CIM100-European#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <md:FullModel rdf:about="urn:uuid:239d7d8a-9fb5-4bbd-8e8d-22b98e611d0d">
+    <md:Model.DependentOn rdf:resource="urn:uuid:8db81b56-9ea5-4424-baf3-e68b8b6e9407" />
+    <md:Model.created>2026-01-23T14:34:09Z</md:Model.created>
+    <md:Model.modelingAuthoritySet>unset</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://cim-profile.ucaiug.io/grid/Dynamics/2.0</md:Model.profile>
+    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+  </md:FullModel>
+  <cim:EnergyConsumer rdf:about="#_242b705e-5e49-48d4-bfc2-c0dbc3c3f11b">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_74cdc4cb-c5b0-070a-be18-70f2b6bd9fd7" />
+    <cim:IdentifiedObject.mRID>242b705e-5e49-48d4-bfc2-c0dbc3c3f11b</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:EnergyConsumer rdf:about="#_c8c43b34-744b-44b3-a1ed-d76b99535209">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_afbbba0c-b7d2-258c-0d46-9a942bf3450c" />
+    <cim:IdentifiedObject.mRID>c8c43b34-744b-44b3-a1ed-d76b99535209</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:EnergyConsumer rdf:about="#_9a698eb3-a024-4d99-b027-10f2de76ebce">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_74cdc4cb-c5b0-070a-be18-70f2b6bd9fd7" />
+    <cim:IdentifiedObject.mRID>9a698eb3-a024-4d99-b027-10f2de76ebce</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:EnergyConsumer rdf:about="#_72940015-af65-4bda-989d-1a1c248a553d">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_afbbba0c-b7d2-258c-0d46-9a942bf3450c" />
+    <cim:IdentifiedObject.mRID>72940015-af65-4bda-989d-1a1c248a553d</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:EnergyConsumer rdf:about="#_146f9317-becb-434b-835f-11d8cdc9889c">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_cfa71c40-6f8e-04ae-e4fa-8269da070067" />
+    <cim:IdentifiedObject.mRID>146f9317-becb-434b-835f-11d8cdc9889c</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:EnergyConsumer rdf:about="#_7c26acc0-7711-42a1-8bb0-4da9086650ac">
+    <cim:EnergyConsumer.LoadDynamics rdf:resource="#_5c0dc8ea-94b4-80c7-a3c9-d8354193c077" />
+    <cim:IdentifiedObject.mRID>7c26acc0-7711-42a1-8bb0-4da9086650ac</cim:IdentifiedObject.mRID>
+  </cim:EnergyConsumer>
+  <cim:LoadAggregate rdf:ID="_cfa71c40-6f8e-04ae-e4fa-8269da070067">
+    <cim:DynamicsFunctionBlock.enabled>true</cim:DynamicsFunctionBlock.enabled>
+    <cim:IdentifiedObject.mRID>cfa71c40-6f8e-04ae-e4fa-8269da070067</cim:IdentifiedObject.mRID>
+  </cim:LoadAggregate>
+  <cim:LoadAggregate rdf:ID="_5c0dc8ea-94b4-80c7-a3c9-d8354193c077">
+    <cim:DynamicsFunctionBlock.enabled>true</cim:DynamicsFunctionBlock.enabled>
+    <cim:IdentifiedObject.mRID>5c0dc8ea-94b4-80c7-a3c9-d8354193c077</cim:IdentifiedObject.mRID>
+  </cim:LoadAggregate>
+  <cim:LoadAggregate rdf:ID="_afbbba0c-b7d2-258c-0d46-9a942bf3450c">
+    <cim:DynamicsFunctionBlock.enabled>true</cim:DynamicsFunctionBlock.enabled>
+    <cim:IdentifiedObject.mRID>afbbba0c-b7d2-258c-0d46-9a942bf3450c</cim:IdentifiedObject.mRID>
+  </cim:LoadAggregate>
+  <cim:LoadAggregate rdf:ID="_74cdc4cb-c5b0-070a-be18-70f2b6bd9fd7">
+    <cim:DynamicsFunctionBlock.enabled>true</cim:DynamicsFunctionBlock.enabled>
+    <cim:IdentifiedObject.mRID>74cdc4cb-c5b0-070a-be18-70f2b6bd9fd7</cim:IdentifiedObject.mRID>
+  </cim:LoadAggregate>
+  <cim:LoadStatic rdf:ID="_dd7234db-f1a8-5ec0-c927-312c7c5ff59a">
+    <cim:IdentifiedObject.mRID>dd7234db-f1a8-5ec0-c927-312c7c5ff59a</cim:IdentifiedObject.mRID>
+    <cim:LoadStatic.LoadAggregate rdf:resource="#_cfa71c40-6f8e-04ae-e4fa-8269da070067" />
+    <cim:LoadStatic.staticLoadModelType rdf:resource="http://cim.ucaiug.io/ns#StaticLoadModelKind.constantZ" />
+  </cim:LoadStatic>
+  <cim:LoadStatic rdf:ID="_3ec43e56-2f66-478f-90ea-3d85a620050d">
+    <cim:IdentifiedObject.mRID>3ec43e56-2f66-478f-90ea-3d85a620050d</cim:IdentifiedObject.mRID>
+    <cim:LoadStatic.LoadAggregate rdf:resource="#_74cdc4cb-c5b0-070a-be18-70f2b6bd9fd7" />
+    <cim:LoadStatic.staticLoadModelType rdf:resource="http://cim.ucaiug.io/ns#StaticLoadModelKind.constantZ" />
+  </cim:LoadStatic>
+  <cim:LoadStatic rdf:ID="_4f6d032c-95d0-e66f-1470-a0dffafad576">
+    <cim:IdentifiedObject.mRID>4f6d032c-95d0-e66f-1470-a0dffafad576</cim:IdentifiedObject.mRID>
+    <cim:LoadStatic.LoadAggregate rdf:resource="#_afbbba0c-b7d2-258c-0d46-9a942bf3450c" />
+    <cim:LoadStatic.staticLoadModelType rdf:resource="http://cim.ucaiug.io/ns#StaticLoadModelKind.constantZ" />
+  </cim:LoadStatic>
+  <cim:LoadStatic rdf:ID="_79af6d33-b425-2420-d568-b2de81042e0f">
+    <cim:IdentifiedObject.mRID>79af6d33-b425-2420-d568-b2de81042e0f</cim:IdentifiedObject.mRID>
+    <cim:LoadStatic.LoadAggregate rdf:resource="#_5c0dc8ea-94b4-80c7-a3c9-d8354193c077" />
+    <cim:LoadStatic.staticLoadModelType rdf:resource="http://cim.ucaiug.io/ns#StaticLoadModelKind.constantZ" />
+  </cim:LoadStatic>
+</rdf:RDF>

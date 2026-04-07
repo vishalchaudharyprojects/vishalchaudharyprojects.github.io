@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prog:object class_version="1" class_id="7" id="01005e31803f.1emh0013150392-taf10a.sm" xmlns:prog="urn:k461-dke-de:profile_generic-1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cox="urn:k461-dke-de:extension-1">
+  <prog:attributes count="3">
+    <cox:logical_name id="1">01005e31803f.1emh0013150392-taf10a.sm</cox:logical_name>
+    <prog:capture_objects id="2" count="16">
+      <prog:capture_object id="1">
+        <cox:logical_name>01000e0700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="2">
+        <cox:logical_name>0100100700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="3">
+        <cox:logical_name>01001f0700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="4">
+        <cox:logical_name>0100200700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="5">
+        <cox:logical_name>0100240700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="6">
+        <cox:logical_name>0100330700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="7">
+        <cox:logical_name>0100340700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="8">
+        <cox:logical_name>0100380700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="9">
+        <cox:logical_name>0100470700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="10">
+        <cox:logical_name>0100480700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="11">
+        <cox:logical_name>01004c0700ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="12">
+        <cox:logical_name>0100510701ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="13">
+        <cox:logical_name>0100510702ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="14">
+        <cox:logical_name>0100510704ff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="15">
+        <cox:logical_name>010051070fff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+      <prog:capture_object id="16">
+        <cox:logical_name>010051071aff.1emh0013150392.sm</cox:logical_name>
+        <cox:class_id>4</cox:class_id>
+        <cox:class_version>0</cox:class_version>
+        <cox:attr_reference>2</cox:attr_reference>
+        <cox:index_reference>0</cox:index_reference>
+      </prog:capture_object>
+    </prog:capture_objects>
+    <prog:buffer id="3">
+      <prog:simple_data count="16">
+        <prog:column id="1" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>5000</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>44</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>5000</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>44</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="2" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>198</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>198</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="3" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="4" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>22991</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>22990</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="5" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="6" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="7" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>23000</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>23000</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="8" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="9" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>287</cox:long64>
+            </cox:value>
+            <cox:scaler>-3</cox:scaler>
+            <cox:unit>33</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="10" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>22993</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>22993</cox:long64>
+            </cox:value>
+            <cox:scaler>-2</cox:scaler>
+            <cox:unit>35</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="11" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>66</cox:long64>
+            </cox:value>
+            <cox:scaler>0</cox:scaler>
+            <cox:unit>27</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="12" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>1200</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>1200</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="13" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>2399</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>2399</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="14" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>3594</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>3594</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="15" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>3591</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>3591</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+        <prog:column id="16" count="2">
+          <prog:entry_gateway_signed id="1">
+            <cox:value>
+              <cox:long64>3593</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:53:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+          <prog:entry_gateway_signed id="2">
+            <cox:value>
+              <cox:long64>3593</cox:long64>
+            </cox:value>
+            <cox:scaler>-1</cox:scaler>
+            <cox:unit>8</cox:unit>
+            <cox:status>
+              <cox:octet-string>e000000020803800</cox:octet-string>
+            </cox:status>
+            <cox:capture_time>2024-12-08T04:54:00+01:00</cox:capture_time>
+            <cox:smgw_signature/>
+          </prog:entry_gateway_signed>
+        </prog:column>
+      </prog:simple_data>
+    </prog:buffer>
+  </prog:attributes>
+</prog:object>

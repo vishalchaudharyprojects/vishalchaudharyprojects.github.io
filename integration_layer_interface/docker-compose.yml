@@ -1,0 +1,225 @@
+services:
+  integration_layer_interface:
+    build: .
+    volumes:
+      - .:/integration_layer_interface
+      - ../asset_administration_shell/aas:/app/aas_storage
+    working_dir: /integration_layer_interface
+    ports:
+      - "5001:5001"
+    env_file:
+      - .env
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASSWORD=guest
+      - AAS_SERVICE_URL=http://generate_aasx_from_datasheets:5002
+      - BASYX_AAS_ENV_URL=http://basyx-aas-env:8081
+      - BASYX_AAS_REGISTRY_URL=http://basyx-aas-registry:8080
+      - BASYX_SM_REGISTRY_URL=http://basyx-sm-registry:8080
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      basyx-aas-env:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  generate_aasx_from_datasheets:
+    build: ../generate_aasx_from_datasheets
+    ports:
+      - "5002:5002"
+    volumes:
+      - ../generate_aasx_from_datasheets/assets:/app/assets
+      - ../generate_aasx_from_datasheets/asset_modbus_mapping:/app/asset_modbus_mapping
+      - ../integration_layer_interface/Grids:/app/Grids
+      - ../asset_administration_shell/aas:/app/basyx_aas
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASSWORD=guest
+      - BASYX_AAS_DIR=/app/basyx_aas
+      - BASYX_AAS_ENV_URL=http://basyx-aas-env:8081
+      - BASYX_AAS_REGISTRY_URL=http://basyx-aas-registry:8080
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      basyx-aas-env:
+        condition: service_healthy
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:5002/api/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  grid_measurements:
+    build: ../grid_measurements
+    volumes:
+      - ../grid_measurements:/app
+      - ../grid_measurements/config_typhoon.yaml:/app/config_typhoon.yaml:ro
+      - ../integration_layer_interface/Grids:/app/Grids
+    working_dir: /app
+    ports:
+      - "5004:5004"
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASSWORD=guest
+      - FLASK_APP=app:app
+      - FLASK_ENV=production
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:5004/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  smart_grid_services:
+    build:
+      context: ../smart_grid_services
+      dockerfile: Dockerfile
+    container_name: smart_grid_services
+    restart: unless-stopped
+    environment:
+      - AAS_JSON_PATH=/app/basyx_aas/cim_eq_gl_aasx_hierarchical_20151231T2300Z_YYY_EQ_.json
+      - BASYX_AAS_ENV_URL=http://basyx-aas-env:8081
+      - BASYX_AAS_REGISTRY_URL=http://basyx-aas-registry:8080
+      - BASYX_UI_REGISTRY_URL=http://basyx-aas-registry:8080
+      - BASYX_SM_REGISTRY_URL=http://basyx-sm-registry:8080
+    volumes:
+      # give it access to configs and generated artifacts
+      - ../smart_grid_services/config_se.yaml:/app/config_se.yaml
+      - ../integration_layer_interface/Grids:/app/Grids
+      - ../grid_measurements/logs:/app/logs
+      - ../grid_measurements/libs/cimpy_3:/app/libs/cimpy_3
+      - ../asset_administration_shell/aas:/app/basyx_aas
+    ports:
+      - "5003:5003"
+    depends_on:
+      - integration_layer_interface
+      - generate_aasx_from_datasheets
+      - basyx-aas-env
+      - basyx-aas-registry
+      - basyx-sm-registry
+      - basyx-aas-discovery
+
+  # BaSyx AAS Environment (Repository)
+  basyx-aas-env:
+    image: eclipsebasyx/aas-environment:2.0.0-SNAPSHOT
+    container_name: basyx-aas-env
+    environment:
+      - SERVER_PORT=8081
+    volumes:
+      - ../asset_administration_shell/aas:/application/aas
+      - ../asset_administration_shell/basyx/aas-env.properties:/application/application.properties
+    ports:
+      - '8081:8081'
+    restart: always
+    depends_on:
+      basyx-aas-registry:
+        condition: service_healthy
+      basyx-sm-registry:
+        condition: service_healthy
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8081/shells" ]
+      interval: 60s
+      timeout: 30s
+      retries: 10
+      start_period: 120s
+
+  # BaSyx AAS Registry
+  basyx-aas-registry:
+    image: eclipsebasyx/aas-registry-log-mem:2.0.0-SNAPSHOT
+    container_name: basyx-aas-registry
+    ports:
+      - '8082:8080'
+    environment:
+      - SERVER_PORT=8080
+    volumes:
+      - ../asset_administration_shell/basyx/aas-registry.yml:/workspace/config/application.yml
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/shell-descriptors"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # BaSyx Submodel Registry
+  basyx-sm-registry:
+    image: eclipsebasyx/submodel-registry-log-mem:2.0.0-SNAPSHOT
+    container_name: basyx-sm-registry
+    ports:
+      - '8083:8080'
+    environment:
+      - SERVER_PORT=8080
+    volumes:
+      - ../asset_administration_shell/basyx/sm-registry.yml:/workspace/config/application.yml
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/submodel-descriptors"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # BaSyx AAS Discovery Service
+  basyx-aas-discovery:
+    image: eclipsebasyx/aas-discovery:2.0.0-SNAPSHOT
+    container_name: basyx-aas-discovery
+    environment:
+      - SERVER_PORT=8081
+    volumes:
+      - ../asset_administration_shell/basyx/aas-discovery.properties:/application/application.properties
+    ports:
+      - '8084:8081'
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/lookup/shells"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # BaSyx Web UI (Updated environment variables)
+  basyx-web-ui:
+    image: eclipsebasyx/aas-gui:SNAPSHOT
+    container_name: basyx-ui
+    ports:
+      - '3000:3000'
+    environment:
+      AAS_REGISTRY_PATH: http://basyx-aas-registry:8080/shell-descriptors
+      SUBMODEL_REGISTRY_PATH: http://basyx-sm-registry:8080/submodel-descriptors
+      AAS_REPO_PATH: http://basyx-aas-env:8081/shells
+      SUBMODEL_REPO_PATH: http://basyx-aas-env:8081/submodels
+      CD_REPO_PATH: http://basyx-aas-env:8081/concept-descriptions
+      AAS_DISCOVERY_PATH: http://basyx-aas-discovery:8081/lookup/shells
+    restart: always
+    depends_on:
+      - basyx-aas-env
+      - basyx-aas-registry
+      - basyx-sm-registry
+      - basyx-aas-discovery
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_running"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+networks:
+  default:
+    driver: bridge

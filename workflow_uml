@@ -1,0 +1,86 @@
+@startuml
+!theme plain
+title AAS-CIM Integration Workflow
+
+actor "Client" as User
+box "Integration Layer" #AliceBlue
+    participant "Integration API" as IntAPI
+end box
+
+box "AAS Generator Service" #LightGreen
+    participant "Generator API" as GenAPI
+    participant "AAS Creator" as Creator
+    participant "AAS-CIM Linker" as LinkerAAS
+    participant "CIM-AAS Linker" as LinkerCIM
+    participant "RabbitMQ Consumer" as Consumer
+end box
+
+box "Message Broker" #Orange
+    queue "RabbitMQ" as MQ
+end box
+
+box "Persistent Storage (Docker Volumes)" #LightGrey
+    database "File System" as FS
+end box
+
+box "BaSyx Environment" #LightBlue
+    participant "AAS Environment" as BaSyxEnv
+    participant "AAS Registry" as BaSyxReg
+end box
+
+autonumber "<b>[0]"
+
+== 1. Workflow Initiation ==
+User -> IntAPI: POST /run\n{"workflow": "full", "equipment": "..."}
+IntAPI -> GenAPI: POST /api/generate-aas
+activate GenAPI
+
+== 2. Step 1: AAS Creation ==
+GenAPI -> Creator: process_single_csv(emit_event=true)
+activate Creator
+Creator -> FS: Read equipment CSV from /app/assets
+Creator -> FS: Read Modbus mapping CSV from /app/asset_modbus_mapping
+Creator -> Creator: Generate AAS & Submodels JSON
+Creator -> FS: **Write** AAS JSON to /app/basyx_aas
+Creator -> MQ: Publish event ("aasx.created")
+deactivate Creator
+GenAPI --> IntAPI: 200 OK (Sync) or 202 Accepted (Async)
+IntAPI --> User: 200 OK / 202 Accepted
+
+== 3. Step 2: Link AAS to CIM (Event-Driven) ==
+MQ -> Consumer: Deliver message ("aasx.created")
+activate Consumer
+Consumer -> LinkerAAS: link_aas_to_cim(payload, emit_event=true)
+activate LinkerAAS
+LinkerAAS -> FS: Read AAS JSON from /app/basyx_aas
+LinkerAAS -> FS: Read CIM EQ XML from /app/Grids/CIM3
+LinkerAAS -> LinkerAAS: Add "CimProperties" Submodel
+LinkerAAS -> FS: **Update** AAS JSON in /app/basyx_aas
+LinkerAAS -> MQ: Publish event ("aasx.linked_to_cim")
+deactivate LinkerAAS
+Consumer -> MQ: ACK message
+deactivate Consumer
+
+== 4. Step 3: Link CIM to AAS (Event-Driven) ==
+MQ -> Consumer: Deliver message ("aasx.linked_to_cim")
+activate Consumer
+Consumer -> LinkerCIM: link_cim_to_aas(payload, emit_event=true)
+activate LinkerCIM
+LinkerCIM -> FS: Read CIM EQ XML from /app/Grids/CIM3
+LinkerCIM -> LinkerCIM: Add <aasReference> to CIM element
+LinkerCIM -> FS: **Update** CIM EQ XML in /app/Grids/CIM3
+LinkerCIM -> MQ: Publish event ("cim.linked_to_aas")
+deactivate LinkerCIM
+Consumer -> MQ: ACK message
+deactivate Consumer
+
+== 5. Step 4: BaSyx Registration (Triggered by API) ==
+note right of GenAPI: The final registration is handled\nby the synchronous API call's logic\nafter all linking is complete.
+GenAPI -> FS: Read final AAS JSON from /app/basyx_aas
+GenAPI -> BaSyxEnv: POST /shells (Register AAS)
+GenAPI -> BaSyxEnv: POST /submodels (Register Submodels)
+GenAPI -> BaSyxReg: POST /shell-descriptors (Register Endpoint)
+deactivate GenAPI
+
+@enduml
+

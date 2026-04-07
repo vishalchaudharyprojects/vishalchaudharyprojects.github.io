@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------
+# Configuration for the State Estimation Service
+# -----------------------------------------------------------------
+
+# --- CIM Topology Source ---
+# Paths to the CIM grid model files.
+# 'base_path' should point to your 'integration_layer_interface'
+# or a similar root where the 'Grids' folder is.
+cim:
+  base_path: "D:/AAS/integration_layer_interface"
+  grid_name: "1-LV-rural1--2-no_sw_EV_HP"
+  eq_file: "20151231T2300Z_YYY_EQ_.xml"
+  ssh_file: "20151231T2300Z_XX_YYY_SSH_.xml"
+  gl_file: "20151231T2300Z_XX_YYY_GL_.xml"
+  dl_file: "20151231T2300Z_XX_YYY_DL_.xml"
+  tp_file: "20151231T2300Z_XX_YYY_TP_.xml"
+  sv_file: "20151231T2300Z_XX_YYY_SV_.xml"
+  dy_file: "20151231T2300Z_XX_YYY_DY_.xml"
+
+# --- Measurement Source ---
+# Select the source for measurements: "influxdb" or "csv"
+measurement_source:
+
+  source: "csv" # <-- CHANGE THIS to "csv" to use the file
+
+  # --- CSV File Settings (used if source: "csv") ---
+  csv:
+    # Path to the local measurement log file
+    path: "/app/Grids/1-LV-rural1--2-no_sw_EV_HP/measurements_log.csv" # Adjust path as needed
+    timestamp_col: "timestamp_utc"
+
+  # --- InfluxDB Settings (used if source: "influxdb") ---
+  influxdb:
+    url: "http://influxdb:8086" # Service name in Docker Compose
+    token: "your-influxdb-token"
+    org: "your-organization"
+    bucket: "your-bucket-name"
+
+    # These are the new required fields for the connector
+    measurement_name: "grid_measurements" # The InfluxDB measurement name
+    range_start: "-10m" # How far back to query for the 'last' value

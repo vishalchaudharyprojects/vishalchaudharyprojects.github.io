@@ -1,0 +1,4 @@
+Datapoint;unit;LN;DOI;CDC;SDI1;SDI2;SDI3;DAI;value
+Bemessungsstrom Eingangsseite;A;TCTR;ARtg;ASG;NAN;NAN;setMag;f;35
+Bemessungsfrequenz;Hz;TCTR;HzRtg;ASG;NAN;NAN;setMag;f;50
+Wandlerverh�ltnis;N.A.;TCTR;Rat;ASG;NAN;NAN;setMag;f;35

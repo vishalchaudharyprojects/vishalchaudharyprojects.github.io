@@ -1,0 +1,9 @@
+﻿Datapoint;unit;value
+Nominal energy;kWh;72.8
+Usable energy;%;90
+Voltage nominal;V;400
+Frequency nominal;Hz;50
+Power nominal;kWh;25
+Current nominal;A;37
+Max SC current;A;111
+Battery voltage nominal;V;729

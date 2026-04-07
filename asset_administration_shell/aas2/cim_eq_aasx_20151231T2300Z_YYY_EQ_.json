@@ -1,0 +1,5199 @@
+{
+    "assetAdministrationShells": [
+        {
+            "idShort": "AAS_PowerSystem",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerSystem",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:24725a64-c653-4161-9530-547bc20cda6a"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_677faa23_6a77_4a56_9e2f_2580a7072599"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_ed94cef6_ee9c_4d52_96c4_8d05767b6de3"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d4e1eed9_2f16_4048_8d85_2cd42b716c5e"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_717b3a1b_1bec_478a_b2f7_fb5ce55c72e7"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_Netzlokation"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_Messlokation"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_8640d52e_c4b1_4e25_a358_c6ffe3605196"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_911b0a86_fe2e_436e_9a24_f3f7aecdcb24"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_4e25bd50_50bc_4b75_b4bf_eee6e1274f88"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_101eb38e_1094_44b3_abc2_feddbb5ba623"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_3da95dff_f867_446a_9226_3f661e18e50f"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_c0320816_2225_4a69_8994_ffbbf4675aba"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_4b99956e_1f01_4f47_82fb_385e29db912c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_86f3ef1b_6f8c_4319_9cc0_049feb03bcd3"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_ab415304_d9bd_4bcd_ab30_57cefd90f701"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_71981e30_c91b_941e_c0bd_fc3fac3b84b3"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_f66e9711_cd8b_4547_a9d6_62f3134a066c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_7576f8b7_6a1d_4633_bd1b_decddf0591e9"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_829fbd98_2263_45b2_b70a_060ee4e4111e"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_b10beea1_662b_4647_bf25_1ac89cada4e2"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_3c0af105_05f9_48c3_a9db_6285bf71d5cc"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_f0fa5879_3ead_4983_8753_4bfaf4c8842a"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_8babecfb_57ea_4ee3_bead_8f39e164f576"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_0054afcf_8d67_4211_8c69_c4dc3a41dc82"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_ff1bbb84_7299_430b_9f78_f74a89231471"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_817d9481_6265_d392_e357_a1ad379c0651"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_d9fd9188_471b_9bf4_30a5_44ea7c4c64a6"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_b2010b32_75bb_c635_05e9_ca7c91347f91"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_b14e2a4d_d058_491f_addf_64dbc13b9253"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_44fb77e6_7d55_f61c_02d2_a05a4e97ebf5"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_1f8c2995_036b_4ea4_afe9_25ea47472ab8"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_83063ed1_539e_4629_84d9_d58eec7c5079"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_81cce2ce_317b_e1c0_3d11_ac8ec620e791"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_3a2e77e7_8cd7_2ae2_4812_a73ad979e75c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_1bcec746_2845_4b8b_9d1e_7eadcd576ea8"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_5767e3e0_fdd1_41eb_bdcf_29ff4f5f60ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_d34df7b2_1484_445f_8396_0fe5616f0aaf"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_33e1c937_da6f_4918_abfd_6c35516bda81"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_10df73d0_7469_41e7_a6d4_612185e7999c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_cc8e4e07_0063_40a9_8fbc_2fa053262f05"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_aa096c15_7008_4b19_8534_b0886f5cce14"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_fc7a7c2d_c14a_479d_b7a8_212a08efce56"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_749269d3_1735_4c02_817f_e7232239fa38"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_0221accd_4869_4a48_bf8f_8a4cf0b12383"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_3aff2923_27ae_40ac_8bb7_9229929d29ab"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_38245476_0a65_a105_3bbc_660f53f882a3"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_38f5d291_bbf5_7e90_c4b2_9505a2ea8505"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_0c54dbe0_e96b_6ac6_d1e1_1bbeaf73cf44"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_89bdf72c_d3ab_4982_b0d8_28f86cfeeb2e"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_ef306d4d_6b69_463f_9780_e2b538f627a0"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerTransformer_69f8abcc_65ab_4630_b60c_676749f25152"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_c24d384a_01f4_4d56_96ec_5a22f55e1c95"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_9a1cc8f1_da23_4d65_ba0d_fb6b8d3378d8"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_bd732fca_98b5_458e_bfa7_6f2b4e5b8a9b"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_eb35c2a0_9118_4a8f_956d_4f1cb8a4015f"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_68532dbf_bbb9_4663_ae1f_a64b46d12293"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_84e69160_a70e_4711_9372_33fb914b760c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_8062ccee_ea7f_4cc8_b1be_dbb25c0ddf06"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_23461422_5b57_4589_bdc8_5fc602348259"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_6bef0467_8e72_43a7_846f_6d09de077809"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_d6d423dd_bcf8_4465_a489_ebfb00e140a0"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_c9db08e8_5e30_4619_bfd2_b507120a0530"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_c9e80384_4d61_ea7b_268d_0790337f3760"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d8d8c465_4881_4285_a896_7bf9b0c575ca"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_7c6406fd_71ff_411d_8178_d0bd7dfbafd1"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_acd97424_146a_41cf_94c7_2c85404ff460"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_8252df2b_a10d_4faf_b029_d493656c08b2"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_25198c2c_723f_422f_bad7_a7b5d4ec1d4f"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_e98486ad_e8d4_42d4_9c79_b0b32c0228b9"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_bcd5284b_3b3f_4ed5_a6d3_32c335f2446d"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_72434ca1_5e7d_4d70_ae83_abe045923651"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d965a614_6cf3_417a_844f_e4d23d41db2a"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_cfcc222a_879f_4cb5_a4c8_9611016e5faa"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_69694007_f9b5_475c_9f76_b39a31b26d5c"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_645f5d32_0384_4cbb_b5ee_2b251e826cfa"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_6f733882_4a85_4822_8387_4e60e6c579a0"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_3a541130_2b07_459b_923c_ec95d5316371"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_5c593437_b5cc_7d09_7251_fd5b3cdf3dc0"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_63309068_5ff3_40f5_b68c_3e2d763f959a"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d5e74ac1_7609_424d_b3b1_294806a33b91"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_Marktlokation"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_23dd5c28_4e16_498c_b337_20cb8040c4a6"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_c4e56b2b_5f69_4b46_a835_9162697f29ea"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_b980117b_b299_4f8e_ac30_375b54d5ce72"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_c6806465_3c28_4c5b_acbf_3dde3a004def"
+                        }
+                    ]
+                },
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_ee5ca52c_f7dc_460a_860e_74cd1919c881"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_83063ed1_539e_4629_84d9_d58eec7c5079",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:2b3658dd-9e82-4d5c-a115-3ca39b2fccf4"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_83063ed1_539e_4629_84d9_d58eec7c5079"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_645f5d32_0384_4cbb_b5ee_2b251e826cfa",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:b23d7a8f-9d8a-499f-926e-66a1bc76c137"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_645f5d32_0384_4cbb_b5ee_2b251e826cfa"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_MV1_101_Bus_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_d6d423dd_bcf8_4465_a489_ebfb00e140a0",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:571f1ae5-a31e-4e0e-995d-e55768edd363"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_d6d423dd_bcf8_4465_a489_ebfb00e140a0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_13",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_3aff2923_27ae_40ac_8bb7_9229929d29ab",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:92e1caec-cab3-4b6c-ba63-a6def8e263c3"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_3aff2923_27ae_40ac_8bb7_9229929d29ab"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_8",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_c4e56b2b_5f69_4b46_a835_9162697f29ea",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:7deff4ee-3a43-4ef8-84a4-da18e50f65b3"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_c4e56b2b_5f69_4b46_a835_9162697f29ea"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_6",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_c24d384a_01f4_4d56_96ec_5a22f55e1c95",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:7e76a3ea-6413-4a5d-81a9-88f4c7b2af9e"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_c24d384a_01f4_4d56_96ec_5a22f55e1c95"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_11",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_eb35c2a0_9118_4a8f_956d_4f1cb8a4015f",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:6269144c-72dc-489e-8e8b-192ddda2bd15"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_eb35c2a0_9118_4a8f_956d_4f1cb8a4015f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_9",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_f66e9711_cd8b_4547_a9d6_62f3134a066c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:908d947c-08f0-42c9-8519-5ce474f15c14"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_f66e9711_cd8b_4547_a9d6_62f3134a066c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_7",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_f0fa5879_3ead_4983_8753_4bfaf4c8842a",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:80991e5a-218d-4b87-b6f4-c9512507d959"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_f0fa5879_3ead_4983_8753_4bfaf4c8842a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_6f733882_4a85_4822_8387_4e60e6c579a0",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:3286dfac-288c-43b3-9c34-29753c0d7673"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_6f733882_4a85_4822_8387_4e60e6c579a0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_12",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_72434ca1_5e7d_4d70_ae83_abe045923651",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:ec12170d-0125-4210-ae03-7ce01608dd89"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_72434ca1_5e7d_4d70_ae83_abe045923651"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_0221accd_4869_4a48_bf8f_8a4cf0b12383",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:e895f667-733d-424e-9674-fd4b0eda8633"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_0221accd_4869_4a48_bf8f_8a4cf0b12383"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_14",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_23461422_5b57_4589_bdc8_5fc602348259",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:87aaa9cd-32ee-429b-818b-fef6e7263c03"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_23461422_5b57_4589_bdc8_5fc602348259"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_829fbd98_2263_45b2_b70a_060ee4e4111e",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:ffaba5f6-fd12-42c7-b030-069b02b1e42c"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_829fbd98_2263_45b2_b70a_060ee4e4111e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConnectionPoint_LV1_101_Bus_10",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConnectionPoint_8babecfb_57ea_4ee3_bead_8f39e164f576",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:324f2c08-2659-4554-954c-a2134099767e"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConnectionPoint_8babecfb_57ea_4ee3_bead_8f39e164f576"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerTransformer_MV1_101_LV1_101_Trafo_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerTransformer_69f8abcc_65ab_4630_b60c_676749f25152",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:939b0578-fce8-431a-9b47-08d15de876fb"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerTransformer_69f8abcc_65ab_4630_b60c_676749f25152"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_14",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_d4e1eed9_2f16_4048_8d85_2cd42b716c5e",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:2980136a-0aea-4d94-8e92-849c664bb30d"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d4e1eed9_2f16_4048_8d85_2cd42b716c5e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_8",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_d8d8c465_4881_4285_a896_7bf9b0c575ca",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:ce9bbde6-6b45-4dc0-bba7-9ebb1bb38006"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d8d8c465_4881_4285_a896_7bf9b0c575ca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_23",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_c0320816_2225_4a69_8994_ffbbf4675aba",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:6010e391-8ce0-45f4-8d38-0abda486a93f"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_c0320816_2225_4a69_8994_ffbbf4675aba"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_18",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_c9db08e8_5e30_4619_bfd2_b507120a0530",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:cf3ea0a4-616d-4ba8-bc3e-26263cf50d5c"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_c9db08e8_5e30_4619_bfd2_b507120a0530"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_10",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_b980117b_b299_4f8e_ac30_375b54d5ce72",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:801534dc-2335-4787-9b57-110880b6f09a"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_b980117b_b299_4f8e_ac30_375b54d5ce72"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_17",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_d965a614_6cf3_417a_844f_e4d23d41db2a",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:e577eed6-461d-47a7-8446-2e64ee58278c"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d965a614_6cf3_417a_844f_e4d23d41db2a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_12",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_ef306d4d_6b69_463f_9780_e2b538f627a0",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:6d8b21a8-7362-4e59-91d8-a560c8433212"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_ef306d4d_6b69_463f_9780_e2b538f627a0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_7",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_acd97424_146a_41cf_94c7_2c85404ff460",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:2f370a70-afe6-497a-ba1b-b8768845eda6"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_acd97424_146a_41cf_94c7_2c85404ff460"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_9",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_cc8e4e07_0063_40a9_8fbc_2fa053262f05",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:fedb79af-e43e-4433-b5fb-5162a8445665"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_cc8e4e07_0063_40a9_8fbc_2fa053262f05"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_20",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_ee5ca52c_f7dc_460a_860e_74cd1919c881",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:f8d9261f-e07f-45d3-86c9-1cd141e50cdc"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_ee5ca52c_f7dc_460a_860e_74cd1919c881"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_21",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_9a1cc8f1_da23_4d65_ba0d_fb6b8d3378d8",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:a35a1fc9-5f1b-49e1-83a2-b10fa9e553d9"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_9a1cc8f1_da23_4d65_ba0d_fb6b8d3378d8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_16",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_d5e74ac1_7609_424d_b3b1_294806a33b91",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:8d84b610-db10-47e2-8423-83ce9d3bf1a0"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_d5e74ac1_7609_424d_b3b1_294806a33b91"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_bd732fca_98b5_458e_bfa7_6f2b4e5b8a9b",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:889eb0f7-e6b4-4613-9cc8-050b00e6b69b"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_bd732fca_98b5_458e_bfa7_6f2b4e5b8a9b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_27",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_717b3a1b_1bec_478a_b2f7_fb5ce55c72e7",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:440f314d-68e9-42d8-86ea-330465949391"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_717b3a1b_1bec_478a_b2f7_fb5ce55c72e7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_8640d52e_c4b1_4e25_a358_c6ffe3605196",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:dda8e925-65ba-40d7-b645-45d078a6161d"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_8640d52e_c4b1_4e25_a358_c6ffe3605196"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_28",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_86f3ef1b_6f8c_4319_9cc0_049feb03bcd3",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:8d0b5e7e-0e04-4bd5-8ae4-cbac1e8c6e72"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_86f3ef1b_6f8c_4319_9cc0_049feb03bcd3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_24",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_1bcec746_2845_4b8b_9d1e_7eadcd576ea8",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:7fe91c5f-9799-4967-ab18-8cd504dc5370"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_1bcec746_2845_4b8b_9d1e_7eadcd576ea8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_15",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_1f8c2995_036b_4ea4_afe9_25ea47472ab8",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:8b90c47e-d6e1-4ed0-9292-51700465d571"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_1f8c2995_036b_4ea4_afe9_25ea47472ab8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_25",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_33e1c937_da6f_4918_abfd_6c35516bda81",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:f9f63a6b-d1af-4eb3-a3f5-27c206566fcf"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_33e1c937_da6f_4918_abfd_6c35516bda81"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_6",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_4b99956e_1f01_4f47_82fb_385e29db912c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:3d5f95d2-2847-43d5-9433-3cad8d87a03c"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_4b99956e_1f01_4f47_82fb_385e29db912c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_4e25bd50_50bc_4b75_b4bf_eee6e1274f88",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:31225d59-0777-4ce4-ad09-053120bbd9d9"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_4e25bd50_50bc_4b75_b4bf_eee6e1274f88"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_63309068_5ff3_40f5_b68c_3e2d763f959a",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:e7a7b998-643f-4a0e-af6f-b84e212a524b"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_63309068_5ff3_40f5_b68c_3e2d763f959a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_19",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_3c0af105_05f9_48c3_a9db_6285bf71d5cc",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:6b8ca15a-7b50-4deb-938f-312e74c4e131"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_3c0af105_05f9_48c3_a9db_6285bf71d5cc"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_13",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_8062ccee_ea7f_4cc8_b1be_dbb25c0ddf06",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:e93c3d24-e40f-4a34-90e7-91135355e478"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_8062ccee_ea7f_4cc8_b1be_dbb25c0ddf06"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_22",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_68532dbf_bbb9_4663_ae1f_a64b46d12293",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:8b7506a1-54bf-4573-86b7-a2a4aae3a040"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_68532dbf_bbb9_4663_ae1f_a64b46d12293"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_26",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_69694007_f9b5_475c_9f76_b39a31b26d5c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:50658427-16b7-4e54-924c-ed2ec841bc75"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_69694007_f9b5_475c_9f76_b39a31b26d5c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_11",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_84e69160_a70e_4711_9372_33fb914b760c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:025ebe8c-e0b6-482a-bda9-4d32d94fa0e4"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_84e69160_a70e_4711_9372_33fb914b760c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ConformLoad_LV1_101_Load_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ConformLoad_cfcc222a_879f_4cb5_a4c8_9611016e5faa",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:4463945a-10d8-4d6c-a1ba-726801691be4"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ConformLoad_cfcc222a_879f_4cb5_a4c8_9611016e5faa"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_12",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_7c6406fd_71ff_411d_8178_d0bd7dfbafd1",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:d5c2894f-1b13-40c1-883c-752ec40dced9"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_7c6406fd_71ff_411d_8178_d0bd7dfbafd1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_5767e3e0_fdd1_41eb_bdcf_29ff4f5f60ff",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:1b15e951-b806-452b-9e52-110fd0a7ce59"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_5767e3e0_fdd1_41eb_bdcf_29ff4f5f60ff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_10",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_bcd5284b_3b3f_4ed5_a6d3_32c335f2446d",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:057f883a-b98f-445b-81dd-e24e8ff38007"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_bcd5284b_3b3f_4ed5_a6d3_32c335f2446d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_e98486ad_e8d4_42d4_9c79_b0b32c0228b9",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:5b727803-f331-419b-b122-22636738a1c3"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_e98486ad_e8d4_42d4_9c79_b0b32c0228b9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_c6806465_3c28_4c5b_acbf_3dde3a004def",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:33745c9c-9472-402a-ba66-50466c789ff5"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_c6806465_3c28_4c5b_acbf_3dde3a004def"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_7",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_fc7a7c2d_c14a_479d_b7a8_212a08efce56",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:c99ce25b-fcf6-4a3a-a721-d426954be3af"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_fc7a7c2d_c14a_479d_b7a8_212a08efce56"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_b10beea1_662b_4647_bf25_1ac89cada4e2",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:cfd87a1f-427c-4018-aee9-f55c789d3aa9"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_b10beea1_662b_4647_bf25_1ac89cada4e2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_9",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_ab415304_d9bd_4bcd_ab30_57cefd90f701",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:6f552f90-1086-4af6-8fe0-5b31a64a3749"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_ab415304_d9bd_4bcd_ab30_57cefd90f701"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_13",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_101eb38e_1094_44b3_abc2_feddbb5ba623",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:5b9e1e83-be63-42d3-ac2e-ee24efe3d570"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_101eb38e_1094_44b3_abc2_feddbb5ba623"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_10df73d0_7469_41e7_a6d4_612185e7999c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:d613df7d-c82d-479d-ab18-95f3e5b5a118"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_10df73d0_7469_41e7_a6d4_612185e7999c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_6",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_25198c2c_723f_422f_bad7_a7b5d4ec1d4f",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:1215427e-397f-44fd-a3ba-b77af38af2f9"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_25198c2c_723f_422f_bad7_a7b5d4ec1d4f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_8",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_8252df2b_a10d_4faf_b029_d493656c08b2",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:bbf8f4a4-b225-44f6-851c-dcab8acf03db"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_8252df2b_a10d_4faf_b029_d493656c08b2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_ACLineSegment_LV1_101_Line_11",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_ACLineSegment_23dd5c28_4e16_498c_b337_20cb8040c4a6",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:73aed1b4-776d-425e-bdcb-ad466060dae6"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_ACLineSegment_23dd5c28_4e16_498c_b337_20cb8040c4a6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_BatteryUnit_LV1_101_Storage_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_BatteryUnit_3a2e77e7_8cd7_2ae2_4812_a73ad979e75c",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:8edb3d7e-0c6b-4a41-9efd-7ca186921d90"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_3a2e77e7_8cd7_2ae2_4812_a73ad979e75c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_BatteryUnit_LV1_101_Storage_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_BatteryUnit_38245476_0a65_a105_3bbc_660f53f882a3",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:002d6166-3d51-4f4d-b72d-45f78cb6c133"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_38245476_0a65_a105_3bbc_660f53f882a3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_BatteryUnit_LV1_101_Storage_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_BatteryUnit_44fb77e6_7d55_f61c_02d2_a05a4e97ebf5",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:b2a86596-8433-4704-a420-6bd307baaec3"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_44fb77e6_7d55_f61c_02d2_a05a4e97ebf5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_BatteryUnit_LV1_101_Storage_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_BatteryUnit_0c54dbe0_e96b_6ac6_d1e1_1bbeaf73cf44",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:aed45f63-c130-4b8d-a8e5-cd864ca33307"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_0c54dbe0_e96b_6ac6_d1e1_1bbeaf73cf44"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_BatteryUnit_LV1_101_Storage_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_BatteryUnit_b2010b32_75bb_c635_05e9_ca7c91347f91",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:04f9ad1b-7965-40f0-8134-4cee55a8c4b4"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_BatteryUnit_b2010b32_75bb_c635_05e9_ca7c91347f91"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_71981e30_c91b_941e_c0bd_fc3fac3b84b3",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:d7e68863-3ec4-4eb7-948b-f7dc4d46f71e"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_71981e30_c91b_941e_c0bd_fc3fac3b84b3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_81cce2ce_317b_e1c0_3d11_ac8ec620e791",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:f4a63a8f-ed9d-481e-8124-6ec180f9903c"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_81cce2ce_317b_e1c0_3d11_ac8ec620e791"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_c9e80384_4d61_ea7b_268d_0790337f3760",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:b09dc231-55b8-4b52-b0fa-ea06ab1fdae1"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_c9e80384_4d61_ea7b_268d_0790337f3760"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_38f5d291_bbf5_7e90_c4b2_9505a2ea8505",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:5a5bf8aa-172e-45a7-a083-32d38adfb519"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_38f5d291_bbf5_7e90_c4b2_9505a2ea8505"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_7",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_d9fd9188_471b_9bf4_30a5_44ea7c4c64a6",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:c154e7ab-344d-4c47-94b9-c058e5874562"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_d9fd9188_471b_9bf4_30a5_44ea7c4c64a6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_8",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_817d9481_6265_d392_e357_a1ad379c0651",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:2fdfcc59-4099-48ed-8029-91c2cb4ba34e"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_817d9481_6265_d392_e357_a1ad379c0651"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_6",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_5c593437_b5cc_7d09_7251_fd5b3cdf3dc0",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:283f6abf-2dd9-4b04-a3db-ae0794c81f04"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_5c593437_b5cc_7d09_7251_fd5b3cdf3dc0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PhotoVoltaicUnit_LV1_101_SGen_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PhotoVoltaicUnit_ed94cef6_ee9c_4d52_96c4_8d05767b6de3",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:67b68258-e9bc-402c-bcdb-770738d8e4bb"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PhotoVoltaicUnit_ed94cef6_ee9c_4d52_96c4_8d05767b6de3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_Storage_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_3a541130_2b07_459b_923c_ec95d5316371",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:83f9cb2d-caae-454e-94f4-5a9ad070c336"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_3a541130_2b07_459b_923c_ec95d5316371"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_677faa23_6a77_4a56_9e2f_2580a7072599",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:ae457695-4c2b-458a-af91-6522e5c1b6ed"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_677faa23_6a77_4a56_9e2f_2580a7072599"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_749269d3_1735_4c02_817f_e7232239fa38",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:d5d096fc-d33a-44a5-8a34-74041e464440"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_749269d3_1735_4c02_817f_e7232239fa38"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_Storage_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_b14e2a4d_d058_491f_addf_64dbc13b9253",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:b7b0bd05-6dbe-4ad1-aaaa-e362c65e45c5"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_b14e2a4d_d058_491f_addf_64dbc13b9253"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_Storage_5",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_7576f8b7_6a1d_4633_bd1b_decddf0591e9",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:24873124-16d3-44e8-9505-a0db6a7f7183"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_7576f8b7_6a1d_4633_bd1b_decddf0591e9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_1",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_d34df7b2_1484_445f_8396_0fe5616f0aaf",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:78ced0a4-cd4f-4973-a359-041b1758aa16"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_d34df7b2_1484_445f_8396_0fe5616f0aaf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_6bef0467_8e72_43a7_846f_6d09de077809",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:1e801705-9ad7-49bb-ad00-3b7d55071247"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_6bef0467_8e72_43a7_846f_6d09de077809"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_Storage_2",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_89bdf72c_d3ab_4982_b0d8_28f86cfeeb2e",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:fbfdb279-131d-4a05-a232-57c35e1e7e1d"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_89bdf72c_d3ab_4982_b0d8_28f86cfeeb2e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_3",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_0054afcf_8d67_4211_8c69_c4dc3a41dc82",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:73cd2b9a-e204-4321-a3bb-a8039b5f2104"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_0054afcf_8d67_4211_8c69_c4dc3a41dc82"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_Storage_4",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_3da95dff_f867_446a_9226_3f661e18e50f",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:d20c2294-fdba-4fe0-a250-408c713e6212"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_3da95dff_f867_446a_9226_3f661e18e50f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_7",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_911b0a86_fe2e_436e_9a24_f3f7aecdcb24",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:f1727c08-ff66-46fd-a122-01a8c980be4f"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_911b0a86_fe2e_436e_9a24_f3f7aecdcb24"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_8",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_aa096c15_7008_4b19_8534_b0886f5cce14",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:2faa51a5-6517-4d79-b636-3228f5e14e73"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_aa096c15_7008_4b19_8534_b0886f5cce14"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "AAS_PowerElectronicsConnection_LV1_101_SGen_6",
+            "modelType": "AssetAdministrationShell",
+            "id": "AAS_PowerElectronicsConnection_ff1bbb84_7299_430b_9f78_f74a89231471",
+            "assetInformation": {
+                "assetKind": "Instance",
+                "globalAssetId": "urn:uuid:eb3d00aa-4a44-40cd-9c42-a11e8a6b96bb"
+            },
+            "submodels": [
+                {
+                    "type": "ModelReference",
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "value": "Submodel_PowerElectronicsConnection_ff1bbb84_7299_430b_9f78_f74a89231471"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_4",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_83063ed1_539e_4629_84d9_d58eec7c5079",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "83063ed1-539e-4629-84d9-d58eec7c5079",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 6,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_2",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_645f5d32_0384_4cbb_b5ee_2b251e826cfa",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "645f5d32-0384-4cbb-b5ee-2b251e826cfa",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 6,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_MV1_101_Bus_4",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_d6d423dd_bcf8_4465_a489_ebfb00e140a0",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "d6d423dd-bcf8-4465-a489-ebfb00e140a0",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "MV1.101 Bus 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 3,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_13",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_3aff2923_27ae_40ac_8bb7_9229929d29ab",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "3aff2923-27ae-40ac-8bb7-9229929d29ab",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 13",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 5,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_8",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_c4e56b2b_5f69_4b46_a835_9162697f29ea",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "c4e56b2b-5f69-4b46-a835-9162697f29ea",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 8,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_6",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_c24d384a_01f4_4d56_96ec_5a22f55e1c95",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "c24d384a-01f4-4d56-96ec-5a22f55e1c95",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 6,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_11",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_eb35c2a0_9118_4a8f_956d_4f1cb8a4015f",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "eb35c2a0-9118-4a8f-956d-4f1cb8a4015f",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 11",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 7,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_9",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_f66e9711_cd8b_4547_a9d6_62f3134a066c",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "f66e9711-cd8b-4547-a9d6-62f3134a066c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 9",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 5,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_7",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_f0fa5879_3ead_4983_8753_4bfaf4c8842a",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "f0fa5879-3ead-4983-8753-4bfaf4c8842a",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 5,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_5",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_6f733882_4a85_4822_8387_4e60e6c579a0",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "6f733882-4a85-4822-8387-4e60e6c579a0",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 5,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_12",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_72434ca1_5e7d_4d70_ae83_abe045923651",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "72434ca1-5e7d-4d70-ae83-abe045923651",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 12",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 6,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_3",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_0221accd_4869_4a48_bf8f_8a4cf0b12383",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "0221accd-4869-4a48-bf8f-8a4cf0b12383",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 5,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_14",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_23461422_5b57_4589_bdc8_5fc602348259",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "23461422-5b57-4589-bdc8-5fc602348259",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 14",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 7,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_1",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_829fbd98_2263_45b2_b70a_060ee4e4111e",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "829fbd98-2263-45b2-b70a-060ee4e4111e",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 4,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ConnectionPoint_LV1_101_Bus_10",
+            "modelType": "Submodel",
+            "id": "Submodel_ConnectionPoint_8babecfb_57ea_4ee3_bead_8f39e164f576",
+            "submodelElements": [
+                {
+                    "idShort": "connection_point_id",
+                    "modelType": "Property",
+                    "value": "8babecfb-57ea-4ee3-bead-8f39e164f576",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connection_point_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Bus 10",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "connected_equipment_count",
+                    "modelType": "Property",
+                    "value": 7,
+                    "valueType": "xs:int"
+                },
+                {
+                    "idShort": "connected_equipment",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [],
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Equipment connected to this connection point"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "PowerTransformer_MV1_101_LV1_101_Trafo_1",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerTransformer_69f8abcc_65ab_4630_b60c_676749f25152",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "69f8abcc-65ab-4630-b60c-676749f25152",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "MV1.101-LV1.101-Trafo 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerTransformer",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_14",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_d4e1eed9_2f16_4048_8d85_2cd42b716c5e",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d4e1eed9-2f16-4048-8d85-2cd42b716c5e",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 14",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_8",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_d8d8c465_4881_4285_a896_7bf9b0c575ca",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d8d8c465-4881-4285-a896-7bf9b0c575ca",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_23",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_c0320816_2225_4a69_8994_ffbbf4675aba",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "c0320816-2225-4a69-8994-ffbbf4675aba",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 23",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_18",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_c9db08e8_5e30_4619_bfd2_b507120a0530",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "c9db08e8-5e30-4619-bfd2-b507120a0530",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 18",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_10",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_b980117b_b299_4f8e_ac30_375b54d5ce72",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "b980117b-b299-4f8e-ac30-375b54d5ce72",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 10",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_17",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_d965a614_6cf3_417a_844f_e4d23d41db2a",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d965a614-6cf3-417a-844f-e4d23d41db2a",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 17",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_12",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_ef306d4d_6b69_463f_9780_e2b538f627a0",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "ef306d4d-6b69-463f-9780-e2b538f627a0",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 12",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_7",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_acd97424_146a_41cf_94c7_2c85404ff460",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "acd97424-146a-41cf-94c7-2c85404ff460",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_9",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_cc8e4e07_0063_40a9_8fbc_2fa053262f05",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "cc8e4e07-0063-40a9-8fbc-2fa053262f05",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 9",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_20",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_ee5ca52c_f7dc_460a_860e_74cd1919c881",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "ee5ca52c-f7dc-460a-860e-74cd1919c881",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 20",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_21",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_9a1cc8f1_da23_4d65_ba0d_fb6b8d3378d8",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "9a1cc8f1-da23-4d65-ba0d-fb6b8d3378d8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 21",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_16",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_d5e74ac1_7609_424d_b3b1_294806a33b91",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d5e74ac1-7609-424d-b3b1-294806a33b91",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 16",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_1",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_bd732fca_98b5_458e_bfa7_6f2b4e5b8a9b",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "bd732fca-98b5-458e-bfa7-6f2b4e5b8a9b",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_27",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_717b3a1b_1bec_478a_b2f7_fb5ce55c72e7",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "717b3a1b-1bec-478a-b2f7-fb5ce55c72e7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 27",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_4",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_8640d52e_c4b1_4e25_a358_c6ffe3605196",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "8640d52e-c4b1-4e25-a358-c6ffe3605196",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_28",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_86f3ef1b_6f8c_4319_9cc0_049feb03bcd3",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "86f3ef1b-6f8c-4319-9cc0-049feb03bcd3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 28",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_24",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_1bcec746_2845_4b8b_9d1e_7eadcd576ea8",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "1bcec746-2845-4b8b-9d1e-7eadcd576ea8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 24",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_15",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_1f8c2995_036b_4ea4_afe9_25ea47472ab8",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "1f8c2995-036b-4ea4-afe9-25ea47472ab8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 15",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_25",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_33e1c937_da6f_4918_abfd_6c35516bda81",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "33e1c937-da6f-4918-abfd-6c35516bda81",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 25",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_6",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_4b99956e_1f01_4f47_82fb_385e29db912c",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "4b99956e-1f01-4f47-82fb-385e29db912c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_3",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_4e25bd50_50bc_4b75_b4bf_eee6e1274f88",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "4e25bd50-50bc-4b75-b4bf-eee6e1274f88",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_5",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_63309068_5ff3_40f5_b68c_3e2d763f959a",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "63309068-5ff3-40f5-b68c-3e2d763f959a",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_19",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_3c0af105_05f9_48c3_a9db_6285bf71d5cc",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "3c0af105-05f9-48c3-a9db-6285bf71d5cc",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 19",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_13",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_8062ccee_ea7f_4cc8_b1be_dbb25c0ddf06",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "8062ccee-ea7f-4cc8-b1be-dbb25c0ddf06",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 13",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_22",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_68532dbf_bbb9_4663_ae1f_a64b46d12293",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "68532dbf-bbb9-4663-ae1f-a64b46d12293",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 22",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_26",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_69694007_f9b5_475c_9f76_b39a31b26d5c",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "69694007-f9b5-475c-9f76-b39a31b26d5c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 26",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_11",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_84e69160_a70e_4711_9372_33fb914b760c",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "84e69160-a70e-4711-9372-33fb914b760c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 11",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ConformLoad_LV1_101_Load_2",
+            "modelType": "Submodel",
+            "id": "Submodel_ConformLoad_cfcc222a_879f_4cb5_a4c8_9611016e5faa",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "cfcc222a-879f-4cb5-a4c8-9611016e5faa",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Load 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ConformLoad",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_12",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_7c6406fd_71ff_411d_8178_d0bd7dfbafd1",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "7c6406fd-71ff-411d-8178-d0bd7dfbafd1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 12",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00335003,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00130346,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0162072,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_4",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_5767e3e0_fdd1_41eb_bdcf_29ff4f5f60ff",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "5767e3e0-fdd1-41eb-bdcf-29ff4f5f60ff",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00369706,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00143849,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0178861,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_10",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_bcd5284b_3b3f_4ed5_a6d3_32c335f2446d",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "bcd5284b-3b3f-4ed5-a6d3-32c335f2446d",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 10",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.0273875,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.0106562,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.132499,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_3",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_e98486ad_e8d4_42d4_9c79_b0b32c0228b9",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "e98486ad-e8d4-42d4-9c79-b0b32c0228b9",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.0102967,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00400632,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0498145,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_5",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_c6806465_3c28_4c5b_acbf_3dde3a004def",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "c6806465-3c28-4c5b-acbf-3dde3a004def",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00332564,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00129397,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0160892,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_7",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_fc7a7c2d_c14a_479d_b7a8_212a08efce56",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "fc7a7c2d-c14a-479d-b7a8-212a08efce56",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00106267,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.000413474,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.00514112,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_1",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_b10beea1_662b_4647_bf25_1ac89cada4e2",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "b10beea1-662b-4647-bf25-1ac89cada4e2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.011527,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00448503,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0557667,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_9",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_ab415304_d9bd_4bcd_ab30_57cefd90f701",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "ab415304-d9bd-4bcd-ab30-57cefd90f701",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 9",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.0283623,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.0110355,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.137215,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_13",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_101eb38e_1094_44b3_abc2_feddbb5ba623",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "101eb38e-1094-44b3-abc2-feddbb5ba623",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 13",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00951136,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00370077,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0460153,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_2",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_10df73d0_7469_41e7_a6d4_612185e7999c",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "10df73d0-7469-41e7-a6d4-612185e7999c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.0110742,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00430886,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0535763,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_6",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_25198c2c_723f_422f_bad7_a7b5d4ec1d4f",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "25198c2c-723f-422f-bad7-a7b5d4ec1d4f",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.00511915,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.00199181,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.0247661,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_8",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_8252df2b_a10d_4faf_b029_d493656c08b2",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "8252df2b-a10d-4faf-b029-d493656c08b2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.000443775,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.000172668,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.00214695,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "ACLineSegment_LV1_101_Line_11",
+            "modelType": "Submodel",
+            "id": "Submodel_ACLineSegment_23dd5c28_4e16_498c_b337_20cb8040c4a6",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "23dd5c28-4e16-498c-b337-20cb8040c4a6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Line 11",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "ACLineSegment",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "resistance",
+                    "modelType": "Property",
+                    "value": 0.000533817,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Resistance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "reactance",
+                    "modelType": "Property",
+                    "value": 0.000207703,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Reactance per unit length"
+                        }
+                    ]
+                },
+                {
+                    "idShort": "length",
+                    "modelType": "Property",
+                    "value": 0.00258257,
+                    "valueType": "xs:double",
+                    "description": [
+                        {
+                            "language": "en",
+                            "text": "Length of the line segment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "idShort": "BatteryUnit_LV1_101_Storage_4",
+            "modelType": "Submodel",
+            "id": "Submodel_BatteryUnit_3a2e77e7_8cd7_2ae2_4812_a73ad979e75c",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "3a2e77e7-8cd7-2ae2-4812-a73ad979e75c",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "BatteryUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "BatteryUnit_LV1_101_Storage_1",
+            "modelType": "Submodel",
+            "id": "Submodel_BatteryUnit_38245476_0a65_a105_3bbc_660f53f882a3",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "38245476-0a65-a105-3bbc-660f53f882a3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "BatteryUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "BatteryUnit_LV1_101_Storage_5",
+            "modelType": "Submodel",
+            "id": "Submodel_BatteryUnit_44fb77e6_7d55_f61c_02d2_a05a4e97ebf5",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "44fb77e6-7d55-f61c-02d2-a05a4e97ebf5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "BatteryUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "BatteryUnit_LV1_101_Storage_2",
+            "modelType": "Submodel",
+            "id": "Submodel_BatteryUnit_0c54dbe0_e96b_6ac6_d1e1_1bbeaf73cf44",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "0c54dbe0-e96b-6ac6-d1e1-1bbeaf73cf44",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "BatteryUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "BatteryUnit_LV1_101_Storage_3",
+            "modelType": "Submodel",
+            "id": "Submodel_BatteryUnit_b2010b32_75bb_c635_05e9_ca7c91347f91",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "b2010b32-75bb-c635-05e9-ca7c91347f91",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "BatteryUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_3",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_71981e30_c91b_941e_c0bd_fc3fac3b84b3",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "71981e30-c91b-941e-c0bd-fc3fac3b84b3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_4",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_81cce2ce_317b_e1c0_3d11_ac8ec620e791",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "81cce2ce-317b-e1c0-3d11-ac8ec620e791",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_5",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_c9e80384_4d61_ea7b_268d_0790337f3760",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "c9e80384-4d61-ea7b-268d-0790337f3760",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_2",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_38f5d291_bbf5_7e90_c4b2_9505a2ea8505",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "38f5d291-bbf5-7e90-c4b2-9505a2ea8505",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_7",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_d9fd9188_471b_9bf4_30a5_44ea7c4c64a6",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d9fd9188-471b-9bf4-30a5-44ea7c4c64a6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_8",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_817d9481_6265_d392_e357_a1ad379c0651",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "817d9481-6265-d392-e357-a1ad379c0651",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_6",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_5c593437_b5cc_7d09_7251_fd5b3cdf3dc0",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "5c593437-b5cc-7d09-7251-fd5b3cdf3dc0",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PhotoVoltaicUnit_LV1_101_SGen_1",
+            "modelType": "Submodel",
+            "id": "Submodel_PhotoVoltaicUnit_ed94cef6_ee9c_4d52_96c4_8d05767b6de3",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "ed94cef6-ee9c-4d52-96c4-8d05767b6de3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PhotoVoltaicUnit",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_Storage_1",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_3a541130_2b07_459b_923c_ec95d5316371",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "3a541130-2b07-459b-923c-ec95d5316371",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_5",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_677faa23_6a77_4a56_9e2f_2580a7072599",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "677faa23-6a77-4a56-9e2f-2580a7072599",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_2",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_749269d3_1735_4c02_817f_e7232239fa38",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "749269d3-1735-4c02-817f-e7232239fa38",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_Storage_3",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_b14e2a4d_d058_491f_addf_64dbc13b9253",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "b14e2a4d-d058-491f-addf-64dbc13b9253",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_Storage_5",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_7576f8b7_6a1d_4633_bd1b_decddf0591e9",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "7576f8b7-6a1d-4633-bd1b-decddf0591e9",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 5",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_1",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_d34df7b2_1484_445f_8396_0fe5616f0aaf",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "d34df7b2-1484-445f-8396-0fe5616f0aaf",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 1",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_4",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_6bef0467_8e72_43a7_846f_6d09de077809",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "6bef0467-8e72-43a7-846f-6d09de077809",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_Storage_2",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_89bdf72c_d3ab_4982_b0d8_28f86cfeeb2e",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "89bdf72c-d3ab-4982-b0d8-28f86cfeeb2e",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 2",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_3",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_0054afcf_8d67_4211_8c69_c4dc3a41dc82",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "0054afcf-8d67-4211-8c69-c4dc3a41dc82",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 3",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_Storage_4",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_3da95dff_f867_446a_9226_3f661e18e50f",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "3da95dff-f867-446a-9226-3f661e18e50f",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 Storage 4",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_7",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_911b0a86_fe2e_436e_9a24_f3f7aecdcb24",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "911b0a86-fe2e-436e-9a24-f3f7aecdcb24",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 7",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_8",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_aa096c15_7008_4b19_8534_b0886f5cce14",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "aa096c15-7008-4b19-8534-b0886f5cce14",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 8",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "PowerElectronicsConnection_LV1_101_SGen_6",
+            "modelType": "Submodel",
+            "id": "Submodel_PowerElectronicsConnection_ff1bbb84_7299_430b_9f78_f74a89231471",
+            "submodelElements": [
+                {
+                    "idShort": "asset_id",
+                    "modelType": "Property",
+                    "value": "ff1bbb84-7299-430b-9f78-f74a89231471",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_name",
+                    "modelType": "Property",
+                    "value": "LV1.101 SGen 6",
+                    "valueType": "xs:string"
+                },
+                {
+                    "idShort": "asset_type",
+                    "modelType": "Property",
+                    "value": "PowerElectronicsConnection",
+                    "valueType": "xs:string"
+                }
+            ]
+        },
+        {
+            "idShort": "Netzlokation",
+            "modelType": "Submodel",
+            "id": "Submodel_Netzlokation",
+            "submodelElements": [
+                {
+                    "idShort": "total_connection_points",
+                    "modelType": "Property",
+                    "value": 15,
+                    "valueType": "xs:int"
+                }
+            ]
+        },
+        {
+            "idShort": "Messlokation",
+            "modelType": "Submodel",
+            "id": "Submodel_Messlokation",
+            "submodelElements": [
+                {
+                    "idShort": "total_measurement_points",
+                    "modelType": "Property",
+                    "value": 85,
+                    "valueType": "xs:int"
+                }
+            ]
+        },
+        {
+            "idShort": "Marktlokation",
+            "modelType": "Submodel",
+            "id": "Submodel_Marktlokation",
+            "submodelElements": [
+                {
+                    "idShort": "market_zone",
+                    "modelType": "Property",
+                    "value": "Default_Zone",
+                    "valueType": "xs:string"
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

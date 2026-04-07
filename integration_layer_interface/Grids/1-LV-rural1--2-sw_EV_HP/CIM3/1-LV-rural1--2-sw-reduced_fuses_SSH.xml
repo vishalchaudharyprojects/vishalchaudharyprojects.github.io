@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with PowerFactory 2024 SP1 (x64) (digcimdb.dll ServicePack 0) -->
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:eu="http://iec.ch/TC57/CIM100-European#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <md:FullModel rdf:about="urn:uuid:0b0578ec-cc6f-452c-8cd2-892ab75ec144">
+    <md:Model.DependentOn rdf:resource="urn:uuid:8db81b56-9ea5-4424-baf3-e68b8b6e9407" />
+    <md:Model.created>2026-01-23T14:34:09Z</md:Model.created>
+    <md:Model.modelingAuthoritySet>unset</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
+    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+  </md:FullModel>
+  <cim:Equipment rdf:about="#_090690f1-5f9a-5339-d24b-c1b9f698e794">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_9294b031-96fb-be34-747f-2b5db5f0f177">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_fb158881-3f16-422c-8878-be4307b9bde8">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_9b05b4de-fa91-4d16-af28-1c1df4642ac8">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_b162d093-0ee1-438c-bfff-1fd5ec76a77a">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_4f8225f5-a0db-9eec-42d8-65f473062891">
+    <cim:BatteryUnit.batteryState rdf:resource="http://iec.ch/TC57/CIM100#BatteryStateKind.discharging" />
+    <cim:BatteryUnit.storedE>0</cim:BatteryUnit.storedE>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_da864685-3b7c-484e-582e-1175da6eb826">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_953280e0-354a-851e-dcf2-72ccf2cc6d9a">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_6f9eb9ef-57b7-19e4-b82b-66efc6840706">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_cf58bdc3-3cad-4a9e-82d9-399a4f6c9a0e">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_b10efd50-2156-aa6f-289e-025468362ae0">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_ee5ccc01-4b1b-4862-bdf8-814833c3a90b">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_f33331ea-97de-4ee8-ac16-1cd559e64705">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_0d85f312-6e86-bf3f-f423-f3ddd6a08783">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_22ae08e7-ae1f-0ff0-3981-c1b05d407ae2">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_4a7ea05e-040c-4f20-4716-b4fc29ec39ea">
+    <cim:BatteryUnit.batteryState rdf:resource="http://iec.ch/TC57/CIM100#BatteryStateKind.discharging" />
+    <cim:BatteryUnit.storedE>0</cim:BatteryUnit.storedE>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_fcfbf67a-c839-4815-9f83-17851f3c2893">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_7c92b938-fc2e-3e79-9015-55e49ff5765d">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_e660cd09-75f9-f6a2-d3ec-b17fde4c747f">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_38c4a671-59d8-c781-6f46-fb80f34f11c7">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_36068e19-a5f8-9eda-20c3-d1ea96f6f4fc">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Equipment rdf:about="#_e6e009d1-d7d6-a451-3ec4-f2cd2a6fcb07">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
+  <cim:Terminal rdf:about="#_0313e59a-1497-aee1-6756-cde5c1b73f6d">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_57461d8b-a2f3-db00-72c4-a258018d873e">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_52434f8f-0255-b40d-8353-da373b5fe302">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e504d829-7e34-4fda-10c7-c680477963f0">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_87346db5-83f2-66e1-5fc7-22917f62af78">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bbbbe272-173e-1d9a-9900-6e4fd99c514d">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_325429b4-7405-a329-bff7-b0703858b112">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3d8634dc-4855-e02e-010f-4c64ddcf6127">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_53d3d190-f0a5-cf81-f128-e83d9e7c61dc">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_020b6629-56c1-b1dc-a721-ce5939b6746b">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ae4911fe-5179-4549-e990-15dfe72eb166">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1dbd083f-2cee-9afc-9bce-ba1e5826bb74">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_66f71448-78b4-affe-7e43-5da7c01e9e01">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_645fa56f-f4c7-aabb-040b-dacd231df223">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_174604a9-e9d4-041f-38f5-7f9365754f5d">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9249a62a-c4f0-15af-8175-3c0e03c9a7b6">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1831a983-f62d-38aa-c036-a5a292d82147">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bdeb9c71-47f3-ed70-3645-75dba3cd47e0">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6c6dbcec-bedd-2d96-e783-a193318a844c">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c418210d-1497-9221-af8e-301ae11a95ad">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_04d052db-5b2d-796c-3551-4ad68893ae0e">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_23301f28-217e-3fa7-2907-36ce87643d40">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b6f7a58c-23a1-791a-578f-ec89be8ba9c0">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c97ce089-c7c1-112b-54f0-0ad0054ce5da">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_06fd58b7-f911-f95c-0616-2b63b8af7f19">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_73314ad9-f679-78eb-ddce-ebb3f96dae1c">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4629034e-8374-cf4d-de25-c52cf60af2ea">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b5128d41-0a6f-477c-aab1-697fcd58bb65">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2de1957b-32da-efcc-a02a-401fb2e8b8c8">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4a91d291-ed31-ce80-0b5c-9d0d81133763">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1c957e2c-7862-66f3-ecea-2a9ecba2cc4a">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_88549711-65f8-26a0-84d4-7bac966b8fbd">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8a5d6d8a-7939-1f5a-5fb7-c4ec6a26a655">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fe963a4f-9a73-3911-a752-4c9c5dc6c8af">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9639da3c-a8b5-78e9-9694-f811e8bbce24">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b3e0a55e-2d1f-e1a3-251a-e47b13db4414">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f50482ce-e908-9efd-55dc-aa9135dd15c4">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8ac628ff-05ba-73f1-8c0f-b4d7e95b0db1">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c6213191-00a3-0d16-b2c2-30603493cc52">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1d2e6102-3b62-c6e9-7b72-e81657f366b9">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d87630a3-9fc1-8540-e5dc-601eb421961c">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4b71efa8-542f-d3f9-ca04-1eea78ee818f">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:VoltageLimit rdf:about="#_842f1544-1313-a11b-8968-4376fc628778">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_541fe90e-2354-8ebc-e65b-eb95aa722c79">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_b8108f98-c967-f705-34b2-68e5114466da">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_cb8a7dc3-9241-7472-8bff-3553458a8fc1">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_3104691c-801e-507b-9b41-ad0ce07c7ef2">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_1e69f619-6bea-58d1-f33f-9c0793df2523">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_1013c9f8-739b-865e-a757-69cf8c5d150c">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_1729937e-aa33-24b3-18ba-a4ae8126698f">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_f90fb582-cf50-22c1-1dc9-5733f63a0102">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_3c85c742-4355-9fe6-4882-c56ffddc161a">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_1e3c9d05-995b-0754-9beb-ceec82a38041">
+    <cim:VoltageLimit.value>19.3</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_5534b9fd-f4d6-5ffc-f75d-299684242dea">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_3f8c3cab-51d4-3772-3d9b-cb7fb86a67fa">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_14b9a9b5-a691-d1e5-d3ae-c21dfcc7cb22">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_dc609f82-136b-6156-f722-5d45056edcab">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_a35619c0-a93c-bde9-faa9-2cb5e2abc8b4">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_46a12f78-7ebf-ec45-06bb-d8a81fb3a452">
+    <cim:VoltageLimit.value>21.1</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_9561b28c-c7e7-cbdd-9506-8493877ba4e6">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_289e9076-c37e-489d-37b9-f7f5fb6f3309">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_5c58bc5b-d5ad-b606-ccac-8462269a19cd">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_0740e224-b9b2-dbd6-3cc4-06c05bd91f27">
+    <cim:VoltageLimit.value>0.36</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:VoltageLimit rdf:about="#_521c5a1b-7645-a8dc-7773-802457d54da4">
+    <cim:VoltageLimit.value>0.44</cim:VoltageLimit.value>
+  </cim:VoltageLimit>
+  <cim:ExternalNetworkInjection rdf:about="#_1bc64331-02a4-463b-ab54-f419c4c1b86a">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:ExternalNetworkInjection.p>0</cim:ExternalNetworkInjection.p>
+    <cim:ExternalNetworkInjection.q>0</cim:ExternalNetworkInjection.q>
+    <cim:ExternalNetworkInjection.referencePriority>1</cim:ExternalNetworkInjection.referencePriority>
+    <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+  </cim:ExternalNetworkInjection>
+  <cim:CurrentLimit rdf:about="#_21a394c9-f270-3bd5-9f74-3ade0c7f5d38">
+    <cim:CurrentLimit.value>4.6188</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_6ec570bb-0e31-9515-50ce-201f586904d4">
+    <cim:CurrentLimit.value>230.94</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_7f508ec1-ae3c-0be9-3ba3-6e1ca8d1bc50">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_a7440034-be18-7101-5e89-7aea06214017">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_6961e3bf-008b-6979-5fa2-a0b080d41cec">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_911d0f0f-87c5-f5e5-3cb1-5de1b8f3997c">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_bac48d5c-6b3d-ffb9-44ea-4f411af99342">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_3c7d6565-1e24-bf9f-5e60-1efaba2a9b27">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_dac5e565-fcc8-6f52-6add-86815641c3c2">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_8174ed6e-6647-a208-a43c-84c982dbaf97">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_676caed1-f751-3a08-9d46-01a651a682a0">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_1effdc53-cbba-167e-4b97-ed34890b4b75">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_957ae2bf-e1ac-ba2d-96f3-c9072576a93e">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:CurrentLimit rdf:about="#_3770216d-b7c3-885c-bd18-4a660a2aeb19">
+    <cim:CurrentLimit.value>270</cim:CurrentLimit.value>
+  </cim:CurrentLimit>
+  <cim:Fuse rdf:about="#_b8485418-d738-41b0-a223-1df96f3659be">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:Switch.locked>false</cim:Switch.locked>
+    <cim:Switch.open>false</cim:Switch.open>
+  </cim:Fuse>
+  <cim:Fuse rdf:about="#_e981f720-ba44-4a50-bbc7-49efabc1d85e">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:Switch.locked>false</cim:Switch.locked>
+    <cim:Switch.open>false</cim:Switch.open>
+  </cim:Fuse>
+  <cim:Fuse rdf:about="#_a5a2b8a5-11ec-4e6c-aa9e-974084d3211e">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:Switch.locked>false</cim:Switch.locked>
+    <cim:Switch.open>false</cim:Switch.open>
+  </cim:Fuse>
+  <cim:PowerElectronicsConnection rdf:about="#_b93174fc-4624-4e57-8e7c-6eb95f02bfc2">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:PowerElectronicsConnection.p>-0.04</cim:PowerElectronicsConnection.p>
+    <cim:PowerElectronicsConnection.q>0</cim:PowerElectronicsConnection.q>
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+  </cim:PowerElectronicsConnection>
+  <cim:PowerElectronicsConnection rdf:about="#_4ed51ad2-af49-4525-a7e3-597f3c4b9a6f">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:PowerElectronicsConnection.p>0</cim:PowerElectronicsConnection.p>
+    <cim:PowerElectronicsConnection.q>0</cim:PowerElectronicsConnection.q>
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+  </cim:PowerElectronicsConnection>
+  <cim:PowerElectronicsConnection rdf:about="#_90adaf86-7020-47e0-b7f4-a73b924ccccc">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:PowerElectronicsConnection.p>0</cim:PowerElectronicsConnection.p>
+    <cim:PowerElectronicsConnection.q>0</cim:PowerElectronicsConnection.q>
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+  </cim:PowerElectronicsConnection>
+  <cim:PowerElectronicsConnection rdf:about="#_915bb62b-9356-402d-bfe8-4a018e63b2f1">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:PowerElectronicsConnection.p>-0.0245</cim:PowerElectronicsConnection.p>
+    <cim:PowerElectronicsConnection.q>0</cim:PowerElectronicsConnection.q>
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+  </cim:PowerElectronicsConnection>
+  <cim:RegulatingControl rdf:about="#_640560af-2ef7-f6d5-8bbe-1422035c366d">
+    <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+    <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+    <cim:RegulatingControl.targetValue>20.5</cim:RegulatingControl.targetValue>
+    <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+  </cim:RegulatingControl>
+  <cim:ConformLoad rdf:about="#_242b705e-5e49-48d4-bfc2-c0dbc3c3f11b">
+    <cim:EnergyConsumer.p>0.0119</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0046</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:ConformLoad rdf:about="#_c8c43b34-744b-44b3-a1ed-d76b99535209">
+    <cim:EnergyConsumer.p>0.003</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0012</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:ConformLoad rdf:about="#_9a698eb3-a024-4d99-b027-10f2de76ebce">
+    <cim:EnergyConsumer.p>0.004</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0016</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:ConformLoad rdf:about="#_72940015-af65-4bda-989d-1a1c248a553d">
+    <cim:EnergyConsumer.p>0.004</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0016</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:ConformLoad rdf:about="#_146f9317-becb-434b-835f-11d8cdc9889c">
+    <cim:EnergyConsumer.p>0.0109</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0043</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:ConformLoad rdf:about="#_7c26acc0-7711-42a1-8bb0-4da9086650ac">
+    <cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>0.0008</cim:EnergyConsumer.q>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:ConformLoad>
+  <cim:RatioTapChanger rdf:about="#_6153d82d-0dc7-cf47-2360-456bd9873f2e">
+    <cim:TapChanger.controlEnabled>false</cim:TapChanger.controlEnabled>
+    <cim:TapChanger.step>1</cim:TapChanger.step>
+  </cim:RatioTapChanger>
+</rdf:RDF>

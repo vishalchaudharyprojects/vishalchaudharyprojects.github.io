@@ -1,0 +1,14 @@
+﻿Datapoint;unit;value
+Max. Schallleistungspegel Lwa;dB;52
+Bemessungs_Stehwechselspannung 50 Hz 1 min;kV;28.10
+Bemessungs_Stoßspannung_50_Hz, 1 min;kV;60.20
+Windungspruefung 10 Hz;kV;0.8
+Wicklungstemperatur bei Nennleistung;K;65
+Maximale Oeltemperatur;K;60
+Wicklungsmaterial;NAN;Aluminium
+Art des Tanks;NAN;Transformator Hermetisch
+Laenge;mm;1310
+Breite;mm;960
+Hoehe auf Raedern;mm;1780
+Oelvolumen;l;607
+Gewicht;kg;2038

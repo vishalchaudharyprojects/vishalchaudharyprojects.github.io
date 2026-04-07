@@ -1,0 +1,61 @@
+@startuml
+skinparam sequence {
+    ParticipantBackgroundColor #B5E3FF
+    ActorBackgroundColor #FFE4B5
+    LifeLineBackgroundColor #C9FFC9
+}
+
+actor User as U
+participant "process_cim_eq_to_aasx" as P
+participant "CIMEQToAASXConverter" as C
+participant "GL Parser" as G
+participant "AAS Creator" as A
+participant "File Writer" as F
+
+U -> P: process_cim_eq_to_aasx(cim_eq_path, output_dir, cim_gl_path)
+P -> C: __init__(cim_eq_file, output_dir, cim_gl_file)
+activate C
+
+C -> C: _build_element_cache()
+C -> G: _parse_gl_file()
+activate G
+G -> G: Parse PositionPoints
+G -> G: Map Locations to Assets
+G -> G: Propagate locations
+G --> C: location_data
+deactivate G
+
+U -> C: convert()
+activate C
+
+C -> A: Create System AAS
+activate A
+A -> A: Create Registries
+A --> C: system_aas
+
+loop For each asset type
+    C -> A: Create Asset AAS
+    A -> A: Create Technical Submodel
+    A -> A: Create Location Submodels
+    A --> C: asset_aas
+end
+
+C -> A: Build Hierarchy
+activate A
+A -> A: PowerSystem → Substation
+A -> A: Substation → PowerTransformer
+A -> A: PowerTransformer → ConnectivityNode
+A -> A: ConnectivityNode → Other Assets
+A --> C: hierarchy_built
+deactivate A
+
+C -> F: write_aas_to_file(all_objects, output_file)
+activate F
+F --> C: file_written
+deactivate F
+
+C --> U: Conversion Result
+deactivate C
+deactivate P
+
+@enduml

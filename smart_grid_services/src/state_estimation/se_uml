@@ -1,0 +1,72 @@
+@startuml SmartGridStateEstimation_Sequence
+
+actor User as User
+participant "Flask API" as API
+participant "Scheduler" as Scheduler
+participant "SE Main" as SEMain
+participant "SE Connector" as SEConnector
+participant "CIM Data" as CIM
+participant "Measurements\n(CSV/InfluxDB)" as Measurements
+participant "SE Processor" as SEProcessor
+participant "SE Mapping" as SEMapping
+participant "SE Execution" as SEExecution
+participant "PandaPower" as PP
+participant "AAS Writer" as AASWriter
+participant "BaSyx AAS" as BaSyx
+
+== Initialization ==
+User -> API: POST /api/se/start\n{interval_sec: 30}
+API -> Scheduler: start_background_loop(30s)
+Scheduler -> SEMain: load_config()
+SEMain -> CIM: load_cim_xml()
+CIM --> SEMain: grid_topology
+SEMain -> Measurements: connect_source()
+Measurements --> SEMain: measurement_source
+
+== State Estimation Cycle ==
+loop Every 30 seconds
+  Scheduler -> SEMain: run_state_estimation_pipeline()
+
+  SEMain -> SEConnector: get_node_measurements()
+  SEConnector -> CIM: get_connectivity_nodes()
+  CIM --> SEConnector: node_list
+  SEConnector -> Measurements: latest_by_node()
+  Measurements --> SEConnector: raw_measurements
+  SEConnector --> SEMain: node_measurements
+
+  SEMain -> SEProcessor: prepare_state_estimation_inputs()
+  SEProcessor -> SEMapping: get_measurement_details()
+  SEMapping --> SEProcessor: element_type, element_name
+  SEProcessor --> SEMain: se_inputs {z, index_map, R}
+
+  SEMain -> SEExecution: run_state_estimation()
+  SEExecution -> PP: create_measurements()
+  SEExecution -> PP: estimate() [WLS Algorithm]
+  PP --> SEExecution: vm_pu, va_degree
+  SEExecution --> SEMain: se_results
+
+  alt Estimation Converged
+    SEMain -> AASWriter: write_estimates_to_aas()
+    AASWriter -> BaSyx: push_live_update()
+    BaSyx --> AASWriter: success
+    AASWriter --> SEMain: aas_updated
+  else Estimation Failed
+    SEMain -> SEMain: log_error()
+  end
+
+  SEMain --> Scheduler: update_status()
+end
+
+== API Monitoring ==
+User -> API: GET /api/se/status
+API --> User: {running: true, last_run: "...", error: null}
+
+User -> API: POST /api/se/run-once
+API -> SEMain: run_state_estimation_pipeline()
+SEMain --> API: immediate_results
+
+User -> API: POST /api/se/stop
+API -> Scheduler: stop_background_loop()
+Scheduler --> API: stopped
+
+@enduml

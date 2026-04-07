@@ -1,0 +1,83 @@
+Cim_gen:
+    verbose: False
+    grid:
+        name: 1-LV-rural1--2-no_sw_EV_HP #1-LV-rural1--2-no_sw_EV_HP #name of the grid in "Grids" folder or a simbench grid code
+        auxiliary_nodes: AZ
+        input_dataformat: cim3 # cim2, cim3, scd, csv, simbench, gis
+        input_coordinates: AI #GL: Geographical coordinates, CIM coordinates
+        input_datasource: local #s3, local
+        meas_input: code # code, csv, code automatically generates the measurement scenario
+        meas_scenario: 1 # 1: Smart Meters at every hh, cdc and dlss with measurements at every feeder
+    module:
+        type: simulation #simulation, converter
+        function: pf  #pf, sc, se, pc
+    functions:
+        powerflow:
+            calculate_voltage_angles: true
+            max_iteration: 50
+            tolerance_mva: 1e-3
+        stateestimation:
+            max_iteration: 25
+            tolerance: 1e-6
+            timing:
+                is_timed: True
+                no_times: 100 #number of timings
+                export_time: True
+    converter:
+        output_dataformat: scd_household_generator # cim, scl/scd, tse, scd_household_generator, tse_lv_generator
+        consider_switches: True
+        scd_generator:
+            prefix: IED_
+            suffix: ""
+            master_device: IED_Master
+            monitoring_device: IED_Monitoring
+            voltlevel: K1 # voltage Level: K1 = 10.000 V
+            current_transformer: 1333.33 # ratios for current sensors from Zelisko: 300 A / 0.225 V
+            voltage_transformer: 3076.92 # ratios for voltage sensors from Zelisko: 10000 V / 3.25 V
+            testValues: True  # Test values for cVal requires a previous State Estimation
+            printFunction: false  # Printmeasurement function in Measurement IEDs
+            nameSeparator: true # if underscores are to be used for separating station names
+        tse_generator:
+            voltage_profile: false # profile for voltage at slack node
+            profiles: false
+            time_factor: 20  # change operating in every "time_factor"-seconds
+            consider_meters: true
+            communication: #modbus, iec61850mms
+            compile_model: false # compilation test after model generation
+            information_comments: true # text boxes for number of switches and measurements
+            hold_load: true  # hold load for "time_factor/2" seconds to take measurements
+            model_scale: 2 # geographical parameter -> Cigre grid:15
+            cluster_size: 5 # nodes in one core (hints: 1 Core: 5 nodes with Loads and 5 meters in total. As more components (switches e.g.) as smaller the size. Maximum 8 cores in HIL 606 available! Number -1 means self defined Coure Coupling position
+            core_couplings: [ ] #specific name of line for place core couplings
+        scd_node_generation:
+            scenario: STB + SteuVE # STB + SteuVE, STB + SteuVE + DER, SMGW + SteuVE + DER, SMGW + EMS
+            node: LV1101Bus4 #LV1101Bus14, LV1101Bus4, LV1101Bus2 #bus that is supposed to be generated, has to be the same as in gridData['topology']
+            iMSys:
+                TAF: 10 # TAF 10 is as of now supported
+                delta_t: 15 # seconds between two measurements
+                limits: False #werden minima und maxima über einen Zeitraum getrackt
+                modbus_datasheet: Smart_Meter_Typhoon_V1.csv #csv file with the modbus data for the IED
+                current_transformer: # to add the ratio of the current transformer attached to the current measurement
+            dCDC_and_dLSS:
+                one_IED_per_node: False #one IED per node or one IED per feeder? (base container or no base container), Base Container will only be implemented for mms, no base container ("False") depends on the IED.
+                delta_t: 15 #seconds between two measurements
+                plc_modbus_datasheet: Fuse_Typhoon_V1.csv # PG_DigitalFuseStrip.csv #csv file with the modbus data for a plc for all the feeders
+                feeder_modbus_datasheet: "" #csv file with the modbus datasheet for a feeder
+            dGCP:
+                ems: True #ems or no ems, meaning direct communication to the IEDs
+                delta_t: 15 #seconds between two reports from the DER and controllable load, i.e. how often do they communicate data (only relevant with mms communication)
+                pv_modbus_datasheet: PV_Typhoon_V1.csv # csv file with the modbus data for the IED
+                ev_modbus_datasheet: EV_Typhoon_V1.csv # csv file with the modbus data for the IED
+                bss_modbus_datasheet: BESS_Typhoon_V1.csv # csv file with the modbus data for the IED
+                hp_modbus_datasheet: "" # csv file with the modbus data for the IED
+            protocol: #commmunication protocol to be inserted in the scd file for the respective IEDs, modbus, mms are supported (future: cosem/dlms?!)
+                iMSys: Modbus-TCP #Modbus
+                dCDC: #Modbus
+                EMS: Modbus-TCP
+                DER: Modbus-TCP
+                Transformer: Modbus-TCP
+                dLSS_Fuse_Strip: Modbus-TCP
+            template_path: "./Base_Module/OutputDataScripts/SCD_GridConnection_Point_Generation/DT_LNs.xml"
+
+
+
