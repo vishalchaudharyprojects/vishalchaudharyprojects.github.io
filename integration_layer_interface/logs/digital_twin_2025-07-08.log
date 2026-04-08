@@ -1,0 +1,663 @@
+2025-07-08 00:01:39 | INFO | Starting Digital Twin Application
+2025-07-08 00:01:39 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 00:01:39 | INFO | Executing parser: asset
+2025-07-08 00:01:39 | INFO | Starting AAS generation process
+2025-07-08 00:01:39 | INFO | Processing all assets in assets folder
+2025-07-08 00:01:39 | INFO | Starting batch AAS generation workflow
+2025-07-08 00:01:39 | INFO | Processing Hesselmann_NAYY-J_4_150_SW from D:\AAS\generate_aasx_from_datasheets\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-07-08 00:01:39 | INFO | Creating new Asset Administration Shell for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 00:01:39 | ERROR | Error creating AAS: The id_short must contain only letters, digits and underscore (Constraint AASd-002)
+2025-07-08 00:01:39 | ERROR | Failed to process D:\AAS\generate_aasx_from_datasheets\assets\Hesselmann_NAYY-J_4_150_SW.csv: The id_short must contain only letters, digits and underscore (Constraint AASd-002)
+2025-07-08 00:01:39 | INFO | Processing intilion_energy_wip from D:\AAS\generate_aasx_from_datasheets\assets\intilion_energy_wip.csv
+2025-07-08 00:01:39 | INFO | Creating new Asset Administration Shell for intilion_energy_wip
+2025-07-08 00:01:39 | INFO | Creating submodels for AAS
+2025-07-08 00:01:39 | ERROR | Error creating AAS: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | ERROR | Failed to process D:\AAS\generate_aasx_from_datasheets\assets\intilion_energy_wip.csv: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | INFO | Processing Ormazabal_velatia_OLTC_misc from D:\AAS\generate_aasx_from_datasheets\assets\Ormazabal_velatia_OLTC_misc.csv
+2025-07-08 00:01:39 | INFO | Creating new Asset Administration Shell for Ormazabal_velatia_OLTC_misc
+2025-07-08 00:01:39 | INFO | Creating submodels for AAS
+2025-07-08 00:01:39 | ERROR | Error creating AAS: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | ERROR | Failed to process D:\AAS\generate_aasx_from_datasheets\assets\Ormazabal_velatia_OLTC_misc.csv: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | INFO | Processing RS_Smart_Solar_48_6000 from D:\AAS\generate_aasx_from_datasheets\assets\RS_Smart_Solar_48_6000.csv
+2025-07-08 00:01:39 | INFO | Creating new Asset Administration Shell for RS_Smart_Solar_48_6000
+2025-07-08 00:01:39 | INFO | Creating submodels for AAS
+2025-07-08 00:01:39 | ERROR | Error creating AAS: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | ERROR | Failed to process D:\AAS\generate_aasx_from_datasheets\assets\RS_Smart_Solar_48_6000.csv: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | INFO | Processing Wallbox_WIP from D:\AAS\generate_aasx_from_datasheets\assets\Wallbox_WIP.csv
+2025-07-08 00:01:39 | INFO | Creating new Asset Administration Shell for Wallbox_WIP
+2025-07-08 00:01:39 | INFO | Creating submodels for AAS
+2025-07-08 00:01:39 | ERROR | Error creating AAS: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | ERROR | Failed to process D:\AAS\generate_aasx_from_datasheets\assets\Wallbox_WIP.csv: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-08 00:01:39 | SUCCESS | Batch AAS generation completed
+2025-07-08 00:01:39 | SUCCESS | AAS generation completed successfully
+2025-07-08 00:53:16 | INFO | Starting Digital Twin Application
+2025-07-08 00:53:16 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 00:53:16 | INFO | Executing parser: asset
+2025-07-08 00:53:16 | INFO | Starting AAS generation process
+2025-07-08 00:53:16 | INFO | Processing all assets in assets folder
+2025-07-08 00:53:16 | INFO | Starting batch AAS generation workflow
+2025-07-08 00:53:16 | INFO | Processing Hesselmann_NAYY-J_4_150_SW from D:\AAS\generate_aasx_from_datasheets\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-07-08 00:53:16 | INFO | Creating new Asset Administration Shell for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 00:53:16 | INFO | Creating submodels for AAS
+2025-07-08 00:53:16 | SUCCESS | AAS created for Hesselmann_NAYY-J_4_150_SW with 18 properties
+2025-07-08 00:53:16 | INFO | AAS JSON written to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 00:53:16 | SUCCESS | Successfully processed Hesselmann_NAYY-J_4_150_SW
+2025-07-08 00:53:16 | INFO | Processing intilion_energy_wip from D:\AAS\generate_aasx_from_datasheets\assets\intilion_energy_wip.csv
+2025-07-08 00:53:16 | INFO | Creating new Asset Administration Shell for intilion_energy_wip
+2025-07-08 00:53:16 | INFO | Creating submodels for AAS
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | SUCCESS | AAS created for intilion_energy_wip with 0 properties
+2025-07-08 00:53:16 | INFO | AAS JSON written to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 00:53:16 | SUCCESS | Successfully processed intilion_energy_wip
+2025-07-08 00:53:16 | INFO | Processing Ormazabal_velatia_OLTC_misc from D:\AAS\generate_aasx_from_datasheets\assets\Ormazabal_velatia_OLTC_misc.csv
+2025-07-08 00:53:16 | INFO | Creating new Asset Administration Shell for Ormazabal_velatia_OLTC_misc
+2025-07-08 00:53:16 | INFO | Creating submodels for AAS
+2025-07-08 00:53:16 | SUCCESS | AAS created for Ormazabal_velatia_OLTC_misc with 13 properties
+2025-07-08 00:53:16 | INFO | AAS JSON written to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 00:53:16 | SUCCESS | Successfully processed Ormazabal_velatia_OLTC_misc
+2025-07-08 00:53:16 | INFO | Processing RS_Smart_Solar_48_6000 from D:\AAS\generate_aasx_from_datasheets\assets\RS_Smart_Solar_48_6000.csv
+2025-07-08 00:53:16 | INFO | Creating new Asset Administration Shell for RS_Smart_Solar_48_6000
+2025-07-08 00:53:16 | INFO | Creating submodels for AAS
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | SUCCESS | AAS created for RS_Smart_Solar_48_6000 with 0 properties
+2025-07-08 00:53:16 | INFO | AAS JSON written to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 00:53:16 | SUCCESS | Successfully processed RS_Smart_Solar_48_6000
+2025-07-08 00:53:16 | INFO | Processing Wallbox_WIP from D:\AAS\generate_aasx_from_datasheets\assets\Wallbox_WIP.csv
+2025-07-08 00:53:16 | INFO | Creating new Asset Administration Shell for Wallbox_WIP
+2025-07-08 00:53:16 | INFO | Creating submodels for AAS
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | WARNING | Skipping property unknown: 'unit'
+2025-07-08 00:53:16 | SUCCESS | AAS created for Wallbox_WIP with 0 properties
+2025-07-08 00:53:16 | INFO | AAS JSON written to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 00:53:16 | SUCCESS | Successfully processed Wallbox_WIP
+2025-07-08 00:53:16 | SUCCESS | Batch AAS generation completed
+2025-07-08 00:53:16 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:04:59 | INFO | Starting Digital Twin Application
+2025-07-08 01:04:59 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:04:59 | INFO | Executing parser: asset
+2025-07-08 01:04:59 | INFO | Starting AAS generation process
+2025-07-08 01:04:59 | INFO | Processing all assets in assets folder
+2025-07-08 01:04:59 | INFO | Starting AAS generation process
+2025-07-08 01:04:59 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:04:59 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:04:59 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:04:59 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:04:59 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:04:59 | INFO | Processing intilion_energy_wip
+2025-07-08 01:04:59 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | WARNING | Missing required field in entry: 'value'
+2025-07-08 01:04:59 | SUCCESS | Created AAS with 0 properties
+2025-07-08 01:04:59 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:04:59 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:04:59 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:04:59 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:04:59 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:04:59 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:04:59 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:04:59 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:04:59 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:04:59 | WARNING | Skipping invalid numeric value: 65 - 450 for MPPT operating voltage range
+2025-07-08 01:04:59 | SUCCESS | Created AAS with 4 properties
+2025-07-08 01:04:59 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:04:59 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:04:59 | INFO | Processing Wallbox_WIP
+2025-07-08 01:04:59 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:04:59 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:04:59 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:04:59 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:04:59 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:04:59 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:06:32 | INFO | Starting Digital Twin Application
+2025-07-08 01:06:32 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:06:32 | INFO | Executing parser: asset
+2025-07-08 01:06:32 | INFO | Starting AAS generation process
+2025-07-08 01:06:32 | INFO | Processing all assets in assets folder
+2025-07-08 01:06:32 | INFO | Starting AAS generation process
+2025-07-08 01:06:32 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:06:32 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:06:32 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:06:32 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:06:32 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:06:32 | INFO | Processing intilion_energy_wip
+2025-07-08 01:06:32 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:06:32 | WARNING | Skipping invalid numeric value: 90% for Usable energy
+2025-07-08 01:06:32 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:06:32 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:06:32 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:06:32 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:06:32 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:06:32 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:06:32 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:06:32 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:06:32 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:06:32 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:06:32 | WARNING | Skipping invalid numeric value: 65 - 450 for MPPT operating voltage range
+2025-07-08 01:06:32 | SUCCESS | Created AAS with 4 properties
+2025-07-08 01:06:32 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:06:32 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:06:32 | INFO | Processing Wallbox_WIP
+2025-07-08 01:06:32 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:06:32 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:06:32 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:06:32 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:06:32 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:06:32 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:08:09 | INFO | Starting Digital Twin Application
+2025-07-08 01:08:09 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:08:09 | INFO | Executing parser: asset
+2025-07-08 01:08:09 | INFO | Starting AAS generation process
+2025-07-08 01:08:09 | INFO | Processing all assets in assets folder
+2025-07-08 01:08:09 | INFO | Starting AAS generation process
+2025-07-08 01:08:09 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:09 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:09 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:08:09 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:08:09 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:09 | INFO | Processing intilion_energy_wip
+2025-07-08 01:08:09 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:08:09 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:08:09 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:08:09 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:08:09 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:09 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:09 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:08:09 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:08:09 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:09 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:08:09 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:08:09 | WARNING | Skipping invalid numeric value: 65-450 for MPPT operating voltage range
+2025-07-08 01:08:09 | SUCCESS | Created AAS with 4 properties
+2025-07-08 01:08:09 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:08:09 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:08:09 | INFO | Processing Wallbox_WIP
+2025-07-08 01:08:09 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:08:09 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:08:09 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:08:09 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:08:09 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:08:09 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:08:20 | INFO | Starting Digital Twin Application
+2025-07-08 01:08:20 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:08:20 | INFO | Executing parser: asset
+2025-07-08 01:08:20 | INFO | Starting AAS generation process
+2025-07-08 01:08:20 | INFO | Processing all assets in assets folder
+2025-07-08 01:08:20 | INFO | Starting AAS generation process
+2025-07-08 01:08:20 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:20 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:20 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:08:20 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:08:20 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:08:20 | INFO | Processing intilion_energy_wip
+2025-07-08 01:08:20 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:08:20 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:08:20 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:08:20 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:08:20 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:20 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:20 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:08:20 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:08:20 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:08:20 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:08:20 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:08:20 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:08:20 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:08:20 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:08:20 | INFO | Processing Wallbox_WIP
+2025-07-08 01:08:20 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:08:20 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:08:20 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:08:20 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:08:20 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:08:20 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:19:08 | INFO | Starting Digital Twin Application
+2025-07-08 01:19:08 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:19:08 | INFO | Executing parser: asset
+2025-07-08 01:19:08 | INFO | Starting AAS generation process
+2025-07-08 01:19:08 | INFO | Processing all assets in assets folder
+2025-07-08 01:19:08 | INFO | Starting AAS generation process
+2025-07-08 01:19:08 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:19:08 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:19:08 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:19:08 | ERROR | Error writing AAS Environment file: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | INFO | Processing intilion_energy_wip
+2025-07-08 01:19:08 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:19:08 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:19:08 | ERROR | Error writing AAS Environment file: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | ERROR | Failed to process intilion_energy_wip.csv: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:19:08 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:19:08 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:19:08 | ERROR | Error writing AAS Environment file: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:19:08 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:19:08 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:19:08 | ERROR | Error writing AAS Environment file: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | INFO | Processing Wallbox_WIP
+2025-07-08 01:19:08 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:19:08 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:19:08 | ERROR | Error writing AAS Environment file: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | ERROR | Failed to process Wallbox_WIP.csv: module 'basyx.aas.model' has no attribute 'Environment'
+2025-07-08 01:19:08 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:19:08 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:21:02 | INFO | Starting Digital Twin Application
+2025-07-08 01:21:02 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:21:02 | INFO | Executing parser: asset
+2025-07-08 01:21:02 | INFO | Starting AAS generation process
+2025-07-08 01:21:02 | INFO | Processing all assets in assets folder
+2025-07-08 01:21:02 | INFO | Starting AAS generation process
+2025-07-08 01:21:02 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:21:02 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:21:02 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:21:02 | INFO | Saved AAS environment JSON to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:21:02 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:21:02 | INFO | Processing intilion_energy_wip
+2025-07-08 01:21:02 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:21:02 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:21:02 | INFO | Saved AAS environment JSON to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:21:02 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:21:02 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:21:02 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:21:02 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:21:02 | INFO | Saved AAS environment JSON to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:21:02 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:21:02 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:21:02 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:21:02 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:21:02 | INFO | Saved AAS environment JSON to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:21:02 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:21:02 | INFO | Processing Wallbox_WIP
+2025-07-08 01:21:02 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:21:02 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:21:02 | INFO | Saved AAS environment JSON to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:21:02 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:21:02 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:21:02 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:25:20 | INFO | Starting Digital Twin Application
+2025-07-08 01:25:20 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:25:20 | INFO | Executing parser: asset
+2025-07-08 01:25:20 | INFO | Starting AAS generation process
+2025-07-08 01:25:20 | INFO | Processing all assets in assets folder
+2025-07-08 01:25:20 | INFO | Starting AAS generation process
+2025-07-08 01:25:20 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:25:20 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:25:20 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:25:20 | ERROR | Error writing AAS Environment file: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | INFO | Processing intilion_energy_wip
+2025-07-08 01:25:20 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:25:20 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:25:20 | ERROR | Error writing AAS Environment file: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | ERROR | Failed to process intilion_energy_wip.csv: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:25:20 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:25:20 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:25:20 | ERROR | Error writing AAS Environment file: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:25:20 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:25:20 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:25:20 | ERROR | Error writing AAS Environment file: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | INFO | Processing Wallbox_WIP
+2025-07-08 01:25:20 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:25:20 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:25:20 | ERROR | Error writing AAS Environment file: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | ERROR | Failed to process Wallbox_WIP.csv: 'AssetAdministrationShell' object has no attribute 'to_json'
+2025-07-08 01:25:20 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:25:20 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:26:08 | INFO | Starting Digital Twin Application
+2025-07-08 01:26:08 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:26:08 | INFO | Executing parser: asset
+2025-07-08 01:26:08 | INFO | Starting AAS generation process
+2025-07-08 01:26:08 | INFO | Processing all assets in assets folder
+2025-07-08 01:26:08 | INFO | Starting AAS generation process
+2025-07-08 01:26:08 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:26:08 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:26:08 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:26:08 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:26:08 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:26:08 | INFO | Processing intilion_energy_wip
+2025-07-08 01:26:08 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:26:08 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:26:08 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:26:08 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:26:08 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:26:08 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:26:08 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:26:08 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:26:08 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:26:08 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:26:08 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:26:08 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:26:08 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:26:08 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:26:08 | INFO | Processing Wallbox_WIP
+2025-07-08 01:26:08 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:26:08 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:26:08 | INFO | Saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:26:08 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:26:08 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:26:08 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:30:33 | INFO | Starting Digital Twin Application
+2025-07-08 01:30:33 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:30:33 | INFO | Executing parser: asset
+2025-07-08 01:30:33 | INFO | Starting AAS generation process
+2025-07-08 01:30:33 | INFO | Processing all assets in assets folder
+2025-07-08 01:30:33 | INFO | Starting AAS generation process
+2025-07-08 01:30:33 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:30:33 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:30:33 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:30:33 | ERROR | Error writing AAS file: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | INFO | Processing intilion_energy_wip
+2025-07-08 01:30:33 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:30:33 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:30:33 | ERROR | Error writing AAS file: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | ERROR | Failed to process intilion_energy_wip.csv: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:30:33 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:30:33 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:30:33 | ERROR | Error writing AAS file: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:30:33 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:30:33 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:30:33 | ERROR | Error writing AAS file: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | INFO | Processing Wallbox_WIP
+2025-07-08 01:30:33 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:30:33 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:30:33 | ERROR | Error writing AAS file: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | ERROR | Failed to process Wallbox_WIP.csv: 'AssetAdministrationShell' object has no attribute 'to_JSON'
+2025-07-08 01:30:33 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:30:33 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:32:32 | INFO | Starting Digital Twin Application
+2025-07-08 01:32:32 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:32:32 | INFO | Executing parser: asset
+2025-07-08 01:32:32 | INFO | Starting AAS generation process
+2025-07-08 01:32:32 | INFO | Processing all assets in assets folder
+2025-07-08 01:32:32 | INFO | Starting AAS generation process
+2025-07-08 01:32:32 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:32:32 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:32:32 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:32:32 | ERROR | Error writing AAS file: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | INFO | Processing intilion_energy_wip
+2025-07-08 01:32:32 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:32:32 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:32:32 | ERROR | Error writing AAS file: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | ERROR | Failed to process intilion_energy_wip.csv: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:32:32 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:32:32 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:32:32 | ERROR | Error writing AAS file: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:32:32 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:32:32 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:32:32 | ERROR | Error writing AAS file: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | INFO | Processing Wallbox_WIP
+2025-07-08 01:32:32 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:32:32 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:32:32 | ERROR | Error writing AAS file: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | ERROR | Failed to process Wallbox_WIP.csv: module 'basyx.aas.adapter.json' has no attribute 'dump'
+2025-07-08 01:32:32 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:32:32 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:33:37 | INFO | Starting Digital Twin Application
+2025-07-08 01:33:37 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:33:37 | INFO | Executing parser: asset
+2025-07-08 01:33:37 | INFO | Starting AAS generation process
+2025-07-08 01:33:37 | INFO | Processing all assets in assets folder
+2025-07-08 01:33:37 | INFO | Starting AAS generation process
+2025-07-08 01:33:37 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:33:37 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:33:37 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:33:37 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:33:37 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:33:37 | INFO | Processing intilion_energy_wip
+2025-07-08 01:33:37 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:33:37 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:33:37 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:33:37 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:33:37 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:33:37 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:33:37 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:33:37 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:33:37 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:33:37 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:33:37 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:33:37 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:33:37 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:33:37 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:33:37 | INFO | Processing Wallbox_WIP
+2025-07-08 01:33:37 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:33:37 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:33:37 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:33:37 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:33:37 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:33:37 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:34:33 | INFO | Starting Digital Twin Application
+2025-07-08 01:34:33 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:34:33 | INFO | Executing parser: asset
+2025-07-08 01:34:33 | INFO | Starting AAS generation process
+2025-07-08 01:34:33 | INFO | Processing all assets in assets folder
+2025-07-08 01:34:33 | INFO | Starting AAS generation process
+2025-07-08 01:34:33 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:34:33 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:34:33 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:34:33 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:34:33 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:34:33 | INFO | Processing intilion_energy_wip
+2025-07-08 01:34:33 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:34:33 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:34:33 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:34:33 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:34:33 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:34:33 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:34:33 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:34:33 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:34:33 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:34:33 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:34:33 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:34:33 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:34:33 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:34:33 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:34:33 | INFO | Processing Wallbox_WIP
+2025-07-08 01:34:33 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:34:33 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:34:33 | INFO | Successfully saved AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:34:33 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:34:33 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:34:33 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:38:19 | INFO | Starting Digital Twin Application
+2025-07-08 01:38:19 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:38:19 | INFO | Executing parser: asset
+2025-07-08 01:38:19 | INFO | Starting AAS generation process
+2025-07-08 01:38:19 | INFO | Processing all assets in assets folder
+2025-07-08 01:38:19 | INFO | Starting AAS generation process
+2025-07-08 01:38:19 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:38:19 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:38:19 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:38:19 | ERROR | Failed to write AAS file: 'set' object is not subscriptable
+2025-07-08 01:38:19 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: 'set' object is not subscriptable
+2025-07-08 01:38:19 | INFO | Processing intilion_energy_wip
+2025-07-08 01:38:19 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:38:19 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:38:19 | ERROR | Failed to write AAS file: 'set' object is not subscriptable
+2025-07-08 01:38:19 | ERROR | Failed to process intilion_energy_wip.csv: 'set' object is not subscriptable
+2025-07-08 01:38:19 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:38:19 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:38:19 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:38:19 | ERROR | Failed to write AAS file: 'set' object is not subscriptable
+2025-07-08 01:38:19 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: 'set' object is not subscriptable
+2025-07-08 01:38:19 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:38:19 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:38:19 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:38:19 | ERROR | Failed to write AAS file: 'set' object is not subscriptable
+2025-07-08 01:38:19 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: 'set' object is not subscriptable
+2025-07-08 01:38:19 | INFO | Processing Wallbox_WIP
+2025-07-08 01:38:19 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:38:19 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:38:19 | ERROR | Failed to write AAS file: 'set' object is not subscriptable
+2025-07-08 01:38:19 | ERROR | Failed to process Wallbox_WIP.csv: 'set' object is not subscriptable
+2025-07-08 01:38:19 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:38:19 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:40:13 | INFO | Starting Digital Twin Application
+2025-07-08 01:40:13 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:40:13 | INFO | Executing parser: asset
+2025-07-08 01:40:13 | INFO | Starting AAS generation process
+2025-07-08 01:40:13 | INFO | Processing all assets in assets folder
+2025-07-08 01:40:13 | INFO | Starting AAS generation process
+2025-07-08 01:40:13 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:40:13 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:40:13 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:40:13 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | ERROR | Failed to process Hesselmann_NAYY-J_4_150_SW.csv: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | INFO | Processing intilion_energy_wip
+2025-07-08 01:40:13 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:40:13 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:40:13 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | ERROR | Failed to process intilion_energy_wip.csv: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:40:13 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:40:13 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:40:13 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | ERROR | Failed to process Ormazabal_velatia_OLTC_misc.csv: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:40:13 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:40:13 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:40:13 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | ERROR | Failed to process RS_Smart_Solar_48_6000.csv: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | INFO | Processing Wallbox_WIP
+2025-07-08 01:40:13 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:40:13 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:40:13 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | ERROR | Failed to process Wallbox_WIP.csv: 'ModelReference' object has no attribute 'keys'
+2025-07-08 01:40:13 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-07-08 01:40:13 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:41:29 | INFO | Starting Digital Twin Application
+2025-07-08 01:41:29 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:41:29 | INFO | Executing parser: asset
+2025-07-08 01:41:29 | INFO | Starting AAS generation process
+2025-07-08 01:41:29 | INFO | Processing all assets in assets folder
+2025-07-08 01:41:29 | INFO | Starting AAS generation process
+2025-07-08 01:41:29 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:41:29 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:41:29 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:41:29 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:41:29 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:41:29 | INFO | Processing intilion_energy_wip
+2025-07-08 01:41:29 | INFO | Creating AAS for intilion_energy_wip
+2025-07-08 01:41:29 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:41:29 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\intilion_energy_wip.json
+2025-07-08 01:41:29 | SUCCESS | Completed processing intilion_energy_wip
+2025-07-08 01:41:29 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:41:29 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:41:29 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:41:29 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:41:29 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:41:29 | INFO | Processing RS_Smart_Solar_48_6000
+2025-07-08 01:41:29 | INFO | Creating AAS for RS_Smart_Solar_48_6000
+2025-07-08 01:41:29 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:41:29 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\RS_Smart_Solar_48_6000.json
+2025-07-08 01:41:29 | SUCCESS | Completed processing RS_Smart_Solar_48_6000
+2025-07-08 01:41:29 | INFO | Processing Wallbox_WIP
+2025-07-08 01:41:29 | INFO | Creating AAS for Wallbox_WIP
+2025-07-08 01:41:29 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:41:29 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Wallbox_WIP.json
+2025-07-08 01:41:29 | SUCCESS | Completed processing Wallbox_WIP
+2025-07-08 01:41:29 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:41:29 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:47:09 | INFO | Starting Digital Twin Application
+2025-07-08 01:47:09 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:47:09 | INFO | Executing parser: asset
+2025-07-08 01:47:09 | INFO | Starting AAS generation process
+2025-07-08 01:47:09 | INFO | Processing all assets in assets folder
+2025-07-08 01:47:09 | INFO | Starting AAS generation process
+2025-07-08 01:47:09 | INFO | Processing BESS_intilion_wip
+2025-07-08 01:47:09 | INFO | Creating AAS for BESS_intilion_wip
+2025-07-08 01:47:09 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:47:09 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\BESS_intilion_wip.json
+2025-07-08 01:47:09 | SUCCESS | Completed processing BESS_intilion_wip
+2025-07-08 01:47:09 | INFO | Processing EV_Wallbox_WIP
+2025-07-08 01:47:09 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-08 01:47:09 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:47:09 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-08 01:47:09 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-08 01:47:09 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:09 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:09 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:47:09 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:47:09 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:09 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:09 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:09 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:47:09 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:47:09 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:09 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:09 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:09 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:47:09 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-08 01:47:09 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:09 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:47:09 | SUCCESS | AAS generation completed successfully
+2025-07-08 01:47:47 | INFO | Starting Digital Twin Application
+2025-07-08 01:47:47 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-08 01:47:47 | INFO | Executing parser: asset
+2025-07-08 01:47:47 | INFO | Starting AAS generation process
+2025-07-08 01:47:47 | INFO | Processing all assets in assets folder
+2025-07-08 01:47:47 | INFO | Starting AAS generation process
+2025-07-08 01:47:47 | INFO | Processing BESS_intilion_wip
+2025-07-08 01:47:47 | INFO | Creating AAS for BESS_intilion_wip
+2025-07-08 01:47:47 | SUCCESS | Created AAS with 8 properties
+2025-07-08 01:47:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\BESS_intilion_wip.json
+2025-07-08 01:47:47 | SUCCESS | Completed processing BESS_intilion_wip
+2025-07-08 01:47:47 | INFO | Processing EV_Wallbox_WIP
+2025-07-08 01:47:47 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-08 01:47:47 | SUCCESS | Created AAS with 7 properties
+2025-07-08 01:47:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-08 01:47:47 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-08 01:47:47 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:47 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:47 | SUCCESS | Created AAS with 18 properties
+2025-07-08 01:47:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-08 01:47:47 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-08 01:47:47 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:47 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:47 | SUCCESS | Created AAS with 13 properties
+2025-07-08 01:47:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-08 01:47:47 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-08 01:47:47 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:47 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:47 | SUCCESS | Created AAS with 5 properties
+2025-07-08 01:47:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-08 01:47:47 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-08 01:47:47 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-08 01:47:47 | SUCCESS | AAS generation completed successfully

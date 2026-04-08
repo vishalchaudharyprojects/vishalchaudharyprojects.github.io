@@ -1,0 +1,106 @@
+2025-08-06 12:43:11 | INFO | Starting Digital Twin Application...
+2025-08-06 12:43:11 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:43:11 | INFO | Module type: None, Parser: asset
+2025-08-06 12:43:11 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:43:11 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:43:11 | INFO | Starting AAS generation process
+2025-08-06 12:43:11 | INFO | Reading CSV files from MinIO bucket
+2025-08-06 12:44:19 | INFO | Starting Digital Twin Application...
+2025-08-06 12:44:19 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:44:19 | INFO | Module type: None, Parser: asset
+2025-08-06 12:44:19 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:44:19 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:44:19 | INFO | Starting AAS generation process
+2025-08-06 12:44:19 | INFO | Reading CSV files from local assets directory
+2025-08-06 12:44:19 | CRITICAL | AAS generation failed: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:44:19 | CRITICAL | Unexpected error during execution: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:50:15 | INFO | Starting Digital Twin Application...
+2025-08-06 12:50:15 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:50:15 | INFO | Module type: None, Parser: asset
+2025-08-06 12:50:15 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:50:15 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:50:15 | INFO | Starting AAS generation process
+2025-08-06 12:50:15 | INFO | Reading CSV files from local assets directory
+2025-08-06 12:50:15 | CRITICAL | AAS generation failed: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:50:15 | CRITICAL | Unexpected error during execution: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:54:24 | INFO | Starting Digital Twin Application...
+2025-08-06 12:54:24 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:54:24 | INFO | Module type: None, Parser: asset
+2025-08-06 12:54:24 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:54:24 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:54:24 | INFO | Starting AAS generation process
+2025-08-06 12:54:24 | INFO | Reading CSV files from local assets directory
+2025-08-06 12:54:24 | CRITICAL | AAS generation failed: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:54:24 | CRITICAL | Unexpected error during execution: Local assets directory not found at D:\generate_aasx_from_datasheets\assets
+2025-08-06 12:55:30 | INFO | Starting Digital Twin Application...
+2025-08-06 12:55:30 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:55:30 | INFO | Module type: None, Parser: asset
+2025-08-06 12:55:30 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:55:30 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:55:30 | INFO | Starting AAS generation process
+2025-08-06 12:55:30 | INFO | Reading CSV files from local assets directory
+2025-08-06 12:55:30 | INFO | Processing Battery_storage_intilion_wip
+2025-08-06 12:55:30 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-06 12:55:30 | SUCCESS | Created AAS with 8 properties
+2025-08-06 12:55:30 | ERROR | Failed to process Battery_storage_intilion_wip.csv: module 'basyx.aas.model' has no attribute 'LangString'
+2025-08-06 12:55:30 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-06 12:55:30 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-06 12:55:30 | SUCCESS | Created AAS with 5 properties
+2025-08-06 12:55:30 | ERROR | Failed to process gens_PV_RS_Smart_Solar_48_6000.csv: module 'basyx.aas.model' has no attribute 'LangString'
+2025-08-06 12:55:30 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-06 12:55:30 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-06 12:55:30 | SUCCESS | Created AAS with 18 properties
+2025-08-06 12:55:30 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: module 'basyx.aas.model' has no attribute 'LangString'
+2025-08-06 12:55:30 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-06 12:55:30 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-06 12:55:30 | SUCCESS | Created AAS with 7 properties
+2025-08-06 12:55:30 | ERROR | Failed to process load_EV_Wallbox_WIP.csv: module 'basyx.aas.model' has no attribute 'LangString'
+2025-08-06 12:55:30 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-06 12:55:30 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-06 12:55:30 | SUCCESS | Created AAS with 13 properties
+2025-08-06 12:55:30 | ERROR | Failed to process Transformer_Ormazabal_velatia_OLTC_misc.csv: module 'basyx.aas.model' has no attribute 'LangString'
+2025-08-06 12:55:30 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-08-06 12:55:30 | SUCCESS | AAS generation completed successfully.
+2025-08-06 12:58:06 | INFO | Starting Digital Twin Application...
+2025-08-06 12:58:06 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-06 12:58:06 | INFO | Module type: None, Parser: asset
+2025-08-06 12:58:06 | INFO | Initiating AAS generation workflow...
+2025-08-06 12:58:06 | INFO | Processing all assets in the assets folder.
+2025-08-06 12:58:06 | INFO | Starting AAS generation process
+2025-08-06 12:58:06 | INFO | Processing Battery_storage_intilion_wip
+2025-08-06 12:58:06 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-06 12:58:06 | SUCCESS | Created AAS with 8 properties
+2025-08-06 12:58:06 | INFO | Created CimProperties submodel.
+2025-08-06 12:58:06 | INFO | Created GridMeasurement submodel.
+2025-08-06 12:58:06 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-06 12:58:06 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-06 12:58:06 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-06 12:58:06 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-06 12:58:06 | SUCCESS | Created AAS with 5 properties
+2025-08-06 12:58:06 | INFO | Created CimProperties submodel.
+2025-08-06 12:58:06 | INFO | Created GridMeasurement submodel.
+2025-08-06 12:58:06 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-06 12:58:06 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-06 12:58:06 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-06 12:58:06 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-06 12:58:06 | SUCCESS | Created AAS with 18 properties
+2025-08-06 12:58:06 | INFO | Created CimProperties submodel.
+2025-08-06 12:58:06 | INFO | Created GridMeasurement submodel.
+2025-08-06 12:58:06 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-06 12:58:06 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-06 12:58:06 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-06 12:58:06 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-06 12:58:06 | SUCCESS | Created AAS with 7 properties
+2025-08-06 12:58:06 | INFO | Created CimProperties submodel.
+2025-08-06 12:58:06 | INFO | Created GridMeasurement submodel.
+2025-08-06 12:58:06 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-06 12:58:06 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-06 12:58:06 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-06 12:58:06 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-06 12:58:06 | SUCCESS | Created AAS with 13 properties
+2025-08-06 12:58:06 | INFO | Created CimProperties submodel.
+2025-08-06 12:58:06 | INFO | Created GridMeasurement submodel.
+2025-08-06 12:58:06 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-06 12:58:06 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-06 12:58:06 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-06 12:58:06 | SUCCESS | AAS generation completed successfully.

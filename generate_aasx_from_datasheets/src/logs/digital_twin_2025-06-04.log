@@ -1,0 +1,60 @@
+2025-06-04 10:53:26 | INFO | Starting Digital Twin Application
+2025-06-04 10:53:26 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\Aas_generation\config_aas.yaml
+2025-06-04 10:53:26 | INFO | Executing parser: asset
+2025-06-04 10:53:26 | INFO | Starting AAS generation process
+2025-06-04 10:53:26 | INFO | Starting AAS generation workflow
+2025-06-04 10:53:26 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\Aas_generation\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-06-04 10:53:26 | INFO | Creating new Asset Administration Shell
+2025-06-04 10:53:26 | INFO | Creating submodel for AAS
+2025-06-04 10:53:26 | SUCCESS | AAS created with 18 properties
+2025-06-04 10:53:26 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\Aas_generation\aas_json\NAYY.json
+2025-06-04 10:53:26 | SUCCESS | AAS generation completed for NAYY
+2025-06-04 10:53:26 | SUCCESS | AAS generation completed successfully
+2025-06-04 10:54:57 | INFO | Starting Digital Twin Application
+2025-06-04 10:54:57 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\Aas_generation\config_aas.yaml
+2025-06-04 10:54:57 | INFO | Executing parser: asset
+2025-06-04 10:54:57 | INFO | Starting AAS generation process
+2025-06-04 10:54:57 | INFO | Starting AAS generation workflow
+2025-06-04 10:54:57 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\Aas_generation\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-06-04 10:54:57 | INFO | Creating new Asset Administration Shell
+2025-06-04 10:54:57 | INFO | Creating submodel for AAS
+2025-06-04 10:54:57 | SUCCESS | AAS created with 18 properties
+2025-06-04 10:54:57 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\Aas_generation\aas_json\NAYY.json
+2025-06-04 10:54:57 | SUCCESS | AAS generation completed for NAYY
+2025-06-04 10:54:57 | SUCCESS | AAS generation completed successfully
+2025-06-04 12:28:59 | INFO | Starting Digital Twin Application
+2025-06-04 12:28:59 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\Aas_generation\config_aas.yaml
+2025-06-04 12:28:59 | INFO | Executing parser: asset
+2025-06-04 12:28:59 | INFO | Starting AAS generation process
+2025-06-04 12:28:59 | INFO | Starting AAS generation workflow
+2025-06-04 12:28:59 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\Aas_generation\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-06-04 12:28:59 | INFO | Creating new Asset Administration Shell
+2025-06-04 12:28:59 | INFO | Creating submodel for AAS
+2025-06-04 12:28:59 | SUCCESS | AAS created with 18 properties
+2025-06-04 12:28:59 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\Aas_generation\aas_json\NAYY.json
+2025-06-04 12:28:59 | SUCCESS | AAS generation completed for NAYY
+2025-06-04 12:28:59 | SUCCESS | AAS generation completed successfully
+2025-06-04 12:29:20 | INFO | Starting Digital Twin Application
+2025-06-04 12:29:20 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\Aas_generation\config_aas.yaml
+2025-06-04 12:29:20 | INFO | Executing parser: asset
+2025-06-04 12:29:20 | INFO | Starting AAS generation process
+2025-06-04 12:29:20 | INFO | Starting AAS generation workflow
+2025-06-04 12:29:20 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\Aas_generation\assets\Hesselmann_NAYY-J_4_150_SW.csv
+2025-06-04 12:29:20 | INFO | Creating new Asset Administration Shell
+2025-06-04 12:29:20 | INFO | Creating submodel for AAS
+2025-06-04 12:29:20 | SUCCESS | AAS created with 18 properties
+2025-06-04 12:29:20 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\Aas_generation\aas_json\NAYY.json
+2025-06-04 12:29:20 | SUCCESS | AAS generation completed for NAYY
+2025-06-04 12:29:20 | SUCCESS | AAS generation completed successfully
+2025-06-04 12:30:01 | INFO | Starting Digital Twin Application
+2025-06-04 12:30:01 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\Aas_generation\config_aas.yaml
+2025-06-04 12:30:01 | INFO | Executing parser: asset
+2025-06-04 12:30:01 | INFO | Starting AAS generation process
+2025-06-04 12:30:01 | INFO | Starting AAS generation workflow
+2025-06-04 12:30:01 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\Aas_generation\assets\Ormazabal_velatia_OLTC_misc.csv
+2025-06-04 12:30:01 | INFO | Creating new Asset Administration Shell
+2025-06-04 12:30:01 | INFO | Creating submodel for AAS
+2025-06-04 12:30:01 | SUCCESS | AAS created with 13 properties
+2025-06-04 12:30:01 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\Aas_generation\aas_json\OLTC.json
+2025-06-04 12:30:01 | SUCCESS | AAS generation completed for OLTC
+2025-06-04 12:30:01 | SUCCESS | AAS generation completed successfully

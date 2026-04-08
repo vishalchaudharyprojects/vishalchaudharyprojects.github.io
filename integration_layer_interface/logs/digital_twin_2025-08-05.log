@@ -1,0 +1,294 @@
+2025-08-05 18:32:26 | INFO | Starting Digital Twin Application...
+2025-08-05 18:32:26 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 18:32:26 | INFO | Module type: None, Parser: asset
+2025-08-05 18:32:26 | INFO | Initiating AAS generation workflow...
+2025-08-05 18:32:26 | INFO | Processing all assets in the assets folder.
+2025-08-05 18:32:26 | INFO | Starting AAS generation process
+2025-08-05 18:32:26 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 18:32:26 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 18:32:26 | SUCCESS | Created AAS with 8 properties
+2025-08-05 18:32:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-05 18:32:26 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-05 18:32:26 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 18:32:26 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 18:32:26 | SUCCESS | Created AAS with 5 properties
+2025-08-05 18:32:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-05 18:32:26 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 18:32:26 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 18:32:26 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 18:32:26 | SUCCESS | Created AAS with 18 properties
+2025-08-05 18:32:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-05 18:32:26 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 18:32:26 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 18:32:26 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 18:32:26 | SUCCESS | Created AAS with 7 properties
+2025-08-05 18:32:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-05 18:32:26 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-05 18:32:26 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 18:32:26 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 18:32:26 | SUCCESS | Created AAS with 13 properties
+2025-08-05 18:32:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-05 18:32:26 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 18:32:26 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-05 18:32:26 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:04:19 | INFO | Starting Digital Twin Application...
+2025-08-05 20:04:19 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:04:19 | INFO | Module type: None, Parser: asset
+2025-08-05 20:04:19 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:04:19 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:04:19 | INFO | Starting AAS generation process
+2025-08-05 20:04:19 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:04:19 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:04:19 | SUCCESS | Created AAS with 8 properties and 2 extra submodels.
+2025-08-05 20:04:19 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-05 20:04:19 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-05 20:04:19 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:04:19 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:04:19 | SUCCESS | Created AAS with 5 properties and 2 extra submodels.
+2025-08-05 20:04:19 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-05 20:04:19 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:04:19 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:04:19 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:04:19 | SUCCESS | Created AAS with 18 properties and 2 extra submodels.
+2025-08-05 20:04:19 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-05 20:04:19 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:04:19 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:04:19 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:04:19 | SUCCESS | Created AAS with 7 properties and 2 extra submodels.
+2025-08-05 20:04:19 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-05 20:04:19 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-05 20:04:19 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:04:19 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:04:19 | SUCCESS | Created AAS with 13 properties and 2 extra submodels.
+2025-08-05 20:04:19 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-05 20:04:19 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:04:19 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-05 20:04:19 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:15:07 | INFO | Starting Digital Twin Application...
+2025-08-05 20:15:07 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:15:07 | INFO | Module type: None, Parser: asset
+2025-08-05 20:15:07 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:15:07 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:15:07 | INFO | Starting AAS generation process
+2025-08-05 20:15:07 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:15:07 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:15:07 | SUCCESS | Created AAS with 8 properties and 2 extra submodels.
+2025-08-05 20:15:07 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | ERROR | Failed to process Battery_storage_intilion_wip.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:15:07 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:15:07 | SUCCESS | Created AAS with 5 properties and 2 extra submodels.
+2025-08-05 20:15:07 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | ERROR | Failed to process gens_PV_RS_Smart_Solar_48_6000.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:15:07 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:15:07 | SUCCESS | Created AAS with 18 properties and 2 extra submodels.
+2025-08-05 20:15:07 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:15:07 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:15:07 | SUCCESS | Created AAS with 7 properties and 2 extra submodels.
+2025-08-05 20:15:07 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | ERROR | Failed to process load_EV_Wallbox_WIP.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:15:07 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:15:07 | SUCCESS | Created AAS with 13 properties and 2 extra submodels.
+2025-08-05 20:15:07 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | ERROR | Failed to process Transformer_Ormazabal_velatia_OLTC_misc.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:15:07 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-08-05 20:15:07 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:19:26 | INFO | Starting Digital Twin Application...
+2025-08-05 20:19:26 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:19:26 | INFO | Module type: None, Parser: asset
+2025-08-05 20:19:26 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:19:26 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:19:26 | INFO | Starting AAS generation process
+2025-08-05 20:19:26 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:19:26 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:19:26 | SUCCESS | Created AAS with 8 properties and 2 extra submodels.
+2025-08-05 20:19:26 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | ERROR | Failed to process Battery_storage_intilion_wip.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:19:26 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:19:26 | SUCCESS | Created AAS with 5 properties and 2 extra submodels.
+2025-08-05 20:19:26 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | ERROR | Failed to process gens_PV_RS_Smart_Solar_48_6000.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:19:26 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:19:26 | SUCCESS | Created AAS with 18 properties and 2 extra submodels.
+2025-08-05 20:19:26 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:19:26 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:19:26 | SUCCESS | Created AAS with 7 properties and 2 extra submodels.
+2025-08-05 20:19:26 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | ERROR | Failed to process load_EV_Wallbox_WIP.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:19:26 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:19:26 | SUCCESS | Created AAS with 13 properties and 2 extra submodels.
+2025-08-05 20:19:26 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | ERROR | Failed to process Transformer_Ormazabal_velatia_OLTC_misc.csv: 'ModelReference' object has no attribute 'keys'
+2025-08-05 20:19:26 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-08-05 20:19:26 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:20:53 | INFO | Starting Digital Twin Application...
+2025-08-05 20:20:53 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:20:53 | INFO | Module type: None, Parser: asset
+2025-08-05 20:20:53 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:20:53 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:20:53 | INFO | Starting AAS generation process
+2025-08-05 20:20:53 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:20:53 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:20:53 | SUCCESS | Created AAS with 8 properties and 2 extra submodels.
+2025-08-05 20:20:53 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | ERROR | Failed to process Battery_storage_intilion_wip.csv: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:20:53 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:20:53 | SUCCESS | Created AAS with 5 properties and 2 extra submodels.
+2025-08-05 20:20:53 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | ERROR | Failed to process gens_PV_RS_Smart_Solar_48_6000.csv: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:20:53 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:20:53 | SUCCESS | Created AAS with 18 properties and 2 extra submodels.
+2025-08-05 20:20:53 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:20:53 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:20:53 | SUCCESS | Created AAS with 7 properties and 2 extra submodels.
+2025-08-05 20:20:53 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | ERROR | Failed to process load_EV_Wallbox_WIP.csv: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:20:53 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:20:53 | SUCCESS | Created AAS with 13 properties and 2 extra submodels.
+2025-08-05 20:20:53 | ERROR | Failed to write AAS file: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | ERROR | Failed to process Transformer_Ormazabal_velatia_OLTC_misc.csv: 'ModelReference' object has no attribute 'to_dict'
+2025-08-05 20:20:53 | SUCCESS | Completed AAS generation. Processed 0 files.
+2025-08-05 20:20:53 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:29:39 | INFO | Starting Digital Twin Application...
+2025-08-05 20:29:39 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:29:39 | INFO | Module type: None, Parser: asset
+2025-08-05 20:29:39 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:29:39 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:29:39 | INFO | Starting AAS generation process
+2025-08-05 20:29:39 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:29:39 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:29:39 | SUCCESS | Created AAS with 8 properties
+2025-08-05 20:29:39 | INFO | Created CimProperties submodel.
+2025-08-05 20:29:39 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:29:39 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-05 20:29:39 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-05 20:29:39 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:29:39 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:29:39 | SUCCESS | Created AAS with 5 properties
+2025-08-05 20:29:39 | INFO | Created CimProperties submodel.
+2025-08-05 20:29:39 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:29:39 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-05 20:29:39 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:29:39 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:29:39 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:29:39 | SUCCESS | Created AAS with 18 properties
+2025-08-05 20:29:39 | INFO | Created CimProperties submodel.
+2025-08-05 20:29:39 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:29:39 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-05 20:29:39 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:29:39 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:29:39 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:29:39 | SUCCESS | Created AAS with 7 properties
+2025-08-05 20:29:39 | INFO | Created CimProperties submodel.
+2025-08-05 20:29:39 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:29:39 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-05 20:29:39 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-05 20:29:39 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:29:39 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:29:39 | SUCCESS | Created AAS with 13 properties
+2025-08-05 20:29:39 | INFO | Created CimProperties submodel.
+2025-08-05 20:29:39 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:29:39 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-05 20:29:39 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:29:39 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-05 20:29:39 | SUCCESS | AAS generation completed successfully.
+2025-08-05 20:44:22 | INFO | Starting Digital Twin Application...
+2025-08-05 20:44:22 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 20:44:22 | INFO | Module type: None, Parser: asset
+2025-08-05 20:44:22 | INFO | Initiating AAS generation workflow...
+2025-08-05 20:44:22 | INFO | Processing all assets in the assets folder.
+2025-08-05 20:44:22 | INFO | Starting AAS generation process
+2025-08-05 20:44:22 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 20:44:22 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 20:44:22 | SUCCESS | Created AAS with 8 properties
+2025-08-05 20:44:22 | INFO | Created CimProperties submodel.
+2025-08-05 20:44:22 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:44:22 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-05 20:44:22 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-05 20:44:22 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:44:22 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:44:22 | SUCCESS | Created AAS with 5 properties
+2025-08-05 20:44:22 | INFO | Created CimProperties submodel.
+2025-08-05 20:44:22 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:44:22 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-05 20:44:22 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 20:44:22 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:44:22 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:44:22 | SUCCESS | Created AAS with 18 properties
+2025-08-05 20:44:22 | INFO | Created CimProperties submodel.
+2025-08-05 20:44:22 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:44:22 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-05 20:44:22 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 20:44:22 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 20:44:22 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 20:44:22 | SUCCESS | Created AAS with 7 properties
+2025-08-05 20:44:22 | INFO | Created CimProperties submodel.
+2025-08-05 20:44:22 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:44:22 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-05 20:44:22 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-05 20:44:22 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:44:22 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:44:22 | SUCCESS | Created AAS with 13 properties
+2025-08-05 20:44:22 | INFO | Created CimProperties submodel.
+2025-08-05 20:44:22 | INFO | Created GridMeasurement submodel.
+2025-08-05 20:44:22 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-05 20:44:22 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 20:44:22 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-05 20:44:22 | SUCCESS | AAS generation completed successfully.
+2025-08-05 21:07:43 | INFO | Starting Digital Twin Application...
+2025-08-05 21:07:43 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-08-05 21:07:43 | INFO | Module type: None, Parser: asset
+2025-08-05 21:07:43 | INFO | Initiating AAS generation workflow...
+2025-08-05 21:07:43 | INFO | Processing all assets in the assets folder.
+2025-08-05 21:07:43 | INFO | Starting AAS generation process
+2025-08-05 21:07:43 | INFO | Processing Battery_storage_intilion_wip
+2025-08-05 21:07:43 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-08-05 21:07:43 | SUCCESS | Created AAS with 8 properties
+2025-08-05 21:07:43 | INFO | Created CimProperties submodel.
+2025-08-05 21:07:43 | INFO | Created GridMeasurement submodel.
+2025-08-05 21:07:43 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-08-05 21:07:43 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-08-05 21:07:43 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 21:07:43 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 21:07:43 | SUCCESS | Created AAS with 5 properties
+2025-08-05 21:07:43 | INFO | Created CimProperties submodel.
+2025-08-05 21:07:43 | INFO | Created GridMeasurement submodel.
+2025-08-05 21:07:43 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-08-05 21:07:43 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-08-05 21:07:43 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 21:07:43 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 21:07:43 | SUCCESS | Created AAS with 18 properties
+2025-08-05 21:07:43 | INFO | Created CimProperties submodel.
+2025-08-05 21:07:43 | INFO | Created GridMeasurement submodel.
+2025-08-05 21:07:43 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-08-05 21:07:43 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-08-05 21:07:43 | INFO | Processing load_EV_Wallbox_WIP
+2025-08-05 21:07:43 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-08-05 21:07:43 | SUCCESS | Created AAS with 7 properties
+2025-08-05 21:07:43 | INFO | Created CimProperties submodel.
+2025-08-05 21:07:43 | INFO | Created GridMeasurement submodel.
+2025-08-05 21:07:43 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-08-05 21:07:43 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-08-05 21:07:43 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 21:07:43 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 21:07:43 | SUCCESS | Created AAS with 13 properties
+2025-08-05 21:07:43 | INFO | Created CimProperties submodel.
+2025-08-05 21:07:43 | INFO | Created GridMeasurement submodel.
+2025-08-05 21:07:43 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-08-05 21:07:43 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-08-05 21:07:43 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-08-05 21:07:43 | SUCCESS | AAS generation completed successfully.

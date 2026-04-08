@@ -1,0 +1,57 @@
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_DL_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_DY_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_GL_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_SSH_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_SV_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_TP_.xml"
+INFO:cimpy.cimimport:START of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_YYY_EQ_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_DL_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_DY_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_GL_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_SSH_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_SV_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_XX_YYY_TP_.xml"
+INFO:cimpy.cimimport:END of parsing file "C:\Git_Repos\PyProgrammingTool\venv\Lib\site-packages\cimpy_3\cimpy\examples\sampledata\LV_SIMBENCH_3_0\20151231T2300Z_YYY_EQ_.xml"
+INFO:cimpy.cimimport:CIM object DiagramObjectPoint created : 221 times
+INFO:cimpy.cimimport:CIM object DiagramObject created : 130 times
+INFO:cimpy.cimimport:CIM object Diagram created : 2 times
+INFO:cimpy.cimimport:CIM object LoadAggregate created : 13 times
+INFO:cimpy.cimimport:CIM object LoadStatic created : 13 times
+INFO:cimpy.cimimport:CIM object Location created : 15 times
+INFO:cimpy.cimimport:CIM object PositionPoint created : 15 times
+INFO:cimpy.cimimport:CIM object CoordinateSystem created : 1 times
+INFO:cimpy.cimimport:CIM object SvPowerFlow created : 70 times
+INFO:cimpy.cimimport:CIM object SvStatus created : 71 times
+INFO:cimpy.cimimport:CIM object SvVoltage created : 15 times
+INFO:cimpy.cimimport:CIM object SvTapStep created : 1 times
+INFO:cimpy.cimimport:CIM object TopologicalIsland created : 1 times
+INFO:cimpy.cimimport:CIM object TopologicalNode created : 15 times
+INFO:cimpy.cimimport:CIM object Terminal created : 85 times
+INFO:cimpy.cimimport:CIM object OperationalLimitType created : 3 times
+INFO:cimpy.cimimport:CIM object ConformLoad created : 28 times
+INFO:cimpy.cimimport:CIM object OperationalLimitSet created : 43 times
+INFO:cimpy.cimimport:CIM object VoltageLimit created : 30 times
+INFO:cimpy.cimimport:CIM object ConnectivityNode created : 15 times
+INFO:cimpy.cimimport:CIM object VoltageLevel created : 15 times
+INFO:cimpy.cimimport:CIM object CurrentLimit created : 28 times
+INFO:cimpy.cimimport:CIM object ACLineSegment created : 13 times
+INFO:cimpy.cimimport:CIM object RatioTapChanger created : 1 times
+INFO:cimpy.cimimport:CIM object PhotoVoltaicUnit created : 8 times
+INFO:cimpy.cimimport:CIM object BusbarSection created : 15 times
+INFO:cimpy.cimimport:CIM object BatteryUnit created : 5 times
+INFO:cimpy.cimimport:CIM object LoadResponseCharacteristic created : 13 times
+INFO:cimpy.cimimport:CIM object RegulatingControl created : 1 times
+INFO:cimpy.cimimport:CIM object BaseVoltage created : 2 times
+INFO:cimpy.cimimport:CIM object ConformLoadGroup created : 1 times
+INFO:cimpy.cimimport:CIM object PowerTransformerEnd created : 2 times
+INFO:cimpy.cimimport:CIM object PowerElectronicsConnection created : 13 times
+INFO:cimpy.cimimport:CIM object Substation created : 1 times
+INFO:cimpy.cimimport:CIM object GeographicalRegion created : 1 times
+INFO:cimpy.cimimport:CIM object PowerTransformer created : 1 times
+INFO:cimpy.cimimport:CIM object SubGeographicalRegion created : 1 times
+INFO:cimpy.cimimport:CIM object SubLoadArea created : 1 times
+INFO:cimpy.cimimport:CIM object LoadArea created : 1 times
+INFO:cimpy.cimimport:CIM object ExternalNetworkInjection created : 1 times
+INFO:cimpy.cimimport:Created totally 911 CIM objects in 0.39566707611083984s
+
+

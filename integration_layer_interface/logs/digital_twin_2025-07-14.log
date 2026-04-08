@@ -1,0 +1,445 @@
+2025-07-14 20:27:13 | INFO | Starting Digital Twin Application
+2025-07-14 20:27:13 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 20:27:13 | INFO | Executing parser: asset
+2025-07-14 20:27:13 | INFO | Starting AAS generation process
+2025-07-14 20:27:13 | INFO | Processing all assets in assets folder
+2025-07-14 20:27:13 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 20:27:13 | WARNING | CIM profile EQ file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_EQ_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile TP file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_TP_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile SSH file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_SSH_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile SV file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_SV_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile DL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_DL_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile GL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_GL_.xml
+2025-07-14 20:27:13 | WARNING | CIM profile DY file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\20151231T2300Z_YYY_DY_.xml
+2025-07-14 20:27:13 | INFO | Processing BESS_intilion_wip
+2025-07-14 20:27:13 | INFO | Creating AAS for BESS_intilion_wip
+2025-07-14 20:27:13 | SUCCESS | Created AAS with 8 properties
+2025-07-14 20:27:13 | WARNING | No CIM ID mapping found for BESS_intilion_wip
+2025-07-14 20:27:13 | WARNING | No CIM data found for BESS_intilion_wip
+2025-07-14 20:27:13 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\BESS_intilion_wip.json
+2025-07-14 20:27:13 | SUCCESS | Completed processing BESS_intilion_wip
+2025-07-14 20:27:13 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 20:27:13 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 20:27:13 | SUCCESS | Created AAS with 7 properties
+2025-07-14 20:27:13 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 20:27:13 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 20:27:13 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 20:27:13 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 20:27:13 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:27:13 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:27:13 | SUCCESS | Created AAS with 18 properties
+2025-07-14 20:27:13 | WARNING | No CIM ID mapping found for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:27:13 | WARNING | No CIM data found for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:27:13 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 20:27:13 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:27:13 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-14 20:27:13 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:27:13 | SUCCESS | Created AAS with 13 properties
+2025-07-14 20:27:13 | WARNING | No CIM ID mapping found for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:27:13 | WARNING | No CIM data found for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:27:13 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-14 20:27:13 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-14 20:27:13 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:27:13 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:27:13 | SUCCESS | Created AAS with 5 properties
+2025-07-14 20:27:13 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:27:13 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:27:13 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 20:27:13 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:27:13 | SUCCESS | Completed AAS generation. Processed 5 files with CIM integration.
+2025-07-14 20:27:13 | SUCCESS | AAS generation completed successfully
+2025-07-14 20:29:23 | INFO | Starting Digital Twin Application
+2025-07-14 20:29:23 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 20:29:23 | INFO | Executing parser: asset
+2025-07-14 20:29:23 | INFO | Starting AAS generation process
+2025-07-14 20:29:23 | INFO | Processing all assets in assets folder
+2025-07-14 20:29:23 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 20:29:23 | WARNING | CIM profile TP file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_TP_.xml
+2025-07-14 20:29:23 | WARNING | CIM profile SSH file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_SSH_.xml
+2025-07-14 20:29:23 | WARNING | CIM profile SV file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_SV_.xml
+2025-07-14 20:29:23 | WARNING | CIM profile DL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_DL_.xml
+2025-07-14 20:29:23 | WARNING | CIM profile GL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_GL_.xml
+2025-07-14 20:29:23 | WARNING | CIM profile DY file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_DY_.xml
+2025-07-14 20:29:23 | INFO | Processing BESS_intilion_wip
+2025-07-14 20:29:23 | INFO | Creating AAS for BESS_intilion_wip
+2025-07-14 20:29:23 | SUCCESS | Created AAS with 8 properties
+2025-07-14 20:29:23 | WARNING | No CIM ID mapping found for BESS_intilion_wip
+2025-07-14 20:29:23 | WARNING | No CIM data found for BESS_intilion_wip
+2025-07-14 20:29:23 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\BESS_intilion_wip.json
+2025-07-14 20:29:23 | SUCCESS | Completed processing BESS_intilion_wip
+2025-07-14 20:29:23 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 20:29:23 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 20:29:23 | SUCCESS | Created AAS with 7 properties
+2025-07-14 20:29:23 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 20:29:23 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 20:29:23 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 20:29:23 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 20:29:23 | INFO | Processing Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:29:23 | INFO | Creating AAS for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:29:23 | SUCCESS | Created AAS with 18 properties
+2025-07-14 20:29:23 | WARNING | No CIM ID mapping found for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:29:23 | WARNING | No CIM data found for Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:29:23 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 20:29:23 | SUCCESS | Completed processing Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:29:23 | INFO | Processing Ormazabal_velatia_OLTC_misc
+2025-07-14 20:29:23 | INFO | Creating AAS for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:29:23 | SUCCESS | Created AAS with 13 properties
+2025-07-14 20:29:23 | WARNING | No CIM ID mapping found for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:29:23 | WARNING | No CIM data found for Ormazabal_velatia_OLTC_misc
+2025-07-14 20:29:23 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Ormazabal_velatia_OLTC_misc.json
+2025-07-14 20:29:23 | SUCCESS | Completed processing Ormazabal_velatia_OLTC_misc
+2025-07-14 20:29:23 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:29:23 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:29:23 | SUCCESS | Created AAS with 5 properties
+2025-07-14 20:29:23 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:29:23 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:29:23 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 20:29:23 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:29:23 | SUCCESS | Completed AAS generation. Processed 5 files with CIM integration.
+2025-07-14 20:29:23 | SUCCESS | AAS generation completed successfully
+2025-07-14 20:50:04 | INFO | Starting Digital Twin Application
+2025-07-14 20:50:05 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 20:50:05 | INFO | Executing parser: asset
+2025-07-14 20:50:05 | INFO | Starting AAS generation process
+2025-07-14 20:50:05 | INFO | Processing all assets in assets folder
+2025-07-14 20:50:05 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 20:50:05 | WARNING | CIM profile TP file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_TP_.xml
+2025-07-14 20:50:05 | WARNING | CIM profile SSH file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_SSH_.xml
+2025-07-14 20:50:05 | WARNING | CIM profile SV file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_SV_.xml
+2025-07-14 20:50:05 | WARNING | CIM profile DL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_DL_.xml
+2025-07-14 20:50:05 | WARNING | CIM profile GL file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_GL_.xml
+2025-07-14 20:50:05 | WARNING | CIM profile DY file not found at D:\AAS\Cim_gen\src\1-LV-rural1--2-no_sw_EV_HP\CIM3\20151231T2300Z_YYY_DY_.xml
+2025-07-14 20:50:05 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 20:50:05 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 20:50:05 | SUCCESS | Created AAS with 8 properties
+2025-07-14 20:50:05 | ERROR | Failed to process Battery_storage_intilion_wip.csv: invalid predicate
+2025-07-14 20:50:05 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 20:50:05 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 20:50:05 | SUCCESS | Created AAS with 7 properties
+2025-07-14 20:50:05 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 20:50:05 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 20:50:05 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 20:50:05 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 20:50:05 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:50:05 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:50:05 | SUCCESS | Created AAS with 18 properties
+2025-07-14 20:50:05 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: invalid predicate
+2025-07-14 20:50:05 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:50:05 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:50:05 | SUCCESS | Created AAS with 5 properties
+2025-07-14 20:50:05 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:50:05 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:50:05 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 20:50:05 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:50:05 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 20:50:05 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 20:50:05 | SUCCESS | Created AAS with 13 properties
+2025-07-14 20:50:05 | ERROR | Failed to process Trafo_Ormazabal_velatia_OLTC_misc.csv: invalid predicate
+2025-07-14 20:50:05 | SUCCESS | Completed AAS generation. Processed 2 files with CIM integration.
+2025-07-14 20:50:05 | SUCCESS | AAS generation completed successfully
+2025-07-14 20:51:58 | INFO | Starting Digital Twin Application
+2025-07-14 20:51:58 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 20:51:58 | INFO | Executing parser: asset
+2025-07-14 20:51:58 | INFO | Starting AAS generation process
+2025-07-14 20:51:58 | INFO | Processing all assets in assets folder
+2025-07-14 20:51:58 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 20:51:58 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 20:51:58 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 20:51:58 | SUCCESS | Created AAS with 8 properties
+2025-07-14 20:51:58 | ERROR | Failed to process Battery_storage_intilion_wip.csv: invalid predicate
+2025-07-14 20:51:58 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 20:51:58 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 20:51:58 | SUCCESS | Created AAS with 7 properties
+2025-07-14 20:51:58 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 20:51:58 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 20:51:58 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 20:51:58 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 20:51:58 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:51:58 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 20:51:58 | SUCCESS | Created AAS with 18 properties
+2025-07-14 20:51:58 | ERROR | Failed to process line_Hesselmann_NAYY-J_4_150_SW.csv: invalid predicate
+2025-07-14 20:51:58 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:51:58 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:51:58 | SUCCESS | Created AAS with 5 properties
+2025-07-14 20:51:58 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:51:58 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 20:51:58 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 20:51:58 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 20:51:58 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 20:51:58 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 20:51:58 | SUCCESS | Created AAS with 13 properties
+2025-07-14 20:51:58 | ERROR | Failed to process Trafo_Ormazabal_velatia_OLTC_misc.csv: invalid predicate
+2025-07-14 20:51:58 | SUCCESS | Completed AAS generation. Processed 2 files with CIM integration.
+2025-07-14 20:51:58 | SUCCESS | AAS generation completed successfully
+2025-07-14 21:14:25 | INFO | Starting Digital Twin Application
+2025-07-14 21:14:25 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 21:14:25 | INFO | Executing parser: asset
+2025-07-14 21:14:25 | INFO | Starting AAS generation process
+2025-07-14 21:14:25 | INFO | Processing all assets in assets folder
+2025-07-14 21:14:25 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 21:14:25 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 21:14:25 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 21:14:25 | SUCCESS | Created AAS with 8 properties
+2025-07-14 21:14:25 | WARNING | Failed to get CIM data for Battery_storage_intilion_wip: 'CimToAasMapper' object has no attribute 'extract_equipment_data'
+2025-07-14 21:14:25 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-14 21:14:25 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-14 21:14:25 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 21:14:25 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 21:14:25 | SUCCESS | Created AAS with 7 properties
+2025-07-14 21:14:25 | WARNING | Failed to get CIM data for EV_Wallbox_WIP: 'CimToAasMapper' object has no attribute 'extract_equipment_data'
+2025-07-14 21:14:25 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 21:14:25 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 21:14:25 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:14:25 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:14:25 | SUCCESS | Created AAS with 18 properties
+2025-07-14 21:14:25 | WARNING | Failed to get CIM data for line_Hesselmann_NAYY-J_4_150_SW: 'CimToAasMapper' object has no attribute 'extract_equipment_data'
+2025-07-14 21:14:25 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 21:14:25 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:14:25 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:14:25 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:14:25 | SUCCESS | Created AAS with 5 properties
+2025-07-14 21:14:25 | WARNING | Failed to get CIM data for PV_RS_Smart_Solar_48_6000: 'CimToAasMapper' object has no attribute 'extract_equipment_data'
+2025-07-14 21:14:25 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 21:14:25 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:14:25 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:14:25 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:14:25 | SUCCESS | Created AAS with 13 properties
+2025-07-14 21:14:25 | WARNING | Failed to get CIM data for Trafo_Ormazabal_velatia_OLTC_misc: 'CimToAasMapper' object has no attribute 'extract_equipment_data'
+2025-07-14 21:14:25 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Trafo_Ormazabal_velatia_OLTC_misc.json
+2025-07-14 21:14:25 | SUCCESS | Completed processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:14:25 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-14 21:14:25 | SUCCESS | AAS generation completed successfully
+2025-07-14 21:17:26 | INFO | Starting Digital Twin Application
+2025-07-14 21:17:26 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 21:17:26 | INFO | Executing parser: asset
+2025-07-14 21:17:26 | INFO | Starting AAS generation process
+2025-07-14 21:17:26 | INFO | Processing all assets in assets folder
+2025-07-14 21:17:26 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 21:17:26 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 21:17:26 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 21:17:26 | SUCCESS | Created AAS with 8 properties
+2025-07-14 21:17:26 | WARNING | Error processing EQ profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing TP profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing SV profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing DL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing GL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:17:26 | WARNING | Failed to get CIM data for Battery_storage_intilion_wip: 'AssetAdministrationShell' object has no attribute 'id_'
+2025-07-14 21:17:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-14 21:17:26 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-14 21:17:26 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 21:17:26 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 21:17:26 | SUCCESS | Created AAS with 7 properties
+2025-07-14 21:17:26 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 21:17:26 | WARNING | No CIM ID found for EV_Wallbox_WIP
+2025-07-14 21:17:26 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 21:17:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 21:17:26 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 21:17:26 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:17:26 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:17:26 | SUCCESS | Created AAS with 18 properties
+2025-07-14 21:17:26 | WARNING | Error processing EQ profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing TP profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing SV profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing DL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing GL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:17:26 | WARNING | Failed to get CIM data for line_Hesselmann_NAYY-J_4_150_SW: 'AssetAdministrationShell' object has no attribute 'id_'
+2025-07-14 21:17:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 21:17:26 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:17:26 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | SUCCESS | Created AAS with 5 properties
+2025-07-14 21:17:26 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | WARNING | No CIM ID found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 21:17:26 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:17:26 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:17:26 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:17:26 | SUCCESS | Created AAS with 13 properties
+2025-07-14 21:17:26 | WARNING | Error processing EQ profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing TP profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing SV profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing DL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:17:26 | WARNING | Error processing GL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:17:26 | WARNING | Failed to get CIM data for Trafo_Ormazabal_velatia_OLTC_misc: 'AssetAdministrationShell' object has no attribute 'id_'
+2025-07-14 21:17:26 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Trafo_Ormazabal_velatia_OLTC_misc.json
+2025-07-14 21:17:26 | SUCCESS | Completed processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:17:26 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-14 21:17:26 | SUCCESS | AAS generation completed successfully
+2025-07-14 21:26:31 | INFO | Starting Digital Twin Application
+2025-07-14 21:26:31 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 21:26:31 | INFO | Executing parser: asset
+2025-07-14 21:26:31 | INFO | Starting AAS generation process
+2025-07-14 21:26:31 | INFO | Processing all assets in assets folder
+2025-07-14 21:26:31 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 21:26:31 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 21:26:31 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 21:26:31 | SUCCESS | Created AAS with 8 properties
+2025-07-14 21:26:31 | WARNING | Error processing EQ profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing TP profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing SV profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing DL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing GL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:26:31 | WARNING | Failed to get CIM data for Battery_storage_intilion_wip: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-14 21:26:31 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-14 21:26:31 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-14 21:26:31 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 21:26:31 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 21:26:31 | SUCCESS | Created AAS with 7 properties
+2025-07-14 21:26:31 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 21:26:31 | WARNING | No CIM ID found for EV_Wallbox_WIP
+2025-07-14 21:26:31 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 21:26:31 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 21:26:31 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 21:26:31 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:26:31 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:26:31 | SUCCESS | Created AAS with 18 properties
+2025-07-14 21:26:31 | WARNING | Error processing EQ profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing TP profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing SV profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing DL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing GL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:26:31 | WARNING | Failed to get CIM data for line_Hesselmann_NAYY-J_4_150_SW: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-14 21:26:31 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 21:26:31 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:26:31 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | SUCCESS | Created AAS with 5 properties
+2025-07-14 21:26:31 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | WARNING | No CIM ID found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 21:26:31 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:26:31 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:26:31 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:26:31 | SUCCESS | Created AAS with 13 properties
+2025-07-14 21:26:31 | WARNING | Error processing EQ profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing TP profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing SV profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing DL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:26:31 | WARNING | Error processing GL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:26:31 | WARNING | Failed to get CIM data for Trafo_Ormazabal_velatia_OLTC_misc: module 'basyx.aas.model' has no attribute 'ModelingKind'
+2025-07-14 21:26:31 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Trafo_Ormazabal_velatia_OLTC_misc.json
+2025-07-14 21:26:31 | SUCCESS | Completed processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:26:31 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-14 21:26:31 | SUCCESS | AAS generation completed successfully
+2025-07-14 21:33:32 | INFO | Starting Digital Twin Application
+2025-07-14 21:33:32 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 21:33:32 | INFO | Executing parser: asset
+2025-07-14 21:33:32 | INFO | Starting AAS generation process
+2025-07-14 21:33:32 | INFO | Processing all assets in assets folder
+2025-07-14 21:33:32 | INFO | Starting AAS generation process with full CIM integration
+2025-07-14 21:33:32 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 21:33:32 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 21:33:32 | SUCCESS | Created AAS with 8 properties
+2025-07-14 21:33:32 | WARNING | Error processing EQ profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing TP profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing SV profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing DL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing GL profile for Battery_storage_intilion_wip: invalid predicate
+2025-07-14 21:33:32 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-14 21:33:32 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-14 21:33:32 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 21:33:32 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 21:33:32 | SUCCESS | Created AAS with 7 properties
+2025-07-14 21:33:32 | WARNING | No CIM ID mapping found for EV_Wallbox_WIP
+2025-07-14 21:33:32 | WARNING | No CIM ID found for EV_Wallbox_WIP
+2025-07-14 21:33:32 | WARNING | No CIM data found for EV_Wallbox_WIP
+2025-07-14 21:33:32 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 21:33:32 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 21:33:32 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:33:32 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:33:32 | SUCCESS | Created AAS with 18 properties
+2025-07-14 21:33:32 | WARNING | Error processing EQ profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing TP profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing SV profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing DL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing GL profile for line_Hesselmann_NAYY-J_4_150_SW: invalid predicate
+2025-07-14 21:33:32 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 21:33:32 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:33:32 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | SUCCESS | Created AAS with 5 properties
+2025-07-14 21:33:32 | WARNING | No CIM ID mapping found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | WARNING | No CIM ID found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | WARNING | No CIM data found for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 21:33:32 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:33:32 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:33:32 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:33:32 | SUCCESS | Created AAS with 13 properties
+2025-07-14 21:33:32 | WARNING | Error processing EQ profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing TP profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing SV profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing DL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:33:32 | WARNING | Error processing GL profile for Trafo_Ormazabal_velatia_OLTC_misc: invalid predicate
+2025-07-14 21:33:32 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Trafo_Ormazabal_velatia_OLTC_misc.json
+2025-07-14 21:33:32 | SUCCESS | Completed processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:33:32 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-14 21:33:32 | SUCCESS | AAS generation completed successfully
+2025-07-14 21:37:11 | INFO | Starting Digital Twin Application
+2025-07-14 21:37:11 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 21:37:11 | INFO | Executing parser: asset
+2025-07-14 21:37:11 | INFO | Starting AAS generation process
+2025-07-14 21:37:11 | INFO | Processing all assets in assets folder
+2025-07-14 21:37:11 | INFO | Starting AAS generation process
+2025-07-14 21:37:11 | INFO | Processing Battery_storage_intilion_wip
+2025-07-14 21:37:11 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-14 21:37:11 | SUCCESS | Created AAS with 8 properties
+2025-07-14 21:37:11 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-14 21:37:11 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-14 21:37:11 | INFO | Processing EV_Wallbox_WIP
+2025-07-14 21:37:11 | INFO | Creating AAS for EV_Wallbox_WIP
+2025-07-14 21:37:11 | SUCCESS | Created AAS with 7 properties
+2025-07-14 21:37:11 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\EV_Wallbox_WIP.json
+2025-07-14 21:37:11 | SUCCESS | Completed processing EV_Wallbox_WIP
+2025-07-14 21:37:11 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:37:11 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:37:11 | SUCCESS | Created AAS with 18 properties
+2025-07-14 21:37:11 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-14 21:37:11 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-14 21:37:11 | INFO | Processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:37:11 | INFO | Creating AAS for PV_RS_Smart_Solar_48_6000
+2025-07-14 21:37:11 | SUCCESS | Created AAS with 5 properties
+2025-07-14 21:37:11 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\PV_RS_Smart_Solar_48_6000.json
+2025-07-14 21:37:11 | SUCCESS | Completed processing PV_RS_Smart_Solar_48_6000
+2025-07-14 21:37:11 | INFO | Processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:37:11 | INFO | Creating AAS for Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:37:11 | SUCCESS | Created AAS with 13 properties
+2025-07-14 21:37:11 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Trafo_Ormazabal_velatia_OLTC_misc.json
+2025-07-14 21:37:11 | SUCCESS | Completed processing Trafo_Ormazabal_velatia_OLTC_misc
+2025-07-14 21:37:11 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-14 21:37:11 | SUCCESS | AAS generation completed successfully
+2025-07-14 22:04:22 | INFO | Starting Digital Twin Application
+2025-07-14 22:04:22 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:04:22 | INFO | Executing parser: cim_gen
+2025-07-14 22:04:22 | INFO | Starting CIM generation process
+2025-07-14 22:04:27 | CRITICAL | Unexpected error during execution: [Errno 2] No such file or directory: 'AAS/Cim_gen/config_cim.yaml'
+2025-07-14 22:09:27 | INFO | Starting Digital Twin Application
+2025-07-14 22:09:27 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:09:27 | INFO | Executing parser: cim_gen
+2025-07-14 22:09:27 | INFO | Starting CIM generation process
+2025-07-14 22:09:36 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'AAS/Cim_gen/src/Grids/1-LV-rural1--2-no_sw_EV_HP/CIM3/'
+2025-07-14 22:11:23 | INFO | Starting Digital Twin Application
+2025-07-14 22:11:23 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:11:23 | INFO | Executing parser: cim_gen
+2025-07-14 22:11:23 | INFO | Starting CIM generation process
+2025-07-14 22:11:34 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'AAS/Cim_gen/src/Grids/1-LV-rural1--2-no_sw_EV_HP/CIM3/'
+2025-07-14 22:16:03 | INFO | Starting Digital Twin Application
+2025-07-14 22:16:03 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:16:03 | INFO | Executing parser: cim_gen
+2025-07-14 22:16:03 | INFO | Starting CIM generation process
+2025-07-14 22:16:07 | CRITICAL | Unexpected error during execution: [Errno 2] No such file or directory: 'D:\\AAS\\Cim_gen\\Grids\\1-LV-rural1--2-no_sw_EV_HP\\CIM320151231T2300Z_YYY_EQ_.xml'
+2025-07-14 22:20:42 | INFO | Starting Digital Twin Application
+2025-07-14 22:20:42 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:20:42 | INFO | Executing parser: cim_gen
+2025-07-14 22:20:42 | INFO | Starting CIM generation process
+2025-07-14 22:20:50 | CRITICAL | Unexpected error during execution: 'Aas_config'
+2025-07-14 22:23:37 | INFO | Starting Digital Twin Application
+2025-07-14 22:23:37 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:23:37 | INFO | Executing parser: cim_gen
+2025-07-14 22:23:37 | INFO | Starting CIM generation process
+2025-07-14 22:26:03 | INFO | Starting Digital Twin Application
+2025-07-14 22:26:03 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-14 22:26:03 | INFO | Executing parser: cim_gen
+2025-07-14 22:26:03 | INFO | Starting CIM generation process

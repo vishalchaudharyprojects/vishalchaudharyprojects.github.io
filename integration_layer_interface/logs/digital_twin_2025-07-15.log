@@ -1,0 +1,268 @@
+2025-07-15 16:45:28 | INFO | Starting Digital Twin Application
+2025-07-15 16:45:28 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:45:28 | INFO | Executing parser: cim_gen
+2025-07-15 16:45:28 | INFO | Starting CIM generation process
+2025-07-15 16:45:28 | CRITICAL | Unexpected error during execution: [Errno 2] No such file or directory: 'AAS/Cim_gen/config_cim.yaml'
+2025-07-15 16:48:40 | INFO | Starting Digital Twin Application
+2025-07-15 16:48:40 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:48:40 | INFO | Executing parser: cim_gen
+2025-07-15 16:48:40 | INFO | Starting CIM generation process
+2025-07-15 16:49:21 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'Grids/1-LV-rural1--2-no_sw_EV_HP/CIM3/'
+2025-07-15 16:52:45 | INFO | Starting Digital Twin Application
+2025-07-15 16:52:45 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:52:45 | INFO | Executing parser: cim_gen
+2025-07-15 16:52:45 | INFO | Starting CIM generation process
+2025-07-15 16:52:52 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'Grids/1-LV-rural1--2-no_sw_EV_HP/CIM3/'
+2025-07-15 16:54:16 | INFO | Starting Digital Twin Application
+2025-07-15 16:54:16 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:54:16 | INFO | Executing parser: cim_gen
+2025-07-15 16:54:16 | INFO | Starting CIM generation process
+2025-07-15 16:54:20 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'Grids/1-LV-rural1--2-no_sw_EV_HP/CIM3/'
+2025-07-15 16:58:15 | INFO | Starting Digital Twin Application
+2025-07-15 16:58:15 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:58:15 | INFO | Executing parser: cim_gen
+2025-07-15 16:58:15 | INFO | Starting CIM generation process
+2025-07-15 16:58:22 | CRITICAL | Unexpected error during execution: [WinError 3] The system cannot find the path specified: 'D:\\AAS\\Cim_gen\\Cim_gen\\Grids\\1-LV-rural1--2-no_sw_EV_HP\\CIM3'
+2025-07-15 16:58:52 | INFO | Starting Digital Twin Application
+2025-07-15 16:58:52 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 16:58:52 | INFO | Executing parser: cim_gen
+2025-07-15 16:58:52 | INFO | Starting CIM generation process
+2025-07-15 16:58:55 | CRITICAL | Unexpected error during execution: 'PyToolchainConfig'
+2025-07-15 17:00:14 | INFO | Starting Digital Twin Application
+2025-07-15 17:00:14 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:00:14 | INFO | Executing parser: cim_gen
+2025-07-15 17:00:14 | INFO | Starting CIM generation process
+2025-07-15 17:00:41 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:04:13 | INFO | Starting Digital Twin Application
+2025-07-15 17:04:13 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:04:13 | INFO | Executing parser: cim_gen
+2025-07-15 17:04:13 | INFO | Starting CIM generation process
+2025-07-15 17:05:44 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:06:10 | INFO | Starting Digital Twin Application
+2025-07-15 17:06:10 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:06:10 | INFO | Executing parser: cim_gen
+2025-07-15 17:06:10 | INFO | Starting CIM generation process
+2025-07-15 17:08:04 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:10:48 | INFO | Starting Digital Twin Application
+2025-07-15 17:10:48 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:10:48 | INFO | Executing parser: cim_gen
+2025-07-15 17:10:48 | INFO | Starting CIM generation process
+2025-07-15 17:11:35 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:13:32 | INFO | Starting Digital Twin Application
+2025-07-15 17:13:32 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:13:32 | INFO | Executing parser: cim_gen
+2025-07-15 17:13:32 | INFO | Starting CIM generation process
+2025-07-15 17:13:37 | CRITICAL | Unexpected error during execution: 'converter'
+2025-07-15 17:15:06 | INFO | Starting Digital Twin Application
+2025-07-15 17:15:06 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:15:06 | INFO | Executing parser: cim_gen
+2025-07-15 17:15:06 | INFO | Starting CIM generation process
+2025-07-15 17:15:12 | CRITICAL | Unexpected error during execution: cannot access local variable 'vnGrid_kv' where it is not associated with a value
+2025-07-15 17:18:12 | INFO | Starting Digital Twin Application
+2025-07-15 17:18:12 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:18:12 | INFO | Executing parser: cim_gen
+2025-07-15 17:18:12 | INFO | Starting CIM generation process
+2025-07-15 17:18:20 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:22:35 | INFO | Starting Digital Twin Application
+2025-07-15 17:22:35 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:22:35 | INFO | Executing parser: cim_gen
+2025-07-15 17:22:35 | INFO | Starting CIM generation process
+2025-07-15 17:22:41 | CRITICAL | Unexpected error during execution: cannot access local variable 'vnGrid_kv' where it is not associated with a value
+2025-07-15 17:25:33 | INFO | Starting Digital Twin Application
+2025-07-15 17:25:33 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:25:33 | INFO | Executing parser: cim_gen
+2025-07-15 17:25:33 | INFO | Starting CIM generation process
+2025-07-15 17:25:37 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:36:26 | INFO | Starting Digital Twin Application
+2025-07-15 17:36:26 | INFO | Loading configuration from D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:36:26 | INFO | Starting CIM generation process
+2025-07-15 17:36:34 | CRITICAL | Unexpected error during execution: cannot access local variable 'EQ_file' where it is not associated with a value
+2025-07-15 17:49:05 | INFO | Starting Digital Twin Application...
+2025-07-15 17:49:05 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:49:05 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:49:05 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:49:05 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:49:15 | CRITICAL | Unexpected error during execution: Grid folder not found: D:\AAS\Grids\1-LV-rural1--2-no_sw_EV_HP\CIM3
+2025-07-15 17:50:19 | INFO | Starting Digital Twin Application...
+2025-07-15 17:50:19 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:50:19 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:50:19 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:50:19 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:50:22 | CRITICAL | Unexpected error during execution: name 'grid_files' is not defined
+2025-07-15 17:50:45 | INFO | Starting Digital Twin Application...
+2025-07-15 17:50:45 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:50:45 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:50:45 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:50:45 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:50:49 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 17:54:27 | INFO | Starting Digital Twin Application...
+2025-07-15 17:54:27 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:54:27 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:54:27 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:54:27 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:54:40 | CRITICAL | Unexpected error during execution: 'Aas_config'
+2025-07-15 17:55:45 | INFO | Starting Digital Twin Application...
+2025-07-15 17:55:45 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:55:45 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:55:45 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:55:45 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:57:02 | INFO | Starting Digital Twin Application...
+2025-07-15 17:57:02 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 17:57:02 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 17:57:02 | INFO | Initiating CIM generation workflow...
+2025-07-15 17:57:02 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 17:57:02 | SUCCESS | CIM generation completed successfully.
+2025-07-15 22:33:01 | INFO | Starting Digital Twin Application...
+2025-07-15 22:33:01 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 22:33:01 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 22:33:01 | INFO | Initiating CIM generation workflow...
+2025-07-15 22:33:01 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 22:33:46 | CRITICAL | Unexpected error during execution: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-07-15 22:44:10 | INFO | Starting Digital Twin Application...
+2025-07-15 22:44:10 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 22:44:10 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 22:44:10 | INFO | Initiating CIM generation workflow...
+2025-07-15 22:44:10 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 22:44:17 | CRITICAL | Unexpected error during execution: cannot access local variable 'vnGrid_kv' where it is not associated with a value
+2025-07-15 22:47:48 | INFO | Starting Digital Twin Application...
+2025-07-15 22:47:48 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 22:47:48 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 22:47:48 | INFO | Initiating CIM generation workflow...
+2025-07-15 22:47:48 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 22:48:57 | CRITICAL | Unexpected error during execution: cannot access local variable 'vnGrid_kv' where it is not associated with a value
+2025-07-15 22:51:20 | INFO | Starting Digital Twin Application...
+2025-07-15 22:51:20 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 22:51:20 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 22:51:20 | INFO | Initiating CIM generation workflow...
+2025-07-15 22:51:20 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 22:55:12 | INFO | Starting Digital Twin Application...
+2025-07-15 22:55:12 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 22:55:12 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 22:55:12 | INFO | Initiating CIM generation workflow...
+2025-07-15 22:55:12 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:05:52 | INFO | Starting Digital Twin Application...
+2025-07-15 23:05:52 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:05:52 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:05:52 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:05:52 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:08:17 | INFO | Starting Digital Twin Application...
+2025-07-15 23:08:17 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:08:17 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:08:17 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:08:17 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:09:07 | CRITICAL | Unexpected error during execution: 'verbose'
+2025-07-15 23:09:46 | INFO | Starting Digital Twin Application...
+2025-07-15 23:09:46 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:09:46 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:09:46 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:09:46 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:10:02 | SUCCESS | CIM generation completed successfully.
+2025-07-15 23:10:33 | INFO | Starting Digital Twin Application...
+2025-07-15 23:10:33 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:10:33 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:10:33 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:10:33 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:15:36 | INFO | Starting Digital Twin Application...
+2025-07-15 23:15:36 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:15:36 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:15:36 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:15:36 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:43:24 | INFO | Starting Digital Twin Application...
+2025-07-15 23:43:24 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:43:24 | INFO | Module type: None, Parser: cim_gen
+2025-07-15 23:43:24 | INFO | Initiating CIM generation workflow...
+2025-07-15 23:43:24 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-15 23:43:27 | SUCCESS | CIM generation completed successfully.
+2025-07-15 23:43:27 | INFO | Starting AAS enrichment with grid data
+2025-07-15 23:43:27 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-15 23:43:27 | WARNING | No matching grid data found for BESS_intilion_wip
+2025-07-15 23:43:27 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-15 23:43:27 | WARNING | No matching grid data found for PV_RS_Smart_Solar_48_6000
+2025-07-15 23:43:27 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-15 23:43:27 | WARNING | No matching grid data found for Hesselmann_NAYY_J_4_150_SW
+2025-07-15 23:43:27 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-15 23:43:27 | WARNING | No matching grid data found for EV_Wallbox_WIP
+2025-07-15 23:43:27 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-15 23:43:27 | WARNING | No matching grid data found for Ormazabal_velatia_OLTC_misc
+2025-07-15 23:43:27 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-15 23:43:27 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-15 23:47:02 | INFO | Starting Digital Twin Application...
+2025-07-15 23:47:02 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:47:02 | INFO | Module type: None, Parser: asset
+2025-07-15 23:47:02 | INFO | Initiating AAS generation workflow...
+2025-07-15 23:47:02 | INFO | Processing all assets in the assets folder.
+2025-07-15 23:47:02 | INFO | Starting AAS generation process with full CIM integration
+2025-07-15 23:47:02 | WARNING | CIM profile EQ file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_EQ_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile TP file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_TP_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile SSH file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_SSH_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile SV file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_SV_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile DL file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_DL_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile GL file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_GL_.xml
+2025-07-15 23:47:02 | WARNING | CIM profile DY file not found at D:\AAS\Cim_gen\cim_files\20151231T2300Z_YYY_DY_.xml
+2025-07-15 23:47:02 | INFO | Processing Battery_storage_intilion_wip
+2025-07-15 23:47:02 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-15 23:47:02 | SUCCESS | Created AAS with 8 properties
+2025-07-15 23:47:02 | WARNING | No CIM data found for Battery_storage_intilion_wip
+2025-07-15 23:47:02 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-15 23:47:02 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-15 23:47:02 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:47:02 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:47:02 | SUCCESS | Created AAS with 5 properties
+2025-07-15 23:47:02 | WARNING | No CIM ID mapping found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:47:02 | WARNING | No CIM data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:47:02 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-15 23:47:02 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:47:02 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:47:02 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:47:02 | SUCCESS | Created AAS with 18 properties
+2025-07-15 23:47:02 | WARNING | No CIM data found for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:47:02 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-15 23:47:02 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:47:02 | INFO | Processing load_EV_Wallbox_WIP
+2025-07-15 23:47:02 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-07-15 23:47:02 | SUCCESS | Created AAS with 7 properties
+2025-07-15 23:47:02 | WARNING | No CIM data found for load_EV_Wallbox_WIP
+2025-07-15 23:47:02 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-07-15 23:47:02 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-07-15 23:47:02 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:47:02 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:47:02 | SUCCESS | Created AAS with 13 properties
+2025-07-15 23:47:02 | WARNING | No CIM ID mapping found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:47:02 | WARNING | No CIM data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:47:02 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-15 23:47:02 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:47:02 | SUCCESS | Completed AAS generation. Processed 5 files with CIM integration.
+2025-07-15 23:47:02 | SUCCESS | AAS generation completed successfully.
+2025-07-15 23:54:46 | INFO | Starting Digital Twin Application...
+2025-07-15 23:54:47 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-15 23:54:47 | INFO | Module type: None, Parser: asset
+2025-07-15 23:54:47 | INFO | Initiating AAS generation workflow...
+2025-07-15 23:54:47 | INFO | Processing all assets in the assets folder.
+2025-07-15 23:54:47 | INFO | Starting AAS generation process
+2025-07-15 23:54:47 | INFO | Processing Battery_storage_intilion_wip
+2025-07-15 23:54:47 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-15 23:54:47 | SUCCESS | Created AAS with 8 properties
+2025-07-15 23:54:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-15 23:54:47 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-15 23:54:47 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:54:47 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:54:47 | SUCCESS | Created AAS with 5 properties
+2025-07-15 23:54:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-15 23:54:47 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-15 23:54:47 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:54:47 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:54:47 | SUCCESS | Created AAS with 18 properties
+2025-07-15 23:54:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-15 23:54:47 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-15 23:54:47 | INFO | Processing load_EV_Wallbox_WIP
+2025-07-15 23:54:47 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-07-15 23:54:47 | SUCCESS | Created AAS with 7 properties
+2025-07-15 23:54:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-07-15 23:54:47 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-07-15 23:54:47 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:54:47 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:54:47 | SUCCESS | Created AAS with 13 properties
+2025-07-15 23:54:47 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-15 23:54:47 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-15 23:54:47 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-15 23:54:47 | SUCCESS | AAS generation completed successfully.

@@ -1,0 +1,12 @@
+2025-06-11 12:50:28 | INFO | Starting Digital Twin Application
+2025-06-11 12:50:28 | INFO | Loading configuration from D:\AAS\Digital_Twin_App\asset_administration_shell\ssot_generator\config_aas.yaml
+2025-06-11 12:50:28 | INFO | Executing parser: asset
+2025-06-11 12:50:28 | INFO | Starting AAS generation process
+2025-06-11 12:50:28 | INFO | Starting AAS generation workflow
+2025-06-11 12:50:28 | INFO | Processing CSV file: D:\AAS\Digital_Twin_App\aasx_generator\assets\Ormazabal_velatia_OLTC_misc.csv
+2025-06-11 12:50:28 | INFO | Creating new Asset Administration Shell
+2025-06-11 12:50:28 | INFO | Creating submodel for AAS
+2025-06-11 12:50:28 | SUCCESS | AAS created with 13 properties
+2025-06-11 12:50:28 | INFO | AAS JSON written to D:\AAS\Digital_Twin_App\aasx_generator\aas_json\OLTC.json
+2025-06-11 12:50:28 | SUCCESS | AAS generation completed for OLTC
+2025-06-11 12:50:28 | SUCCESS | AAS generation completed successfully

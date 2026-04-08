@@ -1,0 +1,36 @@
+from .Base import Base
+
+#updated as per TC57CIM Profile part 452, and sec 5.175
+class ApparentPower(Base):
+	'''
+Product of the RMS value of the voltage and the RMS value of the current.
+
+	:value:  Default: 0.0
+	:unit:  Default: None
+	:multiplier:  Default: None
+		'''
+
+	cgmesProfile = Base.cgmesProfile
+
+	possibleProfileList = {'class': [cgmesProfile.DY.value, cgmesProfile.SSH.value, cgmesProfile.EQ.value, ],
+						'value': [cgmesProfile.DY.value, cgmesProfile.SSH.value, cgmesProfile.EQ.value, ],
+						'multiplier': [cgmesProfile.DY.value, cgmesProfile.SSH.value, cgmesProfile.EQ.value, ],
+						'unit': [cgmesProfile.DY.value, cgmesProfile.SSH.value, cgmesProfile.EQ.value, ],
+						 }
+
+	serializationProfile = {}
+
+	
+
+	def __init__(self, value = 0.0, unit = None, multiplier = None,  ):
+	
+		self.value = value
+		self.unit = unit
+		self.multiplier = multiplier
+		
+	def __str__(self):
+		str = 'class=ApparentPower\n'
+		attributes = self.__dict__
+		for key in attributes.keys():
+			str = str + key + '={}\n'.format(attributes[key])
+		return str

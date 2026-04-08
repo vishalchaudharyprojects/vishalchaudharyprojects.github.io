@@ -1,0 +1,12 @@
+2025-07-02 10:22:35 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-02 10:22:35 | INFO | Loading configuration from /integration_layer_interface/config_aas.yaml
+2025-07-02 10:22:35 | INFO | Executing parser: asset
+2025-07-02 10:22:35 | INFO | Starting AAS generation process via API
+2025-07-02 10:22:35 | INFO | Calling generate_aasx_from_datasheets service at http://generate_aasx_from_datasheets:5002/generate
+2025-07-02 10:22:35 | SUCCESS | AAS generation completed successfully
+2025-07-02 11:16:14 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-02 11:16:14 | INFO | Loading configuration from /integration_layer_interface/config_aas.yaml
+2025-07-02 11:16:14 | INFO | Executing parser: asset
+2025-07-02 11:16:14 | INFO | Starting AAS generation process via API
+2025-07-02 11:16:14 | INFO | Calling generate_aasx_from_datasheets service at http://generate_aasx_from_datasheets:5002/generate
+2025-07-02 11:16:15 | SUCCESS | AAS generation completed successfully

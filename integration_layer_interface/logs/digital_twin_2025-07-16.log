@@ -1,0 +1,164 @@
+2025-07-16 00:03:53 | INFO | Starting Digital Twin Application...
+2025-07-16 00:03:53 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:03:53 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:03:53 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:03:53 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:03:56 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:03:56 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:03:56 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:03:56 | ERROR | Failed to process Battery_storage_intilion_wip.json: 'dict' object has no attribute 'empty'
+2025-07-16 00:03:56 | ERROR | Failed to process gens_PV_RS_Smart_Solar_48_6000.json: 'dict' object has no attribute 'empty'
+2025-07-16 00:03:56 | ERROR | Failed to process line_Hesselmann_NAYY_J_4_150_SW.json: 'dict' object has no attribute 'empty'
+2025-07-16 00:03:56 | ERROR | Failed to process load_EV_Wallbox_WIP.json: 'dict' object has no attribute 'empty'
+2025-07-16 00:03:56 | ERROR | Failed to process Transformer_Ormazabal_velatia_OLTC_misc.json: 'dict' object has no attribute 'empty'
+2025-07-16 00:03:56 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:08:43 | INFO | Starting Digital Twin Application...
+2025-07-16 00:08:43 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:08:43 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:08:43 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:08:43 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:08:44 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:08:44 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:08:44 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:08:44 | WARNING | No matching grid data found for Battery_storage_intilion_wip
+2025-07-16 00:08:44 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:08:44 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:08:44 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:08:44 | WARNING | No matching grid data found for line_Hesselmann_NAYY_J_4_150_SW
+2025-07-16 00:08:44 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:08:44 | WARNING | No matching grid data found for load_EV_Wallbox_WIP
+2025-07-16 00:08:44 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:08:44 | WARNING | No matching grid data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 00:08:44 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:08:44 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:19:35 | INFO | Starting Digital Twin Application...
+2025-07-16 00:19:35 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:19:35 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:19:35 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:19:35 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:19:38 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:19:38 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:19:38 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:19:38 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:19:38 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:19:38 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:19:38 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:19:38 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:19:38 | WARNING | No matching grid data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 00:19:38 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:19:38 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:20:55 | INFO | Starting Digital Twin Application...
+2025-07-16 00:20:55 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:20:55 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:20:55 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:20:55 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:20:56 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:20:56 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:20:56 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:20:56 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:20:56 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:20:56 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:20:56 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:20:56 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:20:56 | WARNING | No matching grid data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 00:20:56 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:20:56 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:33:13 | INFO | Starting Digital Twin Application...
+2025-07-16 00:33:13 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:33:13 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:33:13 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:33:13 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:33:15 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:33:15 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:33:15 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:33:16 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:33:16 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:33:16 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:33:16 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:33:16 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:33:16 | WARNING | Could not determine type for asset Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 00:33:16 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:33:16 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:35:27 | INFO | Starting Digital Twin Application...
+2025-07-16 00:35:27 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:35:27 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:35:27 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:35:27 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:35:28 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:35:28 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:35:28 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:35:28 | WARNING | No matching grid data found for Battery_storage_intilion_wip
+2025-07-16 00:35:28 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:35:28 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:35:28 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:35:28 | WARNING | No matching grid data found for line_Hesselmann_NAYY_J_4_150_SW
+2025-07-16 00:35:28 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:35:28 | WARNING | No matching grid data found for load_EV_Wallbox_WIP
+2025-07-16 00:35:28 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:35:28 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:35:28 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 00:38:09 | INFO | Starting Digital Twin Application...
+2025-07-16 00:38:09 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 00:38:09 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 00:38:09 | INFO | Initiating CIM generation workflow...
+2025-07-16 00:38:09 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 00:38:12 | SUCCESS | CIM generation completed successfully.
+2025-07-16 00:38:12 | INFO | Starting AAS enrichment with grid data
+2025-07-16 00:38:12 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 00:38:12 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 00:38:12 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 00:38:12 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 00:38:12 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 00:38:12 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 00:38:12 | WARNING | No matching grid data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 00:38:12 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 00:38:12 | SUCCESS | Completed AAS enrichment with grid data
+2025-07-16 13:34:50 | INFO | Starting Digital Twin Application...
+2025-07-16 13:34:50 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 13:34:50 | INFO | Module type: None, Parser: asset
+2025-07-16 13:34:50 | INFO | Initiating AAS generation workflow...
+2025-07-16 13:34:50 | INFO | Processing all assets in the assets folder.
+2025-07-16 13:34:50 | INFO | Starting AAS generation process
+2025-07-16 13:34:50 | INFO | Processing Battery_storage_intilion_wip
+2025-07-16 13:34:50 | INFO | Creating AAS for Battery_storage_intilion_wip
+2025-07-16 13:34:50 | SUCCESS | Created AAS with 8 properties
+2025-07-16 13:34:50 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Battery_storage_intilion_wip.json
+2025-07-16 13:34:50 | SUCCESS | Completed processing Battery_storage_intilion_wip
+2025-07-16 13:34:50 | INFO | Processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 13:34:50 | INFO | Creating AAS for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 13:34:50 | SUCCESS | Created AAS with 5 properties
+2025-07-16 13:34:50 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 13:34:50 | SUCCESS | Completed processing gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 13:34:50 | INFO | Processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-16 13:34:50 | INFO | Creating AAS for line_Hesselmann_NAYY-J_4_150_SW
+2025-07-16 13:34:50 | SUCCESS | Created AAS with 18 properties
+2025-07-16 13:34:50 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 13:34:50 | SUCCESS | Completed processing line_Hesselmann_NAYY-J_4_150_SW
+2025-07-16 13:34:50 | INFO | Processing load_EV_Wallbox_WIP
+2025-07-16 13:34:50 | INFO | Creating AAS for load_EV_Wallbox_WIP
+2025-07-16 13:34:50 | SUCCESS | Created AAS with 7 properties
+2025-07-16 13:34:50 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\load_EV_Wallbox_WIP.json
+2025-07-16 13:34:50 | SUCCESS | Completed processing load_EV_Wallbox_WIP
+2025-07-16 13:34:50 | INFO | Processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 13:34:50 | INFO | Creating AAS for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 13:34:50 | SUCCESS | Created AAS with 13 properties
+2025-07-16 13:34:50 | SUCCESS | Successfully wrote AAS to D:\AAS\generate_aasx_from_datasheets\aas_json\Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 13:34:50 | SUCCESS | Completed processing Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 13:34:50 | SUCCESS | Completed AAS generation. Processed 5 files.
+2025-07-16 13:34:50 | SUCCESS | AAS generation completed successfully.
+2025-07-16 13:44:54 | INFO | Starting Digital Twin Application...
+2025-07-16 13:44:54 | INFO | Loading configuration from: D:\AAS\integration_layer_interface\config_aas.yaml
+2025-07-16 13:44:54 | INFO | Module type: None, Parser: cim_gen
+2025-07-16 13:44:54 | INFO | Initiating CIM generation workflow...
+2025-07-16 13:44:54 | INFO | Loading CIM config from: D:\AAS\Cim_gen\config_cim.yaml
+2025-07-16 13:44:55 | SUCCESS | CIM generation completed successfully.
+2025-07-16 13:44:55 | INFO | Starting AAS enrichment with grid data
+2025-07-16 13:44:55 | INFO | Processing AAS files in D:\AAS\asset_administration_shell\aas
+2025-07-16 13:44:55 | SUCCESS | Successfully processed Battery_storage_intilion_wip.json
+2025-07-16 13:44:55 | WARNING | No matching grid data found for gens_PV_RS_Smart_Solar_48_6000
+2025-07-16 13:44:55 | SUCCESS | Successfully processed gens_PV_RS_Smart_Solar_48_6000.json
+2025-07-16 13:44:55 | SUCCESS | Successfully processed line_Hesselmann_NAYY_J_4_150_SW.json
+2025-07-16 13:44:55 | SUCCESS | Successfully processed load_EV_Wallbox_WIP.json
+2025-07-16 13:44:55 | WARNING | No matching grid data found for Transformer_Ormazabal_velatia_OLTC_misc
+2025-07-16 13:44:55 | SUCCESS | Successfully processed Transformer_Ormazabal_velatia_OLTC_misc.json
+2025-07-16 13:44:55 | SUCCESS | Completed AAS enrichment with grid data

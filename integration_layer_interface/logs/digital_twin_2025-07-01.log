@@ -1,0 +1,32 @@
+2025-07-01 14:03:04 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-01 14:03:04 | INFO | Loading configuration from /ssot_generator/config_aas.yaml
+2025-07-01 14:03:04 | INFO | Executing parser: asset
+2025-07-01 14:03:04 | INFO | Starting AAS generation process via API
+2025-07-01 14:03:04 | CRITICAL | Unexpected error during execution: 'aasx_generator'
+2025-07-01 14:14:49 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-01 14:14:49 | INFO | Loading configuration from /ssot_generator/config_aas.yaml
+2025-07-01 14:14:50 | INFO | Executing parser: asset
+2025-07-01 14:14:50 | INFO | Starting AAS generation process via API
+2025-07-01 14:14:50 | INFO | Calling aas_generator service at http://aasx_generator:5002/generate
+2025-07-01 14:14:50 | ERROR | Service communication error with aas_generator: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
+2025-07-01 14:14:50 | CRITICAL | Unexpected error during execution: Service aas_generator unavailable: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
+2025-07-01 14:24:36 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-01 14:24:36 | INFO | Loading configuration from /ssot_generator/config_aas.yaml
+2025-07-01 14:24:36 | INFO | Executing parser: asset
+2025-07-01 14:24:36 | INFO | Starting AAS generation process via API
+2025-07-01 14:24:36 | INFO | Calling aas_generator service at http://aasx_generator:5002/generate
+2025-07-01 14:24:36 | SUCCESS | AAS generation completed successfully
+2025-07-01 15:05:29 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-01 15:05:29 | INFO | Loading configuration from /ssot_generator/config_aas.yaml
+2025-07-01 15:05:29 | INFO | Executing parser: asset
+2025-07-01 15:05:29 | INFO | Starting AAS generation process via API
+2025-07-01 15:05:29 | INFO | Calling aas_generator service at http://aasx_generator:5002/generate
+2025-07-01 15:05:30 | ERROR | Service communication error with aas_generator: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
+2025-07-01 15:05:30 | CRITICAL | Unexpected error during execution: Service aas_generator unavailable: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
+2025-07-01 15:21:07 | INFO | Starting Digital Twin Application (Microservice Version)
+2025-07-01 15:21:07 | INFO | Loading configuration from /ssot_generator/config_aas.yaml
+2025-07-01 15:21:07 | INFO | Executing parser: asset
+2025-07-01 15:21:07 | INFO | Starting AAS generation process via API
+2025-07-01 15:21:07 | INFO | Calling aas_generator service at http://aasx_generator:5002/generate
+2025-07-01 15:21:07 | ERROR | Service communication error with aas_generator: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
+2025-07-01 15:21:07 | CRITICAL | Unexpected error during execution: Service aas_generator unavailable: 500 Server Error: INTERNAL SERVER ERROR for url: http://aasx_generator:5002/generate
