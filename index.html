@@ -25,7 +25,7 @@
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">VC</a>
             <div class="navbar-nav ms-auto">
-                <a class="nav-link text-white small" href="mailto:your-email@example.com"><i class="fas fa-envelope me-1"></i> Contact</a>
+                <a class="nav-link text-white small" href="mailto:chaudharypinku1992@gmail.com"><i class="fas fa-envelope me-1"></i> Contact</a>
             </div>
         </div>
     </nav>
@@ -33,7 +33,7 @@
     <section class="hero text-center">
         <div class="container">
             <h1 class="display-3 fw-bold">Vishal Chaudhary</h1>
-            <p class="lead mb-4">M.Sc. in Electrical Engineering | Digital Twin & Smart Grid Specialist</p>
+            <p class="lead mb-4">M.Sc. in Automation and Robotics | Digital Twin & Smart Grid Specialist</p>
             <div class="d-flex justify-content-center gap-3">
                 <a href="Resume_Vishal_Chaudhary.pdf" class="btn btn-warning px-4 fw-bold text-dark">Download Resume</a>
                 <a href="https://github.com/vishalchaudharyprojects" class="btn btn-outline-light px-4">GitHub Profile</a>
@@ -144,15 +144,18 @@
         </div>
 
         <h2 class="section-title mt-5">Technical Projects</h2>
+        <p class="text-muted">Research Assistant, IE3 &ndash; TU Dortmund (Aug 2023 &ndash; Mar 2026)</p>
         <div class="row g-4">
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Machine Learning for Grid Stability</h5>
-                        <p class="card-text text-muted">Applied Random Forest and Neural Networks to predict voltage violations in decentralized grids.</p>
+                        <h5 class="card-title fw-bold">CIM-CGMES Domain Pipeline</h5>
+                        <p class="card-text text-muted">Designed and containerized an 8-service microservices pipeline converting GIS power-grid data into standards-compliant CIM CGMES models &ndash; API gateway, pipeline orchestrator, shared S3/MinIO storage interface, and the CGMES generation service itself.</p>
                         <div class="mb-3">
-                            <span class="badge badge-tech">Scikit-learn</span>
-                            <span class="badge badge-tech">TensorFlow</span>
+                            <span class="badge badge-tech">FastAPI</span>
+                            <span class="badge badge-tech">Docker / Podman</span>
+                            <span class="badge badge-tech">CIM/CGMES</span>
+                            <span class="badge badge-tech">Microservices</span>
                         </div>
                         <a href="#" class="btn btn-sm btn-outline-primary">Project Documentation</a>
                     </div>
@@ -161,11 +164,43 @@
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Automated CIM Profiling Tool</h5>
-                        <p class="card-text text-muted">A Python tool to parse CIM/XML files and generate AAS submodels automatically for DSOs.</p>
+                        <h5 class="card-title fw-bold">cim_cgmes_classes (Python Library)</h5>
+                        <p class="card-text text-muted">Authored and published a standalone Python library implementing 27 CIM/CGMES classes with RDF/XML serialization, powering the CGMES generation service above and extended with Asset Administration Shell (AAS) type mappings for digital-twin integration.</p>
                         <div class="mb-3">
-                            <span class="badge badge-tech">XML Parsing</span>
+                            <span class="badge badge-tech">Python</span>
+                            <span class="badge badge-tech">RDF/XML</span>
                             <span class="badge badge-tech">IEC 61970</span>
+                            <span class="badge badge-tech">AAS</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Typhoon HIL Grid Model Automation</h5>
+                        <p class="card-text text-muted">Built an end-to-end microservices pipeline automating Typhoon HIL model creation, compilation, and execution on real hardware, including a custom budget- and length-aware TLM coupling-placement algorithm for packing grid components across multiple HIL cores/devices.</p>
+                        <div class="mb-3">
+                            <span class="badge badge-tech">Typhoon HIL</span>
+                            <span class="badge badge-tech">FastAPI</span>
+                            <span class="badge badge-tech">Docker</span>
+                            <span class="badge badge-tech">Graph Algorithms</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Project Documentation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Smart-Meter Data Integration (SCD / IEC 61850)</h5>
+                        <p class="card-text text-muted">Built a dual-protocol data-acquisition service polling Modbus TCP and running TLS-secured DLMS/COSEM listeners in parallel, mapping smart-meter and substation measurements into a common IEC 61850 logical-node model stored in InfluxDB.</p>
+                        <div class="mb-3">
+                            <span class="badge badge-tech">Modbus/TCP</span>
+                            <span class="badge badge-tech">DLMS/COSEM</span>
+                            <span class="badge badge-tech">IEC 61850</span>
+                            <span class="badge badge-tech">InfluxDB</span>
                         </div>
                         <a href="#" class="btn btn-sm btn-outline-primary">Source Code</a>
                     </div>
